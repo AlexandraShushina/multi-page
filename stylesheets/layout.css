@@ -1,0 +1,107 @@
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'CSTM Xprmntl 02', sans-serif;
+  margin: 0 auto;
+  background-color: #0019A8;
+  display: block;
+  position: relative;
+}
+.main {
+  width: 100vw;
+  height: 516vh;
+  background-color: #2542E5;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+p {
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+}
+.text_small {
+  font-size: 24px;
+  line-height: 103.5%;
+}
+.tree_1 {
+  background: url(../images/tree_1.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 12.5vw;
+  display: block;
+  bottom: 0;
+}
+.tree_2 {
+  background: url(../images/tree_2.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 13.5vw;
+  display: block;
+  bottom: 0;
+}
+.tree_3 {
+  background: url(../images/tree_3.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 22vw;
+  display: block;
+  bottom: 0;
+}
+.tree_4 {
+  background: url(../images/tree_4.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 8.5vw;
+  display: block;
+  bottom: 0;
+}
+section:nth-of-type(1) {
+  height: 100vh;
+}
+.container_trees {
+    width: 80vw;
+    height: 100vh;
+		/* max-width: 1248px; */
+		left: 6.35vw;
+		/* margin-top: 15px; */
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: start;
+    position: relative;
+}
+.heading_1 {
+  background: url(../images/heading_1.svg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: top 0px left 0px;
+  z-index: 3;
+  width: 1350px;
+  height: 90vh;
+  top: 5vh;
+  left: 2.8vw;
+}
+.container_trees div:nth-of-type(2) {
+  margin-left: 3.5vw;
+  z-index: 2;
+}
+.container_trees div:nth-of-type(3) {
+  margin-left: 7.6vw;
+  z-index: 2;
+}
+.container_trees div:nth-of-type(4) {
+  margin-left: 7vw;
+  z-index: 2;
+}
+section:nth-of-type(1) p {
+  margin-top: -9.3vh;
+  margin-left: 2.8vw;
+}
