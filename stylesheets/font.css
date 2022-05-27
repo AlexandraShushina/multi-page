@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'CSTM Xprmntl 02';
+	src: url('CSTM Xprmntl 02 Regular-Regular-Desktop.eot');
+	src: local('CSTM Xprmntl 02 Regular-Regular-Desktop'), local('CSTM Xprmntl 02 Regular-Regular-Desktop'),
+		url('CSTM Xprmntl 02 Regular-Regular-Desktop.ttf') format('ttf'),
+		url('CSTM Xprmntl 02 Regular-Regular-Desktop.eot?#iefix') format('embedded-opentype');
+	font-style: normal;
+	font-weight: 400;
+}
