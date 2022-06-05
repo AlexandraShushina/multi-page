@@ -1,0 +1,14 @@
+@media all and (min-device-width: 1920px) {
+  .tree_1 {
+    width: 25vh;
+  }
+  .tree_2 {
+    width: 28.5vh;
+  }
+  .tree_3 {
+    width: 48vh;
+  }
+  .tree_4 {
+    width: 18vh;
+  }
+}
