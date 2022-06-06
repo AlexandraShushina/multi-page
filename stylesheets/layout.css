@@ -177,11 +177,14 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: bottom 0 right 0;
-  width: 28vh;
+  width: 30vh;
   height: 77vh;
   display: block;
   z-index: 3;
-  margin-left: 20vh;
+  margin-left: 24vh;
+}
+.hole_1 {
+  width: 5vw;
 }
 .pain_2 {
   background: url(../images/pain_2.svg);
@@ -193,7 +196,9 @@ section:nth-of-type(2) p:nth-of-type(2) {
   height: 77vh;
   display: block;
   z-index: 3;
-  margin-left: 9vw;
+}
+.hole_2 {
+  width: 10.5vw;
 }
 .pain_3 {
   background: url(../images/pain_3.svg);
@@ -205,7 +210,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   height: 77vh;
   display: block;
   z-index: 3;
-  margin-left: 10.5vw;
 }
 .grid_2 p {
   z-index: 4;
@@ -216,11 +220,11 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin-top: -15vh;
 }
 #pain_block_2 p {
-  margin-top: -31vh;
-  margin-left: 3.5vw;
+  margin-top: -33vh;
+  margin-left: -4.5vw;
 }
 #pain_block_3 p {
-  margin-left: -5vw;
+  margin-left: -14.5vw;
 }
 .grid_3 {
   margin-top: 5vh;
@@ -259,22 +263,26 @@ section:nth-of-type(2) p:nth-of-type(2) {
 .hospitals {
   width: 50vh;
   height: 50vh;
+  min-width: 447px;
 }
 .cabinets {
   width: 43vh;
   height: 50vh;
-  margin-left: 12vw;
 }
 .hospitals p,
 .cabinets p {
   margin-top: 1.5vh;
 }
+.cell_3 {
+  width: 10vw;
+}
 .hospital_1 {
   background: url(../images/hospital_1.svg);
-  background-size: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  margin: 0 auto;
   width: 19vh;
   height: 21vh;
   display: block;
@@ -289,6 +297,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  margin: 0 auto;
   width: 24vh;
   height: 14vh;
   display: block;
@@ -302,6 +311,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  margin: 0 auto;
   width: 50vh;
   height: 10vh;
   display: block;
@@ -316,6 +326,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  margin: 0 auto;
   width: 14vh;
   height: 12vh;
   display: block;
@@ -329,6 +340,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  margin: 0 auto;
   width: 11vh;
   height: 12vh;
   display: block;
@@ -342,6 +354,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
+  margin: 0 auto;
   width: 30.5vh;
   height: 10vh;
   display: block;
