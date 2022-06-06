@@ -125,8 +125,13 @@ section:nth-of-type(1) p {
 }
 .grid_1,
 .grid_2,
-.grid_3 {
+.grid_3,
+.grid_4,
+.grid_bonus {
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
   margin-left: 3.5vw;
   position: relative;
 }
@@ -141,8 +146,8 @@ section:nth-of-type(1) p {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
-  width: 200px;
-  height: 60px;
+  width: 23vh;
+  height: 10vh;
   display: block;
   margin-left: 3.5vw;
 }
@@ -156,8 +161,8 @@ section:nth-of-type(2) p:nth-of-type(2) {
   position: relative;
   background-position: top 0px left 0px;
   z-index: 3;
-  width: 460px;
-  height: 225px;
+  width: 56vh;
+  height: 27vh;
   margin-top: -72vh;
   margin-left: 3.5vw;
 }
@@ -235,8 +240,126 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: bottom 0 right 0;
-  width: 18vw;
-  height: 10vh;
+  width: 33vh;
+  height: 9vh;
   display: block;
   z-index: 3;
+}
+.grid_4 {
+  margin-top: 13vh;
+}
+.grid_4 p {
+  text-align: center;
+}
+.hospitals,
+.cabinets {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hospitals {
+  width: 50vh;
+  height: 50vh;
+}
+.cabinets {
+  width: 43vh;
+  height: 50vh;
+  margin-left: 12vw;
+}
+.hospitals p,
+.cabinets p {
+  margin-top: 1.5vh;
+}
+.hospital_1 {
+  background: url(../images/hospital_1.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 19vh;
+  height: 21vh;
+  display: block;
+}
+#hospital_block_2 {
+  margin-left: 5.5vh;
+  margin-top: 3vh;
+}
+.hospital_2 {
+  background: url(../images/hospital_2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 24vh;
+  height: 14vh;
+  display: block;
+}
+#hospital_block_3 {
+  margin-top: 3vh;
+}
+.hospital_3 {
+  background: url(../images/hospital_3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 50vh;
+  height: 10vh;
+  display: block;
+}
+#cabinet_block_1,
+#cabinet_block_2 {
+  margin-top: 6vh;
+}
+.cabinet_1 {
+  background: url(../images/cabinet_1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 14vh;
+  height: 12vh;
+  display: block;
+}
+#cabinet_block_2 {
+  margin-left: 5.5vh;
+}
+.cabinet_2 {
+  background: url(../images/cabinet_2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 11vh;
+  height: 12vh;
+  display: block;
+}
+#cabinet_block_3 {
+  margin-top: 5vh;
+}
+.cabinet_3 {
+  background: url(../images/cabinet_3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 30.5vh;
+  height: 10vh;
+  display: block;
+}
+.grid_bonus {
+  margin-top: 13vh;
+  align-items: center;
+}
+.tria {
+  background: url(../images/tria.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  width: 2vh;
+  height: 2vh;
+  display: block;
+}
+.grid_bonus p {
+  padding-left: 2vh;
 }
