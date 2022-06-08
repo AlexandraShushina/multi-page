@@ -12,7 +12,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   display: block;
   position: relative;
 }
-p {
+p,
+li {
   font-size: 26px;
   line-height: 30px;
   color: white;
@@ -54,7 +55,8 @@ section:nth-of-type(5) {
 .grid_3,
 .grid_4,
 .grid_bonus,
-.grid_5 {
+.grid_5,
+.grid_7 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -244,9 +246,11 @@ section:nth-of-type(2) p:nth-of-type(2) {
   display: flex;
   align-items: baseline;
 }
-.cell_2,
-.hole_3 {
+.cell_2 {
   margin-left: 14vw;
+}
+.hole_3 {
+  width: 14vw;
 }
 .services {
   background: url(../images/services.svg);
@@ -295,8 +299,8 @@ section:nth-of-type(2) p:nth-of-type(2) {
   display: block;
 }
 #hospital_block_2 {
-  margin-left: 5.5vh;
   margin-top: 3vh;
+  margin-left: 5.5vh;
 }
 .hospital_2 {
   background: url(../images/hospital_2.svg);
@@ -318,7 +322,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
-  margin: 0 auto;
   width: 50vh;
   height: 10vh;
   display: block;
@@ -367,7 +370,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   display: block;
 }
 .grid_bonus {
-  margin-top: 13vh;
+  margin-top: 11vh;
   align-items: center;
 }
 .tria {
@@ -474,4 +477,13 @@ section:nth-of-type(2) p:nth-of-type(2) {
 #doctor_block_3 p {
   margin-top: 22.5vh;
   margin-left: 22.5vh;
+}
+footer {
+  height: 11vh;
+}
+footer p:nth-of-type(3) {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
 }
