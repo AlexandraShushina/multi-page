@@ -6,7 +6,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 .main {
   width: 100vw;
-  height: 516vh;
+  height: 520vh;
   background-color: #2542E5;
   margin: 0 auto;
   display: block;
@@ -56,6 +56,7 @@ section:nth-of-type(5) {
 .grid_4,
 .grid_bonus,
 .grid_5,
+.grid_6,
 .grid_7 {
   display: flex;
   flex-wrap: nowrap;
@@ -64,12 +65,12 @@ section:nth-of-type(5) {
   margin-left: 3.5vw;
   position: relative;
 }
+/* Стартовая страница */
 .heading_1 {
   background: url(../images/heading_1.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-position: top 0px left 0px;
   z-index: 100;
   width: 148vh;
   height: 90vh;
@@ -146,6 +147,7 @@ section:nth-of-type(1) p {
   margin-top: -6.5vh;
   margin-left: 2vw;
 }
+/* Памятка */
 .grid_1 {
   align-items: center;
   padding-top: 1vh;
@@ -237,8 +239,9 @@ section:nth-of-type(2) p:nth-of-type(2) {
 #pain_block_3 p {
   margin-left: -14.5vw;
 }
+/* Услуги */
 .grid_3 {
-  margin-top: 5vh;
+  margin-top: 7.5vh;
   height: 10vh;
 }
 .cell_1,
@@ -257,9 +260,8 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
-  background-position: bottom 0 right 0;
   width: 33vh;
-  height: 9vh;
+  height: 6.5vh;
   display: block;
   z-index: 3;
 }
@@ -370,7 +372,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   display: block;
 }
 .grid_bonus {
-  margin-top: 11vh;
+  margin-top: 9vh;
   align-items: center;
 }
 .tria {
@@ -386,8 +388,9 @@ section:nth-of-type(2) p:nth-of-type(2) {
 .grid_bonus p {
   padding-left: 2vh;
 }
+/* Врачи */
 .grid_5 {
-  margin-top: -17.8vh;
+  margin-top: -21vh;
 }
 .heading_3 {
   background: url(../images/heading_3.svg);
@@ -398,7 +401,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   width: 60vh;
   height: 9vh;
   display: block;
-  padding-top: 8.9vh;
+  padding-top: 13vh;
   margin-left: 3.5vw;
   z-index: 100;
 }
@@ -478,6 +481,35 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin-top: 22.5vh;
   margin-left: 22.5vh;
 }
+/* Карта */
+.grid_6 {
+  margin-left: 0;
+  margin-top: -9vh;
+}
+.heading_4 {
+  background: url(../images/heading_4.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 75vh;
+  height: 9vh;
+  top: 8vh;
+  margin-left: 3.5vw;
+  display: block;
+  z-index: 100;
+}
+#map {
+  background: url(../images/map.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: top 1vh left -13.5vw;
+  width: 90vh;
+  height: 109vh;
+  top: -9vh;
+  display: block;
+}
+/* Подвал */
 footer {
   height: 11vh;
 }
