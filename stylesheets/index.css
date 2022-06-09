@@ -1,0 +1,45 @@
+/* Стили для всего документа */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'CSTM Xprmntl 02', sans-serif;
+  margin: 0 auto;
+  background-color: #0019A8;
+  display: block;
+  position: relative;
+}
+.main {
+  width: 100vw;
+  height: 523vh;
+  background-color: #2542E5;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+/* Стили для строчных элементов */
+p,
+li {
+  font-size: 26px;
+  line-height: 30px;
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+li::before {
+    content: url(../images/tria_2.svg);
+   }
+li span {
+ position: relative;
+ left: 4vh;
+ top: -1px;
+}
+a {
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-top: 3.5vh;
+}
+.text_small {
+  font-size: 20px;
+  line-height: 24px;
+}
