@@ -1,0 +1,13 @@
+/* Меню */
+.menubar {
+  position: fixed;
+  width: 102px;
+  height: 25vh;
+  right: 2.5vw;
+  top: 4vh;
+  z-index: 100;
+  display: block;
+}
+.menubar a:nth-of-type(1) {
+  margin-top: 0;
+}
