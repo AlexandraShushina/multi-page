@@ -18,6 +18,17 @@ li {
   line-height: 30px;
   color: white;
 }
+li {
+  list-style-type: none;
+}
+li::before {
+    content: url(../images/tria_2.svg);
+   }
+li span {
+ position: relative;
+ left: 4vh;
+ top: -1px;
+}
 a {
   font-size: 16px;
   line-height: 18px;
@@ -390,7 +401,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
 }
 /* Врачи */
 .grid_5 {
-  margin-top: -21vh;
+  margin-top: -20vh;
 }
 .heading_3 {
   background: url(../images/heading_3.svg);
@@ -401,7 +412,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   width: 60vh;
   height: 9vh;
   display: block;
-  padding-top: 13vh;
+  padding-top: 11vh;
   margin-left: 3.5vw;
   z-index: 100;
 }
@@ -453,6 +464,9 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin-top: -40vh;
   margin-left: 12vh;
 }
+#doctor_block_2 div:nth-of-type(1) {
+  margin-top: 1vh;
+}
 #doctor_block_2 p {
   margin-top: 1vh;
   margin-left: -21.5vh;
@@ -493,7 +507,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   position: relative;
   width: 75vh;
   height: 9vh;
-  top: 8vh;
+  top: 7.5vh;
   margin-left: 3.5vw;
   display: block;
   z-index: 100;
@@ -509,8 +523,20 @@ section:nth-of-type(2) p:nth-of-type(2) {
   top: -9vh;
   display: block;
 }
+#grid_text {
+  margin-left: 2vw;
+}
 #grid_text p {
-  margin-top: 37vh;
+  margin-top: 34vh;
+}
+#grid_text ul {
+  margin-top: 7vh;
+}
+#grid_text ul {
+  margin-top: 7vh;
+}
+#grid_text li:nth-of-type(2) {
+  margin-top: 2vh;
 }
 /* Подвал */
 footer {
@@ -527,6 +553,18 @@ footer p:nth-of-type(1) {
 }
 .grid_7 {
   margin-top: calc((11vh - 36px)/2);
-  margin-left: 2vw;
+  width: 95.5vw;
   height: 72px;
+  margin-left: 2vw;
+  justify-content: space-around;
+}
+.grid_7 img:nth-of-type(1) {
+  margin-left: 10vw;
+}
+.grid_7 img:nth-of-type(2),
+.grid_7 p:nth-of-type(2) {
+  margin-left: 3.4vw;
+}
+.grid_7 p:nth-of-type(3) {
+  margin-left: 3.4vw;
 }
