@@ -35,7 +35,8 @@
   .heading_start {
     left: 3.5vw;
   }
-  .container_trees {
+  .container_trees,
+  .rectangle_grid {
   	left: 6.1vw;
   }
   .names_of_doctors {
