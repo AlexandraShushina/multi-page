@@ -8,6 +8,9 @@
   z-index: 100;
   display: block;
 }
-.menubar a:nth-of-type(1) {
+.menubar img {
   margin-top: 0;
+}
+.menubar a {
+  cursor: url(../images/pointer.svg), auto;
 }
