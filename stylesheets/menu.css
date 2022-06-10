@@ -8,13 +8,9 @@
   z-index: 100;
   display: block;
 }
-.menubar a:nth-of-type(1) {
-  margin-top: 0;
-}
 .logo {
-  margin-top: 0;
-  opacity: inherit;
   opacity: 50%;
+  margin-top: 0;
   display: block;
   cursor: url(../images/pointer.svg), auto;
 }
@@ -22,6 +18,10 @@
   cursor: url(../images/pointer.svg), auto;
   opacity: inherit;
   opacity: 50%;
+}
+.menubar a:nth-of-type(1) {
+  margin-top: 0;
+  opacity: 100%;
 }
 a:hover {
   opacity: 100%;
