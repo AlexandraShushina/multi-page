@@ -1,0 +1,49 @@
+.form {
+  height: 116vh;
+}
+.form section {
+  background-color: #0019A8;
+}
+.form_grid {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 3.5vw;
+  position: relative;
+  }
+}
+form {
+  width: 30vw;
+  background-color: #2542E5;
+}
+form p {
+  margin-top: 7px;
+  opacity: 50%;
+}
+/* input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+} */
+input {
+  all: unset;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid white;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
