@@ -1,3 +1,11 @@
+.main_page {
+  width: 100vw;
+  height: 523vh;
+  background-color: #2542E5;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
 /* Разделы */
 section {
   height: 100vh;
@@ -99,7 +107,7 @@ section {
 .container_trees div:nth-of-type(4) {
   margin-left: 7vw;
 }
-section:nth-of-type(1) p {
+.p_start {
   margin-top: -6.5vh;
   margin-left: 2vw;
 }
@@ -544,32 +552,4 @@ section:nth-of-type(2) p:nth-of-type(2) {
 }
 #text_about_map li:nth-of-type(2) {
   margin-top: 2vh; /* расположение 2 пункта нумерованного списка */
-}
-/* Подвал */
-footer {
-  height: 11vh;
-}
-.footer {
-  margin-top: calc((11vh - 36px)/2);
-  width: 95.5vw;
-  height: 72px;
-  margin-left: 2vw;
-  justify-content: space-around;
-}
-footer p:nth-of-type(1) {
-  margin-top: 30px; /* выравнивание текста в первой колонке */
-}
-.footer img:nth-of-type(1) {
-  margin-left: 10vw; /* расположение логотипа HSE */
-}
-.footer img:nth-of-type(2),
-.footer p:nth-of-type(2) {
-  margin-left: 3.4vw; /* расположение логотипа клиники и адресного блока */
-}
-.footer p:nth-of-type(3) {
-  margin-left: 3.4vw; /* расположение текста в последней колонке */
-}
-footer p:nth-of-type(3) {
-  font-size: 16px;
-  line-height: 18px; /* стилизация текста в последней колонке */
 }
