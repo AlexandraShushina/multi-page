@@ -11,11 +11,52 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
+  $input=$( "input[type='date']" );
+    if($input.prop('disabled')){
+      $input.attr('placeholder','');}
 	</script>
 </head>
 <body>
 <body style="overflow-x: hidden;">
   <div class="main form">
+    <!-- Форма -->
+    <section>
+      <div class="heading_form"></div>
+      <div class="form_grid">
+        <form action="">
+          <label for="surname">Фамилия</label><input type="text">
+          </br>
+          <label for="name">Имя</label><input type="text">
+          </br>
+          <label for="middle_name">Отчество</label><input type="text">
+          </br>
+          <label for="birthday">Дата рождения</label><input type="date">
+          </br>
+          <label for="number">Номер телефона</label><input type="number">
+          </br>
+          <label for="email">Адрес почты</label><input type="email">
+          </br>
+          <label for="fir_type">Вид ели</label><input type="text">
+          <p class="text_small">(если неизвестен,</br>впишите неизвестно)</p>
+        </form>
+        <div id="doctor_block_2">
+          <div class="tree_1"></div>
+          <div class="doctor_2"></div>
+          <div class="rectangle"></div>
+          <p>Поливин Андрей,</br>хирург</p>
+        </div>
+      </div>
+    </section>
+    <!-- Подвал -->
+    <footer>
+      <div class="footer">
+        <p class="text_small">Дизайнер:</br>Саша Шушина</p>
+        <img src="images/hse.svg" alt="">
+        <img src="images/logo.svg" alt="">
+        <p class="text_small">+79200056780</br>one_colour@yandex.ru</br>@one_colour</p>
+        <p>Отказ от ответственности: любая хирургическая</br>или инвазивная процедура несет в себе риски. Прежде</br>чем продолжить, вам следует проконсультироваться</br>с соответствующим квалифицированным хирургом</p>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
