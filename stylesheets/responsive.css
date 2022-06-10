@@ -12,3 +12,48 @@
     width: 18vh;
   }
 }
+@media all and (max-device-height: 899px) {
+  .menubar {
+    right: 3.5vw;
+  }
+  a {
+    margin-top: 3.5vh;
+  }
+  .weather,
+  .types_of_pain,
+  .heading_for_services,
+  .types_of_services,
+  .get_bonus,
+  .footer,
+  .deg,
+  section:nth-of-type(2) p:nth-of-type(2),
+  .heading_pain,
+  .heading_doctors,
+  .heading_map {
+    margin-left: 6vw;
+  }
+  .heading_start {
+    left: 3.5vw;
+  }
+  .container_trees {
+  	left: 6.1vw;
+  }
+  .names_of_doctors {
+    margin-left: 6.1vw;
+  }
+  section:nth-of-type(1) p {
+    margin-left: 3.5vw;
+  }
+  #map {
+    background-size: 111%;
+    background-position: top -10vh left -8vh;
+    width: 85vh;
+  }
+  #text_about_map {
+    margin-left: 5vw;
+  }
+  .footer {
+    width: 92.5vw;
+    margin-left: 3.5vw;
+  }
+}
