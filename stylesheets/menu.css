@@ -16,7 +16,6 @@
 }
 .menubar a {
   cursor: url(../images/pointer.svg), auto;
-  opacity: inherit;
   opacity: 50%;
 }
 .menubar a:nth-of-type(1) {
