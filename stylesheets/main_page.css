@@ -90,6 +90,9 @@ section {
   display: block;
   z-index: 3;
 }
+.container_trees div {
+  cursor: url(../images/pointer.svg), auto;
+}
 .container_trees div:nth-of-type(2) {
   margin-left: 1.3vw;
 }
@@ -340,9 +343,11 @@ section:nth-of-type(2) p:nth-of-type(2) {
   width: 2vh;
   height: 2vh;
   display: block;
+  cursor: url(../images/pointer.svg), auto;
 }
 .get_bonus p {
   padding-left: 2vh;
+  cursor: url(../images/pointer.svg), auto;
 }
 /* Врачи */
 .names_of_doctors {
