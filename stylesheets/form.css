@@ -13,9 +13,13 @@
   position: relative;
   }
 }
-form {
+.form_type {
   width: 30vw;
+  height: 50vh;
+  display: block;
+  position: relative;
   background-color: #2542E5;
+  z-index: 100;
 }
 form p {
   margin-top: 7px;
@@ -43,7 +47,23 @@ input {
   outline: none;
   border-bottom: 3px solid white;
   background: none;
+  color: white;
+  font-size: 26px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+.tree_1_blue {
+  background: url(../images/tree_1_blue.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 25vh;
+  height: 100vh;
+  display: block;
+  z-index: 3;
+}
+.rectangle_color {
+  background-color: #0019A8;
 }
