@@ -29,7 +29,9 @@
   section:nth-of-type(2) p:nth-of-type(2),
   .heading_pain,
   .heading_doctors,
-  .heading_map {
+  .heading_map,
+  .heading_form,
+  .form_grid {
     margin-left: 6vw;
   }
   .heading_start {
@@ -56,5 +58,17 @@
   .footer {
     width: 92.5vw;
     margin-left: 3.5vw;
+  }
+  label:nth-of-type(8) {
+    margin-top: 7vh;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=number],
+  input[type=date] {
+    padding-top: 3.8vh;
+  }
+  .p_position_form {
+    margin-top: -0.5vh;
   }
 }
