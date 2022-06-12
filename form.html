@@ -11,25 +11,35 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
-  $input=$( "input[type='date']" );
-    if($input.prop('disabled')){
-      $input.attr('placeholder','');}
+  // $input=$( "input[type='date']" );
+  //   if($input.prop('disabled')){
+  //     $input.attr('placeholder','');}
 	</script>
 </head>
 <body>
 <body style="overflow-x: hidden;">
   <div class="main form">
+    <!-- Боковое меню -->
+    <div class="menubar">
+      <a href="index.html"><img class="logo" src="images/logo.svg" alt=""></a>
+      <a href="form.html">запись</br>на приём</a>
+      <a href="excursion.html">экскурсия</br>по клинике</a>
+      <a href="events.html">события</a>
+      <a href="shop.html">магазин</a>
+      <a href="web-poster.html">получи</br>скидку</a>
+    </div>
     <!-- Форма -->
     <section>
       <div class="heading_form"></div>
       <div class="form_grid">
         <div id="doctor_block_2">
           <div class="tree_1_blue"></div>
-          <div class="doctor_2"></div>
+          <div class="doctor_2 doctor_2_size"></div>
           <div class="rectangle rectangle_color"></div>
-          <p>Поливин Андрей,</br>хирург</p>
+          <p class="p_position_form">Поливин Андрей,</br>хирург</p>
+          <input type="radio" class="custom_radio"><label for="radio_1">запись</label>
         </div>
-        <form class="form_type" action="">
+        <form action="">
           <label for="surname">Фамилия</label><input type="text">
           </br>
           <label for="name">Имя</label><input type="text">
@@ -41,6 +51,10 @@
           <label for="number">Номер телефона</label><input type="number">
           </br>
           <label for="email">Адрес почты</label><input type="email">
+          </br>
+          <label for="">Цель визита</label><input type="radio" class="custom_radio_1"><label for="radio_1">консультация</label>
+          </br>
+          <input type="radio" class="custom_radio_2"><label for="radio_3">лечение</label>
           </br>
           <label for="fir_type">Вид ели</label><input type="text">
           <p class="text_small">(если неизвестен,</br>впишите неизвестно)</p>
