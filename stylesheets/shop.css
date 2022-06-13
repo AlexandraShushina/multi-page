@@ -5,3 +5,14 @@
   background-color: #0019A8;
   height: 250vh;
 }
+.heading_shop {
+  background: url(../images/heading_11.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 4;
+  width: 40vh;
+  height: 7vh;
+  top: 7.5vh;
+  margin-left: 3.5vw;
+}
