@@ -33,7 +33,7 @@
   .heading_form,
   .form_grid,
   .heading_shop,
-  .medicine {
+  .product {
     margin-left: 6vw;
   }
   .heading_start {
@@ -72,5 +72,15 @@
   }
   .p_position_form {
     margin-top: -5.2vh;
+  }
+  .product {
+    height: 63vh;
+    padding-top: 10vh;
+  }
+  .product_padding-top {
+    padding-top: 20vh;
+  }
+  .product_2 {
+    margin-left: 6vw;
   }
 }
