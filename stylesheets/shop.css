@@ -1,9 +1,9 @@
 .shop {
-  height: 266vh;
+  height: 252vh;
 }
 .shop section {
   background-color: #0019A8;
-  height: 250vh;
+  height: 236vh;
 }
 .heading_shop {
   background: url(../images/heading_11.svg);
@@ -26,25 +26,59 @@
   position: relative;
 }
 .product {
-  height: 56vh;
+  height: 58vh;
   margin-left: 3.5vw;
-  padding-top: 10vh;
+  padding-top: 14vh;
 }
 .product_padding-top {
-  padding-top: 25vh;
+  padding-top: 28vh;
 }
 .product_height_1 {
-  height: 52vh;
+  height: 54vh;
 }
 .product_height_2 {
-  height: 49vh;
+  height: 51vh;
+}
+.characteristics {
+  margin-top: 4vh;
+}
+.name_and_structure p:nth-of-type(2) {
+  margin-top: 3.2vh;
+}
+.price_and_order_1 {
+  margin-left: calc(32vh - 199.7px);
+}
+.price_and_order_2 {
+  margin-left: calc(32vh - 231.1px);
+}
+.price_and_order_3 {
+  margin-left: calc(32vh - 231.4px);
+}
+.price_and_order_4 {
+  margin-left: calc(32vh - 230px);
+}
+.price_and_order_5 {
+  margin-left: calc(32vh - 201.2px);
+}
+.price_and_order_6 {
+  margin-left: calc(32vh - 216.2px);
 }
 .order {
   align-items: center;
   cursor: url(../images/pointer.svg), auto;
+  padding-left: 1.2vh;
 }
 .order p {
   padding-left: 2vh;
+}
+.order_margin-top_1 {
+  margin-top: 11vh;
+}
+.order_margin-top_2 {
+  margin-top: 5.5vh;
+}
+.order_margin-top_3 {
+  margin-top: 4vh;
 }
 .medicine_image_1 {
   background: url(../images/medicine_image_1.jpg);
@@ -52,8 +86,8 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
-  width: 60vh;
-  height: 40vh;
+  width: 55vh;
+  height: 36vh;
   display: block;
 }
 .medicine_image_2 {
@@ -62,8 +96,8 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
-  width: 60vh;
-  height: 40vh;
+  width: 55vh;
+  height: 36vh;
   display: block;
 }
 .garden_image_1 {
@@ -72,8 +106,8 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
-  width: 60vh;
-  height: 40vh;
+  width: 55vh;
+  height: 36vh;
   display: block;
 }
 .garden_image_2 {
@@ -82,8 +116,8 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
-  width: 60vh;
-  height: 40vh;
+  width: 55vh;
+  height: 36vh;
   display: block;
 }
 .souvenirs_image_1 {
@@ -92,8 +126,8 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
-  width: 60vh;
-  height: 40vh;
+  width: 55vh;
+  height: 36vh;
   display: block;
 }
 .souvenirs_image_2 {
@@ -102,8 +136,8 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
-  width: 60vh;
-  height: 40vh;
+  width: 55vh;
+  height: 36vh;
   display: block;
 }
 .product_2 {
