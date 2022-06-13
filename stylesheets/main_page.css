@@ -398,6 +398,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
 .get_bonus {
   margin-top: 9vh;
   align-items: center;
+  cursor: url(../images/pointer.svg), auto;
 }
 .tria {
   background: url(../images/tria.svg);
@@ -412,7 +413,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
 }
 .get_bonus p {
   padding-left: 2vh;
-  cursor: url(../images/pointer.svg), auto;
 }
 /* Врачи */
 .names_of_doctors {
@@ -425,7 +425,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   position: relative;
   background-position: center;
   width: 60vh;
-  height: 9vh;
+  height: 7vh;
   display: block;
   padding-top: 11vh;
   margin-left: 3.5vw;
@@ -521,7 +521,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-repeat: no-repeat;
   position: relative;
   width: 75vh;
-  height: 9vh;
+  height: 7vh;
   top: 7.5vh;
   margin-left: 3.5vw;
   display: block;
