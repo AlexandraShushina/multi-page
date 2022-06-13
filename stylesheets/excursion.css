@@ -9,3 +9,23 @@
   background-color: #0019A8;
   height: 100vh;
 }
+.heading_excursion {
+  background: url(../images/heading_6.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 52vh;
+  height: 7vh;
+  top: 7.5vh;
+  margin-left: 3.5vw;
+}
+.heading_book {
+  background: url(../images/heading_7.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 97vh;
+  height: 17.5vh;
+  top: 7.5vh;
+  margin-left: 3.5vw;
+}
