@@ -81,9 +81,6 @@
   .product_padding-top {
     padding-top: 22.5vh;
   }
-  .product_2 {
-    margin-left: 6vw;
-  }
   .price_and_order_1 {
     margin-left: calc(34.8vh - 199.7px);
   }
@@ -101,5 +98,17 @@
   }
   .price_and_order_6 {
     margin-left: calc(34.8vh - 216.2px);
+  }
+  .order {
+    padding-left: 2.5vh;
+  }
+  .order_margin-top_1 {
+    margin-top: 13vh;
+  }
+  .order_margin-top_2 {
+    margin-top: 5.5vh;
+  }
+  .order_margin-top_3 {
+    margin-top: 4vh;
   }
 }
