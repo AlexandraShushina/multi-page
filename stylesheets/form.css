@@ -25,7 +25,7 @@
   position: relative;
 }
 form {
-  width: 42vw;
+  width: 35vw;
   height: 85vh;
   display: block;
   position: relative;
@@ -137,25 +137,25 @@ input[type=date] {
   background-size: 100%; /* поддельная кастомизированная радиокнопка в нажатом состоянии */
 }
 form input:nth-of-type(1) {
-  width: calc(34vw - 115px); /* задаю ширину инпутам */
+  width: calc(27vw - 115px); /* задаю ширину инпутам */
 }
 form input:nth-of-type(2) {
-  width: calc(34vw - 50.2px);
+  width: calc(27vw - 50.2px);
 }
 form input:nth-of-type(3) {
-  width: calc(34vw - 116.6px);
+  width: calc(27vw - 116.6px);
 }
 form input:nth-of-type(4) {
-  width: calc(34vw - 191.9px);
+  width: calc(27vw - 191.9px);
 }
 form input:nth-of-type(5) {
-  width: calc(34vw - 210.5px);
+  width: calc(27vw - 210.5px);
 }
 form input:nth-of-type(6) {
-  width: calc(34vw - 158.6px);
+  width: calc(27vw - 158.6px);
 }
 form input:nth-of-type(9) {
-  width: calc(34vw - 100.1px);
+  width: calc(27vw - 100.1px);
 }
 .form_grid #doctor_block_2 {
   width: 60vh;
