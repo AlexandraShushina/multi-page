@@ -416,7 +416,7 @@ section:nth-of-type(2) p:nth-of-type(2) {
 }
 /* Врачи */
 .names_of_doctors {
-  margin-top: -20vh;
+  margin-top: -18vh;
 }
 .heading_doctors {
   background: url(../images/heading_3.svg);
