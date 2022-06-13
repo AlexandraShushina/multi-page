@@ -76,12 +76,30 @@
   }
   .product {
     height: 63vh;
-    padding-top: 10vh;
+    padding-top: 9vh;
   }
   .product_padding-top {
-    padding-top: 20vh;
+    padding-top: 22.5vh;
   }
   .product_2 {
     margin-left: 6vw;
+  }
+  .price_and_order_1 {
+    margin-left: calc(34.8vh - 199.7px);
+  }
+  .price_and_order_2 {
+    margin-left: calc(34.8vh - 231.1px);
+  }
+  .price_and_order_3 {
+    margin-left: calc(34.8vh - 231.4px);
+  }
+  .price_and_order_4 {
+    margin-left: calc(34.8vh - 230px);
+  }
+  .price_and_order_5 {
+    margin-left: calc(34.8vh - 201.2px);
+  }
+  .price_and_order_6 {
+    margin-left: calc(34.8vh - 216.2px);
   }
 }
