@@ -11,3 +11,30 @@
 .events section:nth-of-type(3) {
   background-color: #0019A8;
 }
+.heading_events {
+  background: url(../images/heading_8.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 49.5vh;
+  height: 7vh;
+  top: 7.5vh;
+  margin-left: 3.5vw;
+}
+.heading_announcements {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+}
+.announcement {
+  background: url(../images/heading_9.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 28vh;
+  height: 7vh;
+  top: 7.5vh;
+  margin-left: 3.5vw;
+}
