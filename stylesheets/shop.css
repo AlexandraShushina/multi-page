@@ -16,3 +16,90 @@
   top: 7.5vh;
   margin-left: 3.5vw;
 }
+.product,
+.characteristics,
+.order {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+}
+.product {
+  height: 56vh;
+  margin-left: 3.5vw;
+  padding-top: 10vh;
+}
+.product_padding-top {
+  padding-top: 30vh;
+}
+.order {
+  align-items: center;
+  cursor: url(../images/pointer.svg), auto;
+}
+.order p {
+  padding-left: 2vh;
+}
+.medicine_image_1 {
+  background: url(../images/medicine_image_1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  width: 60vh;
+  height: 40vh;
+  display: block;
+}
+.medicine_image_2 {
+  background: url(../images/medicine_image_2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  width: 60vh;
+  height: 40vh;
+  display: block;
+}
+.garden_image_1 {
+  background: url(../images/garden_image_1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  width: 60vh;
+  height: 40vh;
+  display: block;
+}
+.garden_image_2 {
+  background: url(../images/garden_image_2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  width: 60vh;
+  height: 40vh;
+  display: block;
+}
+.souvenirs_image_1 {
+  background: url(../images/souvenirs_image_1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  width: 60vh;
+  height: 40vh;
+  display: block;
+}
+.souvenirs_image_2 {
+  background: url(../images/souvenirs_image_2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  width: 60vh;
+  height: 40vh;
+  display: block;
+}
+.product_2 {
+  margin-left: 4vw;
+}
