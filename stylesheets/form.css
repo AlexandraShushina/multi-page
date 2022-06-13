@@ -58,13 +58,13 @@ form label {
   margin-left: 3vw;
 }
 form label:nth-of-type(8) {
-  margin-top: 7vh;
+  margin-top: 7vh; /* отступ для лейбла радиокнопок */
 }
 form label:nth-of-type(9) {
-  margin-left: calc(154px + 6vw);
+  margin-left: calc(154px + 6vw);  /* положение нижней радиокнопки */
 }
 #doctor_block_2 label {
-  margin-top: 3vh;
+  margin-top: 3vh;  /* положение радиокнопки записи */
 }
 input[type=text],
 input[type=email],
@@ -90,7 +90,7 @@ input[type=date] {
   z-index: 100;
   opacity: 0;
   width: 4vh;
-  height: 4vh;
+  height: 4vh; /* настоящая радиокнопка (то, на что нажимаем на самом деле) */
 }
 .custom_radio {
   margin-left: -0.2vw;
@@ -123,7 +123,7 @@ input[type=date] {
   background-image: url(../images/tria_border.svg);
   background-repeat: no-repeat;
   background-position: center top 3px;
-  background-size: 100%;
+  background-size: 100%; /* поддельная кастомизированная радиокнопка в ненажатом состоянии */
 }
 .custom_radio:checked+label:nth-of-type(1)::before,
 .custom_radio_1:checked+label:nth-of-type(8)::before,
@@ -133,10 +133,10 @@ input[type=date] {
   background-image: url(../images/tria_3.svg);
   background-repeat: no-repeat;
   background-position: center top 3px;
-  background-size: 100%;
+  background-size: 100%; /* поддельная кастомизированная радиокнопка в нажатом состоянии */
 }
 form input:nth-of-type(1) {
-  width: calc(34vw - 115px);
+  width: calc(34vw - 115px); /* задаю ширину инпутам */
 }
 form input:nth-of-type(2) {
   width: calc(34vw - 50.2px);
@@ -160,7 +160,7 @@ form input:nth-of-type(9) {
   width: 60vh;
 }
 .p_position_form {
-  margin-top: 2vh;
+  margin-top: -2.8vh; /* положение имени врача */
 }
 .tree_1_blue {
   background: url(../images/tree_1_blue.svg);
@@ -168,19 +168,19 @@ form input:nth-of-type(9) {
   background-repeat: no-repeat;
   position: relative;
   background-position: bottom 0 right 0;
-  width: 25vh;
+  width: 23vh;
   height: 100vh;
   display: block;
   z-index: 3;
-  margin-left: 31vh;
+  margin-left: 33vh;
 }
 .doctor_2_size {
-  width: 33vh;
+  width: 30vh;
   height: 55vh;
-  margin-top: -77.5vh;
-  margin-left: 19.9vh;
+  margin-top: -73vh;
+  margin-left: 22.9vh;
 }
 .rectangle_color {
   background-color: #0019A8;
-  left: 32vh;
+  left: 34vh;
 }
