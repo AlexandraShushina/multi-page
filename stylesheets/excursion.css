@@ -39,7 +39,7 @@
 }
 .plan_and_about {
   margin-left: 3.5vw;
-  padding-top: 17vh;
+  padding-top: 18vh;
 }
 .plan {
   background: url(../images/plan.png);
@@ -47,24 +47,21 @@
   background-repeat: no-repeat;
   background-position: top 0 left -0.5vh;
   position: relative;
-  width: 102vh;
-  height: 127vh;
+  width: 97vh;
+  height: 122vh;
 }
 .plan_and_text p {
-  margin-top: -8vh;
+  margin-top: -9vh;
 }
 .about {
   position: relative;
   margin-left: -31vw;
 }
-.slideshow_renders p {
-  margin-left: 3.5vw;
-}
 .container_trees_2 {
   z-index: 3;
   position: absolute;
   height: 230vh;
-  left: 58vw;
+  left: 50vw;
 }
 .tree_2_long {
   background: url(../images/tree_2_long.svg);
@@ -81,7 +78,24 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 230vh;
+  margin-left: 5vw;
 }
 .p_width_2 {
   width: 48vw;
+}
+.slideshow_renders {
+  margin-left: 3.5vw;
+}
+.slideshow_renders_image {
+  background: url(../images/slideshow_renders_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  width: 94vh;
+  height: 62vh;
+  position: relative;
+  margin-top: 16vh;
+}
+.slideshow_renders p {
+  margin-top: 2.5vh;
 }
