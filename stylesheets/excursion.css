@@ -23,9 +23,27 @@
   background: url(../images/heading_7.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   width: 97vh;
   height: 17.5vh;
   top: 7.5vh;
+  margin-left: 3.5vw;
+}
+#plan_and_about {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 3.5vw;
+  position: relative;
+  padding-top: 14.5vh;
+}
+.plan {
+  background: url(../images/plan.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 95vh;
+  height: 120vh;
   margin-left: 3.5vw;
 }
