@@ -33,7 +33,11 @@
   .heading_form,
   .form_grid,
   .heading_shop,
-  .product {
+  .product,
+  .heading_excursion,
+  .heading_book,
+  .plan_and_about,
+  .slideshow_renders {
     margin-left: 6vw;
   }
   .heading_start {
@@ -110,5 +114,18 @@
   }
   .order_margin-top_3 {
     margin-top: 4vh;
+  }
+  .container_trees_2 {
+    z-index: 3;
+    position: absolute;
+    height: 230vh;
+    left: 55vw;
+  }
+  .about {
+    position: relative;
+    margin-left: -20vw;
+  }
+  .slideshow_renders {
+    margin-top: 13vh;
   }
 }
