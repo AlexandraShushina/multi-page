@@ -85,6 +85,7 @@
 }
 .slideshow_renders {
   margin-left: 3.5vw;
+  margin-top: 16vh;
 }
 .slideshow_renders_image {
   background: url(../images/slideshow_renders_image.jpg);
@@ -94,7 +95,6 @@
   width: 94vh;
   height: 62vh;
   position: relative;
-  margin-top: 16vh;
 }
 .slideshow_renders p {
   margin-top: 2.5vh;
