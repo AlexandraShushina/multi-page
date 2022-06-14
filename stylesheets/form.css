@@ -32,6 +32,7 @@ form {
   background-color: #2542E5;
   margin-top: 7.5vh;
   margin-left: 3vw;
+  z-index: 3;
 }
 form p {
   margin-top: 7px;
@@ -183,7 +184,8 @@ form input:nth-of-type(9) {
 }
 .rectangle_color {
   background-color: #0019A8;
-  left: 34vh;
+  margin-left: 45vh;
+  top: -9vh;
 }
 .tria_doctors {
   position: relative;
