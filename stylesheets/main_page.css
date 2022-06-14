@@ -547,3 +547,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
 .text_about_map li:nth-of-type(1) span img {
   vertical-align: middle; /* выравнивание значка метро в строке */
 }
+.p_width_1 {
+  width: 33vw;
+}
