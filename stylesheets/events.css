@@ -27,14 +27,32 @@
   flex-direction: row;
   justify-content: start;
   position: relative;
+  align-items: baseline;
+  top: 7.5vh;
+  margin-left: 3.5vw;
 }
 .announcement {
   background: url(../images/heading_9.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
-  width: 28vh;
+  width: 32vh;
   height: 7vh;
-  top: 7.5vh;
-  margin-left: 3.5vw;
+}
+.calendar_dates,
+.calendar_events,
+.date_1,
+.date_2,
+.date_3,
+.date_4,
+.date_5,
+.date_6,
+.date_7,
+.round_table,
+.cleaning_date {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
 }
