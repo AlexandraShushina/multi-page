@@ -123,6 +123,10 @@
 .price .order {
   margin-top: 3vh;
 }
-.order {
-  padding-left: 0;
-}
+/* .order a {
+  padding-left: 2vh;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 0;
+  cursor: url(../images/pointer.svg), auto;
+} */
