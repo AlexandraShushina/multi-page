@@ -49,7 +49,10 @@
 .date_6,
 .date_7,
 .round_table,
-.cleaning_date {
+.cleaning_date,
+.container_trees_3,
+.event_and_about,
+.date_and_time {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
