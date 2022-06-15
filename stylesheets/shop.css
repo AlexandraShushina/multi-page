@@ -73,8 +73,12 @@
 .shop .order {
   padding-left: 1.2vh;
 }
-.order p {
+.order a {
   padding-left: 2vh;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 0;
+  cursor: url(../images/pointer.svg), auto;
 }
 .order_margin-top_1 {
   margin-top: 11vh;
