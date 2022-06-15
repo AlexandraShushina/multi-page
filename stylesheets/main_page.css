@@ -411,8 +411,12 @@ section:nth-of-type(2) p:nth-of-type(2) {
   display: block;
   cursor: url(../images/pointer.svg), auto;
 }
-.get_bonus p {
+.get_bonus a {
   padding-left: 2vh;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 0;
+  cursor: url(../images/pointer.svg), auto;
 }
 /* Врачи */
 .names_of_doctors {
