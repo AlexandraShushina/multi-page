@@ -178,7 +178,7 @@ section {
   height: 10vh;
   margin-left: 3.5vw;
 }
-section:nth-of-type(2) p:nth-of-type(2) {
+.weather p:nth-of-type(2) {
   margin-left: 3.5vw;
 }
 .heading_pain {
