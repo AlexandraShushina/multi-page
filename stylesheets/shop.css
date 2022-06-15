@@ -66,9 +66,11 @@
 .price_and_order_6 {
   margin-left: calc(32vh - 216.2px);
 }
-.shop .order {
+.order {
   align-items: center;
   cursor: url(../images/pointer.svg), auto;
+}
+.shop .order {
   padding-left: 1.2vh;
 }
 .order p {
