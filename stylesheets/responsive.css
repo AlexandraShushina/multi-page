@@ -37,7 +37,9 @@
   .heading_excursion,
   .heading_book,
   .plan_and_about,
-  .slideshow_renders {
+  .slideshow_renders,
+  .slideshow_book_and_price,
+  .p_width_2 {
     margin-left: 6vw;
   }
   .heading_start {
@@ -121,11 +123,20 @@
     height: 230vh;
     left: 55vw;
   }
+  .slideshow_renders {
+    margin-top: 13vh;
+  }
   .about {
     position: relative;
     margin-left: -20vw;
   }
   .slideshow_renders {
     margin-top: 13vh;
+  }
+  .p_width_2 {
+    padding-top: 16vh;
+  }
+  .slideshow_book_and_price {
+    margin-top: 4.5vh;
   }
 }
