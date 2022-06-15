@@ -97,7 +97,6 @@
   background-position: center center;
   width: 55vh;
   height: 36vh;
-  display: block;
 }
 .medicine_image_2 {
   background: url(../images/medicine_image_2.jpg);
@@ -107,7 +106,6 @@
   background-position: center center;
   width: 55vh;
   height: 36vh;
-  display: block;
 }
 .garden_image_1 {
   background: url(../images/garden_image_1.jpg);
@@ -117,7 +115,6 @@
   background-position: center center;
   width: 55vh;
   height: 36vh;
-  display: block;
 }
 .garden_image_2 {
   background: url(../images/garden_image_2.jpg);
@@ -127,7 +124,6 @@
   background-position: center center;
   width: 55vh;
   height: 36vh;
-  display: block;
 }
 .souvenirs_image_1 {
   background: url(../images/souvenirs_image_1.jpg);
@@ -137,7 +133,6 @@
   background-position: center center;
   width: 55vh;
   height: 36vh;
-  display: block;
 }
 .souvenirs_image_2 {
   background: url(../images/souvenirs_image_2.jpg);
@@ -147,5 +142,4 @@
   background-position: center center;
   width: 55vh;
   height: 36vh;
-  display: block;
 }
