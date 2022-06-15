@@ -39,7 +39,10 @@
   .plan_and_about,
   .slideshow_renders,
   .slideshow_book_and_price,
-  .p_width_2 {
+  .p_width_2,
+  .heading_events,
+  .heading_announcements,
+  .event_and_about {
     margin-left: 6vw;
   }
   .heading_start {
@@ -138,5 +141,38 @@
   }
   .slideshow_book_and_price {
     margin-top: 4.5vh;
+  }
+  .date_2 {
+    margin-left: 7vh;
+  }
+  .date_3 {
+    margin-left: 7vh;
+  }
+  .date_4 {
+    margin-left: 8.5vh;
+  }
+  .date_5 {
+    margin-left: 4.5vh;
+  }
+  .date_6 {
+    margin-left: 3.5vh;
+  }
+  .date_7 {
+    margin-left: 1.5vh;
+  }
+  .cleaning_day:nth-of-type(3) {
+    margin-left: 23.5vh;
+  }
+  .round_table:nth-of-type(4) {
+    margin-left: -6vh;
+  }
+  .round_table:nth-of-type(5) {
+    margin-left: -4.5vh;
+  }
+  .cleaning_day:nth-of-type(6) {
+    margin-left: 2vh;
+  }
+  .cleaning_day:nth-of-type(7) {
+    margin-left: -8.5vh;
   }
 }
