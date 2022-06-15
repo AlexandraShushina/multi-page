@@ -89,6 +89,26 @@
   margin-left: 8vh;
   margin-top: 9vh;
 }
+.date_3 {
+  margin-left: 8vh;
+  margin-top: 3.5vh;
+}
+.date_4 {
+  margin-left: 10vh;
+  margin-top: 3.5vh;
+}
+.date_5 {
+  margin-left: 6vh;
+  margin-top: 1vh;
+}
+.date_6 {
+  margin-left: 5vh;
+  margin-top: 1vh;
+}
+.date_7 {
+  margin-left: 3vh;
+  margin-top: -1vh;
+}
 .date_1 p,
 .date_3 p,
 .date_5 p,
@@ -171,14 +191,23 @@
   margin-top: 0;
   cursor: url(../images/pointer.svg), auto;
 }
+.container_trees_3 {
+  height: 100vh;
+  margin-top: -110.5vh;
+  margin-left: 9vw;
+}
+.container_trees_3 .tree_4:nth-of-type(2) {
+  margin-left: 4vw;
+}
+.container_trees_3 .tree_4:nth-of-type(3) {
+  margin-left: 38vw;
+}
 .round_table:nth-of-type(1) {
   margin-top: 15vh;
 }
-.event_2_gap {
-  width: 26.5vh;
-}
 .cleaning_day:nth-of-type(3) {
   margin-top: 13vh;
+  margin-left: 26.5vh;
 }
 .round_table:nth-of-type(4) {
   margin-top: 18vh;
@@ -195,4 +224,8 @@
 .cleaning_day:nth-of-type(7) {
   margin-top: 4vh;
   margin-left: -5vh;
+}
+.p_width_3 {
+  margin-left: 0;
+  width: 15vw;
 }
