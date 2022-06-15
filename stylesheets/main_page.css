@@ -3,7 +3,6 @@
   height: 523vh;
   background-color: #2542E5;
   margin: 0 auto;
-  display: block;
   position: relative;
 }
 /* Разделы */
@@ -62,7 +61,6 @@ section {
   background-position: bottom 0 right 0;
   width: 25vh;
   height: 100vh;
-  display: block;
   z-index: 3;
 }
 .tree_2 {
@@ -73,7 +71,6 @@ section {
   background-position: bottom 0 right 0;
   width: 28.5vh;
   height: 100vh;
-  display: block;
   z-index: 3;
 }
 .tree_3 {
@@ -84,7 +81,6 @@ section {
   background-position: bottom 0 right 0;
   width: 48vh;
   height: 100vh;
-  display: block;
   z-index: 3;
 }
 .tree_4 {
@@ -95,7 +91,6 @@ section {
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 100vh;
-  display: block;
   z-index: 3;
 }
 .container_trees div:nth-of-type(2) {
@@ -128,28 +123,24 @@ section {
   width: 25vh;
   height: 100vh;
   position: relative;
-  display: block;
   z-index: 100;
 }
 .rectangle_transparent_2 {
   width: 28.5vh;
   height: 100vh;
   position: relative;
-  display: block;
   z-index: 100;
 }
 .rectangle_transparent_3 {
   width: 48vh;
   height: 100vh;
   position: relative;
-  display: block;
   z-index: 100;
 }
 .rectangle_transparent_4 {
   width: 18vh;
   height: 100vh;
   position: relative;
-  display: block;
   z-index: 100;
 }
 .rectangle_grid div {
@@ -185,7 +176,6 @@ section {
   background-position: center;
   width: 23vh;
   height: 10vh;
-  display: block;
   margin-left: 3.5vw;
 }
 section:nth-of-type(2) p:nth-of-type(2) {
@@ -216,7 +206,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: bottom 0 right 0;
   width: 30vh;
   height: 77vh;
-  display: block;
   z-index: 3;
   margin-left: 24vh;
 }
@@ -231,7 +220,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: bottom 0 right 0;
   width: 27vh;
   height: 77vh;
-  display: block;
   z-index: 3;
 }
 .gap_2 {
@@ -245,7 +233,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 77vh;
-  display: block;
   z-index: 3;
 }
 .types_of_pain p {
@@ -286,7 +273,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   position: relative;
   width: 33vh;
   height: 6.5vh;
-  display: block;
   z-index: 3;
 }
 .types_of_services {
@@ -322,7 +308,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin: 0 auto;
   width: 19vh;
   height: 21vh;
-  display: block;
 }
 .hospital_block_2 {
   margin-top: 3vh;
@@ -337,7 +322,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin: 0 auto;
   width: 24vh;
   height: 14vh;
-  display: block;
 }
 .hospital_block_3 {
   margin-top: 3vh;
@@ -350,7 +334,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: center;
   width: 50vh;
   height: 10vh;
-  display: block;
 }
 .cabinet_block_1,
 .cabinet_block_2 {
@@ -365,7 +348,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin: 0 auto;
   width: 14vh;
   height: 12vh;
-  display: block;
 }
 .cabinet_block_2 {
   margin-left: 5.5vh;
@@ -379,7 +361,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin: 0 auto;
   width: 11vh;
   height: 12vh;
-  display: block;
 }
 .cabinet_block_3 {
   margin-top: 5vh;
@@ -393,7 +374,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   margin: 0 auto;
   width: 30.5vh;
   height: 10vh;
-  display: block;
 }
 .get_bonus {
   margin-top: 9vh;
@@ -408,7 +388,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: center;
   width: 2vh;
   height: 2vh;
-  display: block;
   cursor: url(../images/pointer.svg), auto;
 }
 .get_bonus a {
@@ -430,7 +409,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: center;
   width: 60vh;
   height: 7vh;
-  display: block;
   padding-top: 11vh;
   margin-left: 3.5vw;
   z-index: 100;
@@ -443,7 +421,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: center;
   width: 65vh;
   height: 52vh;
-  display: block;
   margin-top: -68.5vh;
   margin-left: -8vh;
   transform: rotate(44deg);
@@ -472,7 +449,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: center;
   width: 65vh;
   height: 52vh;
-  display: block;
   margin-top: -85vh;
   margin-left: -28.5vh;
   transform: rotate(-16deg);
@@ -498,7 +474,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   background-position: center;
   width: 65vh;
   height: 52vh;
-  display: block;
   margin-top: -88vh;
   margin-left: -28vh;
   transform: rotate(-28deg);
@@ -528,7 +503,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   height: 7vh;
   top: 7.5vh;
   margin-left: 3.5vw;
-  display: block;
   z-index: 100;
 }
 .map {
@@ -540,7 +514,6 @@ section:nth-of-type(2) p:nth-of-type(2) {
   width: 71vh;
   height: 109vh;
   top: -9vh;
-  display: block;
 }
 .text_about_map {
   margin-left: 2vw;
