@@ -116,7 +116,7 @@ section {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: start;
-  position: relative;
+  position: relative;;
   z-index: 100;
 }
 .rectangle_transparent_1 {
@@ -155,12 +155,12 @@ section {
 .rectangle_grid div:nth-of-type(4) {
   margin-left: 7vw;
 }
-.layer_1 {
-  animation: layer_1 .6s ease-in-out .2s;
-}
-@keyframes layer_1 {
+/* @keyframes layer_1 {
   0% {z-index: 3;}
   100% {z-index: 5;}
+} */
+.layer {
+  z-index: 99;
 }
 /* Памятка */
 .weather {
