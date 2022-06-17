@@ -29,17 +29,17 @@
   top: 7.5vh;
   margin-left: 3.5vw;
 }
-.plan_and_about,
+.plan_about,
 .container_trees_2,
 .rectangle_grid_long,
-.slideshow_book_and_price {
+.slide_book_price {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: start;
   position: relative;
 }
-.plan_and_about {
+.plan_about {
   margin-left: 3.5vw;
   padding-top: 18vh;
 }
@@ -53,7 +53,7 @@
   height: 122vh;
   z-index: 1;
 }
-.plan_and_text p {
+.plan_text p {
   margin-top: -9vh;
 }
 .about {
@@ -65,6 +65,9 @@
   position: absolute;
   height: 228vh;
   left: 50vw;
+}
+.container_trees_2 div {
+  cursor: url(../images/pointer.svg), auto;
 }
 .tree_2_long {
   background: url(../images/tree_2_long.svg);
@@ -114,35 +117,53 @@
   75%{transform: rotate(-3deg); transform-origin: center bottom;}
   100%{transform: rotate(0deg); transform-origin: center bottom;}
 }
+.tree_4_long_green {
+  background: url(../images/tree_4_long_green.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 18vh;
+  height: 229vh;
+  margin-left: 5vw;
+  position: relative;
+  z-index: 3;
+  animation: tree_4_long_move infinite linear 7s;
+}
 .rectangle_grid_long {
   z-index: 100;
   position: absolute;
   height: 228vh;
   left: 50vw;
 }
-.rectangle_transparent_long_2 {
+.rectangle_long_2 {
   width: 28.5vh;
   height: 229vh;
   z-index: 100;
   position: relative;
 }
-.rectangle_transparent_long_4 {
+.rectangle_long_4 {
   width: 18vh;
   height: 229vh;
   margin-left: 5vw;
   z-index: 100;
   position: relative;
 }
+.rectangle_grid_long div {
+  cursor: url(../images/pointer.svg), auto;
+}
+.z {
+  z-index: 0;
+}
 .p_width_2 {
   width: 47vw;
   margin-left: 3.5vw;
   padding-top: 18vh;
 }
-.slideshow_renders {
+.slide_renders {
   margin-left: 3.5vw;
   margin-top: 14vh;
 }
-.slideshow_renders_image {
+.slide_renders_image {
   background: url(../images/slideshow_renders_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,15 +176,15 @@
 .excursion section:nth-of-type(2) {
   z-index: 300;
 }
-.slideshow_book_and_price {
+.slide_book_price {
   margin-top: 6vh;
   margin-left: 3.5vw;
 }
-.slideshow_renders p,
-.slideshow_book p {
+.slide_renders p,
+.slide_book p {
   margin-top: 2.5vh;
 }
-.slideshow_book_image {
+.slide_book_image {
   background: url(../images/slideshow_renders_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
