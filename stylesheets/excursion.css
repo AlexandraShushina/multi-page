@@ -171,45 +171,49 @@
   height: 62vh;
   position: relative;
   z-index: 1;
-  animation: slideshow_renders infinite linear 20s;
+  animation: slideshow_renders infinite linear 25s;
 }
 @keyframes slideshow_renders {
   0% {background-position: top 0 left 0;}
-  10.3% {background-position: top 0 left 0;}
-  14.3% {background-position: top 0 left -94.5vh;}
-  24.6% {background-position: top 0 left -94.5vh;}
-  28.6% {background-position: top 0 left -189vh;}
-  38.9% {background-position: top 0 left -189vh;}
-  42.9% {background-position: top 0 left -283.5vh;}
-  53.2% {background-position: top 0 left -283.5vh;}
-  57.2% {background-position: top 0 left -378vh;}
-  67.5% {background-position: top 0 left -378vh;}
-  71.4% {background-position: top 0 left -472.5vh;}
-  81.7% {background-position: top 0 left -472.5vh;}
-  85.7% {background-position: top 0 left -567vh;}
-  96% {background-position: top 0 left -567vh;}
-  100% {background-position: top 0 left -661.5vh;}
+  8.5% {background-position: top 0 left 0;}
+  12.5% {background-position: top 0 left -94.5vh;}
+  21% {background-position: top 0 left -94.5vh;}
+  25% {background-position: top 0 left -189vh;}
+  33.5% {background-position: top 0 left -189vh;}
+  37.5% {background-position: top 0 left -283.5vh;}
+  46% {background-position: top 0 left -283.5vh;}
+  50% {background-position: top 0 left -378vh;}
+  58.5% {background-position: top 0 left -378vh;}
+  62.5% {background-position: top 0 left -472.5vh;}
+  71% {background-position: top 0 left -472.5vh;}
+  75% {background-position: top 0 left -567vh;}
+  83.5% {background-position: top 0 left -567vh;}
+  87.5% {background-position: top 0 left -661.5vh;}
+  96% {background-position: top 0 left -661.5vh;}
+  100% {background-position: top 0 left -756vh;}
 }
 .slide_renders p:after {
   content: "";
   margin-top: -24px;
-  animation: text_change_1 infinite ease-in 20s;
+  animation: text_change_1 infinite ease-in 25s;
 }
 @keyframes text_change_1 {
   0% {content: "Регистратура";}
-  10.3% {content: "Регистратура";}
-  14.3% {content: "Диагностическое отделение";}
-  24.6% {content: "Диагностическое отделение";}
-  28.6% {content: "Хирургическое отделение";}
-  38.9% {content: "Хирургическое отделение";}
-  42.9% {content: "Реанимация";}
-  53.2% {content: "Реанимация";}
-  57.2% {content: "Стационар для тенелюбивых видов";}
-  67.5% {content: "Стационар для тенелюбивых видов";}
-  71.4% {content: "Стационар для светолюбивых видов";}
-  81.7% {content: "Стационар для светолюбивых видов";}
-  85.7% {content: "зона подкормки";}
-  96% {content: "зона подкормки";}
+  8.5% {content: "Регистратура";}
+  12.5% {content: "Диагностическое отделение";}
+  21% {content: "Диагностическое отделение";}
+  25% {content: "Хирургическое отделение";}
+  33.5% {content: "Хирургическое отделение";}
+  37.5% {content: "Реанимация";}
+  46% {content: "Реанимация";}
+  50% {content: "Стационар для тенелюбивых видов";}
+  58.5% {content: "Стационар для тенелюбивых видов";}
+  62.5% {content: "Стационар для светолюбивых видов";}
+  71% {content: "Стационар для светолюбивых видов";}
+  75% {content: "Стационар для тех, кто любит средний свет";}
+  83.5% {content: "Стационар для тех, кто любит средний свет";}
+  87.5% {content: "Зона подкормки";}
+  96% {content: "Зона подкормки";}
   100% {content: "Регистратура";}
 }
 .excursion section:nth-of-type(2) {
@@ -224,13 +228,33 @@
   margin-top: 2.5vh;
 }
 .slide_book_image {
-  background: url(../images/slideshow_renders_image.jpg);
+  background: url(../images/slideshow_book_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top 0 left 0;
   width: 94vh;
   height: 62vh;
   position: relative;
+  animation: slideshow_book infinite linear 25s;
+}
+@keyframes slideshow_book {
+  0% {background-position: top 0 left 0;}
+  8.5% {background-position: top 0 left 0;}
+  12.5% {background-position: top 0 left -94.5vh;}
+  21% {background-position: top 0 left -94.5vh;}
+  25% {background-position: top 0 left -189vh;}
+  33.5% {background-position: top 0 left -189vh;}
+  37.5% {background-position: top 0 left -283vh;}
+  46% {background-position: top 0 left -283vh;}
+  50% {background-position: top 0 left -378vh;}
+  58.5% {background-position: top 0 left -378vh;}
+  62.5% {background-position: top 0 left -472vh;}
+  71% {background-position: top 0 left -472vh;}
+  75% {background-position: top 0 left -565.6vh;}
+  83.5% {background-position: top 0 left -565.6vh;}
+  87.5% {background-position: top 0 left -660.5vh;}
+  96% {background-position: top 0 left -660.5vh;}
+  100% {background-position: top 0 left -756vh;}
 }
 .price {
   margin-left: 4.5vw;
