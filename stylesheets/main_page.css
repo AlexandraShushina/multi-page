@@ -1,5 +1,5 @@
 .main_page {
-  width: 100vw;
+  width: ;
   height: 523vh;
   background-color: #2542E5;
   margin: 0 auto;
@@ -10,8 +10,8 @@ section {
   height: 100vh;
   position: relative;
 }
-.main_page section:nth-of-type(2),
-.main_page section:nth-of-type(5) {
+section:nth-of-type(2),
+section:nth-of-type(5) {
   background-color: #0019A8;
 }
 /* Флексы */
@@ -186,7 +186,7 @@ section {
   margin-left: 7vw;
 }
 .p_start {
-  margin-top: -6.5vh;
+  margin-top: -8vh;
   margin-left: 2vw;
 }
 .rectangle_grid {
@@ -200,7 +200,7 @@ section {
   flex-direction: row;
   justify-content: start;
   position: relative;;
-  z-index: 100;
+ z-index: 100;
 }
 .rectangle_transparent_1 {
   width: 25vh;
@@ -209,7 +209,7 @@ section {
   z-index: 100;
 }
 .rectangle_transparent_2 {
-  width: 28.5vh;
+  width: 28,5vh;
   height: 100vh;
   position: relative;
   z-index: 100;
