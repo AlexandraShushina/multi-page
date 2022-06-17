@@ -31,6 +31,7 @@
 }
 .plan_and_about,
 .container_trees_2,
+.rectangle_grid_long,
 .slideshow_book_and_price {
   display: flex;
   flex-wrap: nowrap;
@@ -50,6 +51,7 @@
   position: relative;
   width: 97vh;
   height: 122vh;
+  z-index: 1;
 }
 .plan_and_text p {
   margin-top: -9vh;
@@ -71,6 +73,27 @@
   background-position: bottom 0 right 0;
   width: 28.5vh;
   height: 229vh;
+  z-index: 200;
+  position: relative;
+  animation: tree_2_long_move infinite linear 5.5s;
+}
+@keyframes tree_2_long_move {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(-1.5deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(1.5deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
+}
+.tree_2_long_green {
+  background: url(../images/tree_2_long_green.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 28.5vh;
+  height: 229vh;
+  z-index: 200;
+  position: relative;
+  animation: tree_2_long_move infinite linear 5.5s;
 }
 .tree_4_long {
   background: url(../images/tree_4_long.svg);
@@ -80,6 +103,35 @@
   width: 18vh;
   height: 229vh;
   margin-left: 5vw;
+  position: relative;
+  z-index: 3;
+  animation: tree_4_long_move infinite linear 7s;
+}
+@keyframes tree_4_long_move {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(3deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(-3deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
+}
+.rectangle_grid_long {
+  z-index: 100;
+  position: absolute;
+  height: 228vh;
+  left: 50vw;
+}
+.rectangle_transparent_long_2 {
+  width: 28.5vh;
+  height: 229vh;
+  z-index: 100;
+  position: relative;
+}
+.rectangle_transparent_long_4 {
+  width: 18vh;
+  height: 229vh;
+  margin-left: 5vw;
+  z-index: 100;
+  position: relative;
 }
 .p_width_2 {
   width: 47vw;
@@ -98,6 +150,10 @@
   width: 94vh;
   height: 62vh;
   position: relative;
+  z-index: 1;
+}
+.excursion section:nth-of-type(2) {
+  z-index: 100;
 }
 .slideshow_book_and_price {
   margin-top: 6vh;
