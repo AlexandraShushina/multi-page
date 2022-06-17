@@ -12,103 +12,86 @@
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
   $(document).ready(function(){
-    if ($(".rectangle_transparent_1").hasClass("flag_1")) {
-      $(".rectangle_transparent_1").click(function(){
+    $(".rectangle_transparent_1").on("click", function(){
+      if ($(".rectangle_transparent_1").hasClass("flag_1")) {
         $(".tree_1").css("z-index","200");
         $( ".rectangle_transparent_1" ).removeClass("flag_1");
-        $( ".tree_1" ).addClass("flag_1");
-      });
+        $( ".rectangle_transparent_1" ).addClass("flag_2");
+      };
+    });
+    $(".tree_1").on("click", function(){
+      if ($(".rectangle_transparent_1").hasClass("flag_2")) {
+        $(".tree_1").css("z-index","1");
+        $( ".rectangle_transparent_1" ).removeClass("flag_2");
+        $( ".rectangle_transparent_1" ).addClass("flag_1");
+      };
+    });
+    $(".rectangle_transparent_1").hover(function(){
+        $(".tree_1").toggleClass("tree_1_green");
+    });
+    $(".tree_1").hover(function(){
+        $(".tree_1").toggleClass("tree_1_green");
+    });
+    $(".rectangle_transparent_2").on("click", function(){
+      if ($(".rectangle_transparent_2").hasClass("flag_1")) {
+        $(".tree_2").css("z-index","200");
+        $( ".rectangle_transparent_2" ).removeClass("flag_1");
+        $( ".rectangle_transparent_2" ).addClass("flag_2");
+      };
+    });
+    $(".tree_2").on("click", function(){
+      if ($(".rectangle_transparent_2").hasClass("flag_2")) {
+      $(".tree_2").css("z-index","2");
+      $( ".rectangle_transparent_2" ).removeClass("flag_2");
+      $( ".rectangle_transparent_2" ).addClass("flag_1");
     };
-  if ($(".rectangle_transparent_2").hasClass("flag_1")) {
-    $(".rectangle_transparent_2").click(function(){
-      $(".tree_2").css("z-index","99");
-      $( ".rectangle_transparent_2" ).removeClass("flag_1");
-    });
-  };
-  if ($(".rectangle_transparent_3").hasClass("flag_1")) {
-    $(".rectangle_transparent_3").click(function(){
-      $(".tree_3").css("z-index","99");
+  });
+  $(".rectangle_transparent_2").hover(function(){
+      $(".tree_2").toggleClass("tree_2_green");
+  });
+  $(".tree_2").hover(function(){
+      $(".tree_2").toggleClass("tree_2_green");
+  });
+  $(".rectangle_transparent_3").on("click", function(){
+    if ($(".rectangle_transparent_3").hasClass("flag_1")) {
+      $(".tree_3").css("z-index","200");
       $( ".rectangle_transparent_3" ).removeClass("flag_1");
-    });
-  };
-  if ($(".rectangle_transparent_4").hasClass("flag_1")) {
-    $(".rectangle_transparent_4").click(function(){
-      $(".tree_4").css("z-index","99");
+      $( ".rectangle_transparent_3" ).addClass("flag_2");
+    };
+  });
+  $(".tree_3").on("click", function(){
+    if ($(".rectangle_transparent_3").hasClass("flag_2")) {
+      $(".tree_3").css("z-index","1");
+      $( ".rectangle_transparent_3" ).removeClass("flag_2");
+      $( ".rectangle_transparent_3" ).addClass("flag_1");
+    };
+  });
+  $(".rectangle_transparent_3").hover(function(){
+      $(".tree_3").toggleClass("tree_3_green");
+  });
+  $(".tree_3").hover(function(){
+      $(".tree_3").toggleClass("tree_3_green");
+  });
+  $(".rectangle_transparent_4").on("click", function(){
+    if ($(".rectangle_transparent_4").hasClass("flag_1")) {
+      $(".tree_4").css("z-index","200");
       $( ".rectangle_transparent_4" ).removeClass("flag_1");
-    });
-  };
-    // if ($(".rectangle_transparent_2").hasClass("flag_1")) {
-    //   $(this).click(function(){
-    //     $(".tree_2").toggleClass("layer_1");
-    //     $( ".rectangle_transparent_2" ).removeClass("flag_1");
-    //   });
-    // };
-    // if ($(".rectangle_transparent_3").hasClass("flag_1")) {
-    //   $(this).click(function(){
-    //     $(".tree_3").toggleClass("layer_1");
-    //     $( ".rectangle_transparent_3" ).removeClass("flag_1");
-    //   });
-    // };
-    // if ($(".rectangle_transparent_4").hasClass("flag_1")) {
-    //   $(this).click(function(){
-    //     $(".tree_4").toggleClass("layer_1");
-    //     $( ".rectangle_transparent_4" ).removeClass("flag_1");
-    //   });
-    // };
-// $(document).ready(function(){
-//   $(".rectangle_transparent_1").click(function(){
-//   if ($(".rectangle_transparent_1").hasClass("flag_1")) {
-//   $(".tree_1").addClass("layer_1");
-//   $( ".rectangle_transparent_1" ).removeClass("flag_1");
-// } else {
-//   $(".tree_1").removeClass("layer_1");
-//   $( ".rectangle_transparent_1" ).addClass("flag_1");
-//   };
-// });
-// if ($(".rectangle_transparent_2").hasClass("flag_1")) {
-//   $(this).click(function(){
-// $(".tree_2").toggleClass("layer_1");
-// $( ".rectangle_transparent_2" ).removeClass("flag_1");
-// });
-// };
-  // $( ".rectangle_transparent_1" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
-  //   $( ".tree_1" ).clone() // создаем копию первого элемента формы
-  //              .appendTo(this);
-  //    $( ".tree_1:nth-of-type(2)" ).remove()// вставляем клонированный элемент
-  // });
-  // $( ".rectangle_transparent_2" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
-  //   $( ".tree_2" ).clone() // создаем копию первого элемента формы
-  //              .appendTo(this); // вставляем клонированный элемент
-  // });
-  // $( ".rectangle_transparent_3" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
-  //   $( ".tree_3" ).clone() // создаем копию первого элемента формы
-  //              .appendTo(this); // вставляем клонированный элемент
-  // });
-  // $( ".rectangle_transparent_4" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
-  //   $( ".tree_4" ).clone() // создаем копию первого элемента формы
-  //              .appendTo(this); // вставляем клонированный элемент
-  // });
-//    $(".rectangle_transparent_1").click(function() {
-//      setIsClicked();
-//    });
-//
-// var isClicked = false;
-//
-// function setIsClicked() {
-//    isclicked = true;
-// }
-// $(document).ready(function(){
-//   if (!$(".rectangle_transparent_1").children('.tree_1').length > 0) {
-//     $( ".rectangle_transparent_1" ).click(function(){
-//       $(".rectangle_transparent_1").children('.tree_1').remove();
-// })} else {
-//   $( ".rectangle_transparent_1" ).click(function(){ // задаем функцию при нажатиии на элемент <button>
-//     $( ".tree_1" ).clone() // создаем копию первого элемента формы
-//                .appendTo(this);
-//      $( ".tree_1:nth-of-type(2)" ).remove()// вставляем клонированный элемент
-//   });
-// };
-// });
+      $( ".rectangle_transparent_4" ).addClass("flag_2");
+    };
+  });
+  $(".tree_4").on("click", function(){
+    if ($(".rectangle_transparent_4").hasClass("flag_2")) {
+      $(".tree_4").css("z-index","2");
+      $( ".rectangle_transparent_4" ).removeClass("flag_2");
+      $( ".rectangle_transparent_4" ).addClass("flag_1");
+    };
+  });
+  $(".rectangle_transparent_4").hover(function(){
+    $(".tree_4").toggleClass("tree_4_green");
+  });
+  $(".tree_4").hover(function(){
+    $(".tree_4").toggleClass("tree_4_green");
+  });
 });
 	</script>
 </head>
@@ -128,10 +111,10 @@
     <section>
       <div class="heading_start"></div>
       <div class="container_trees">
-        <div class="tree_1"></div>
-        <div class="tree_2"></div>
-        <div class="tree_3"></div>
-        <div class="tree_4"></div>
+        <div class="tree_1 tree_1_move"></div>
+        <div class="tree_2 tree_2_move"></div>
+        <div class="tree_3 tree_3_move"></div>
+        <div class="tree_4 tree_4_move"></div>
       </div>
       <p class="p_start">Здесь мы ежедневно лечим ваши ели от всех существующих болезней.</p>
       <div class="rectangle_grid">
