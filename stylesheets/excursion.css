@@ -61,7 +61,6 @@
   margin-left: -31vw;
 }
 .container_trees_2 {
-  z-index: 3;
   position: absolute;
   height: 228vh;
   left: 50vw;
@@ -76,7 +75,7 @@
   background-position: bottom 0 right 0;
   width: 28.5vh;
   height: 229vh;
-  z-index: 200;
+  z-index: 100;
   position: relative;
   animation: tree_2_long_move infinite linear 5.5s;
 }
@@ -94,7 +93,7 @@
   background-position: bottom 0 right 0;
   width: 28.5vh;
   height: 229vh;
-  z-index: 200;
+  z-index: 100;
   position: relative;
   animation: tree_2_long_move infinite linear 5.5s;
 }
@@ -107,7 +106,7 @@
   height: 229vh;
   margin-left: 5vw;
   position: relative;
-  z-index: 3;
+  z-index: 100;
   animation: tree_4_long_move infinite linear 7s;
 }
 @keyframes tree_4_long_move {
@@ -126,7 +125,7 @@
   height: 229vh;
   margin-left: 5vw;
   position: relative;
-  z-index: 3;
+  z-index: 100;
   animation: tree_4_long_move infinite linear 7s;
 }
 .rectangle_grid_long {
