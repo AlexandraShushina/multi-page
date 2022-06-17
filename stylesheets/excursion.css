@@ -171,6 +171,24 @@
   height: 62vh;
   position: relative;
   z-index: 1;
+  animation: slideshow_renders infinite linear 20s;
+}
+@keyframes slideshow_renders {
+  0% {background-position: top 0 left 0;}
+  10.3% {background-position: top 0 left 0;}
+  14.3% {background-position: top 0 left -94.5vh;}
+  24.6% {background-position: top 0 left -94.5vh;}
+  28.6% {background-position: top 0 left -189vh;}
+  38.9% {background-position: top 0 left -189vh;}
+  42.9% {background-position: top 0 left -283.5vh;}
+  53.2% {background-position: top 0 left -283.5vh;}
+  57.2% {background-position: top 0 left -378vh;}
+  67.5% {background-position: top 0 left -378vh;}
+  71.4% {background-position: top 0 left -472.5vh;}
+  81.7% {background-position: top 0 left -472.5vh;}
+  85.7% {background-position: top 0 left -567vh;}
+  96% {background-position: top 0 left -567vh;}
+  100% {background-position: top 0 left -661.5vh;}
 }
 .excursion section:nth-of-type(2) {
   z-index: 300;
