@@ -11,6 +11,28 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
+  $(document).ready(function(){
+    $(".rectangle_transparent_long_2").on("click", function(){
+      if ($(".rectangle_transparent_long_2").hasClass("flag_1")) {
+        $(".tree_2_long").css("z-index","200");
+        $( ".rectangle_transparent_long_2" ).removeClass("flag_1");
+        $( ".rectangle_transparent_long_2" ).addClass("flag_2");
+      };
+    });
+    $(".tree_2_long").on("click", function(){
+      if ($(".rectangle_transparent_long_2").hasClass("flag_2")) {
+        $(".tree_2_long").css("z-index","1");
+        $( ".rectangle_transparent_long_2" ).removeClass("flag_2");
+        $( ".rectangle_transparent_long_2" ).addClass("flag_1");
+      };
+    });
+    $(".rectangle_transparent_long_2").hover(function(){
+      $(".tree_2_long").toggleClass("tree_2_long_green");
+    });
+  $(".tree_2_long").hover(function(){
+    $(".tree_2_long").toggleClass("tree_2_long_green");
+  });
+});
 	</script>
 </head>
 <body>
@@ -28,8 +50,12 @@
     <!-- Экскурсия -->
     <section>
       <div class="container_trees_2">
-        <div class="tree_2_long"></div>
-        <div class="tree_4_long"></div>
+        <div class="tree_2_long flag_1"></div>
+        <div class="tree_4_long flag_1"></div>
+      </div>
+      <div class="rectangle_grid_long">
+        <div class="rectangle_transparent_long_2 flag_1"></div>
+        <div class="rectangle_transparent_long_4 flag_1"></div>
       </div>
       <div class="heading_excursion"></div>
       <div class="plan_and_about">
