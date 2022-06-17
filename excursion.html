@@ -13,18 +13,13 @@
   <script>
   $(document).ready(function(){
     $(".rectangle_long_2").on("click", function(){
-      if ($(this).hasClass("flag_2")) {
-        $(".slide_renders_image").css("z-index","1");
+      if ($(this).hasClass("flag_1")) {
+        $(".slide_renders_image").css("z-index","101");
+        $(".plan").css("z-index","101");
+        $(".rectangle_long_2").removeClass("flag_1");
+      } else {
+        $(".slide_renders_image").css("z-index","0");
         $(".plan").css("z-index","0");
-        $( ".rectangle_long_2" ).removeClass("flag_1");
-        $( ".rectangle_long_2" ).addClass("flag_2");
-      };
-    });
-    $(".rectangle_long_2").on("click", function(){
-      if ($(this).hasClass("flag_2")) {
-        $(".slide_renders_image").css("z-index","1");
-        $(".plan").css("z-index","0");
-        $( ".rectangle_long_2" ).removeClass("flag_2");
         $( ".rectangle_long_2" ).addClass("flag_1");
       };
     });
@@ -33,6 +28,17 @@
     });
     $(".tree_2_long").hover(function(){
       $(".tree_2_long").toggleClass("tree_2_long_green");
+    });
+    $(".rectangle_long_4").on("click", function(){
+      if ($(this).hasClass("flag_1")) {
+        $(".slide_renders_image").css("z-index","101");
+        $(".plan").css("z-index","101");
+        $(".rectangle_long_4").removeClass("flag_1");
+      } else {
+        $(".slide_renders_image").css("z-index","0");
+        $(".plan").css("z-index","0");
+        $( ".rectangle_long_4" ).addClass("flag_1");
+      };
     });
     $(".rectangle_long_4").hover(function(){
       $(".tree_4_long").toggleClass("tree_4_long_green");
