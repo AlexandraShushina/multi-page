@@ -186,10 +186,12 @@ form input:nth-of-type(9) {
   margin-left: 45vh;
   top: -9vh;
 }
-.tria_doctors {
+.tria_slider {
   position: relative;
-  z-index: 100;
+  z-index: 300;
+  cursor: url(../images/pointer.svg), auto;
+}
+.form .tria_slider {
   margin-left: 55.5vh;
   margin-top: -33vh;
-  cursor: url(../images/pointer.svg), auto;
 }
