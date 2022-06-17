@@ -44,7 +44,7 @@ section {
 }
 .container_trees {
     width: 150vh;
-    height: 100vh;
+    height: 102vh;
 		left: 3.3vw;
 		box-sizing: border-box;
 		display: flex;
@@ -60,7 +60,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 25vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_1_green {
@@ -70,7 +70,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 25vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_1_move {
@@ -90,7 +90,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 28.5vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_2_move {
@@ -110,7 +110,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 28.5vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_3 {
@@ -120,7 +120,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 48vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_3_move {
@@ -140,7 +140,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 48vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_4 {
@@ -150,7 +150,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 18vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .tree_4_move {
@@ -170,7 +170,7 @@ section {
   position: relative;
   background-position: bottom 0 right 0;
   width: 18vh;
-  height: 100vh;
+  height: 102vh;
   z-index: 3;
 }
 .container_trees div {
@@ -180,7 +180,7 @@ section {
   margin-left: 2.2vw;
 }
 .container_trees div:nth-of-type(3) {
-  margin-left: 5vw;
+  margin-left: 4.8vw;
 }
 .container_trees div:nth-of-type(4) {
   margin-left: 7vw;
@@ -246,6 +246,9 @@ section {
   z-index: 99;
 }
 /* Памятка */
+.main_page section:nth-of-type(2) {
+  z-index: 300;
+}
 .weather {
   align-items: center;
   padding-top: 1vh;
@@ -560,7 +563,7 @@ section {
   margin-top: -88vh;
   margin-left: -28vh;
   transform: rotate(-28deg);
-  z-index: 3;
+  z-index: 2;
 }
 .doctor_block_3 {
   margin-left: -3vw;
