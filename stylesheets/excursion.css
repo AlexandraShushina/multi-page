@@ -190,6 +190,28 @@
   96% {background-position: top 0 left -567vh;}
   100% {background-position: top 0 left -661.5vh;}
 }
+.slide_renders p:after {
+  content: "";
+  margin-top: -24px;
+  animation: text_change_1 infinite ease-in 20s;
+}
+@keyframes text_change_1 {
+  0% {content: "Регистратура";}
+  10.3% {content: "Регистратура";}
+  14.3% {content: "Диагностическое отделение";}
+  24.6% {content: "Диагностическое отделение";}
+  28.6% {content: "Хирургическое отделение";}
+  38.9% {content: "Хирургическое отделение";}
+  42.9% {content: "Реанимация";}
+  53.2% {content: "Реанимация";}
+  57.2% {content: "Стационар для тенелюбивых видов";}
+  67.5% {content: "Стационар для тенелюбивых видов";}
+  71.4% {content: "Стационар для светолюбивых видов";}
+  81.7% {content: "Стационар для светолюбивых видов";}
+  85.7% {content: "зона подкормки";}
+  96% {content: "зона подкормки";}
+  100% {content: "Регистратура";}
+}
 .excursion section:nth-of-type(2) {
   z-index: 300;
 }
