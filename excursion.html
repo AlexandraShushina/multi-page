@@ -12,26 +12,34 @@
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
   $(document).ready(function(){
-    $(".rectangle_transparent_long_2").on("click", function(){
-      if ($(".rectangle_transparent_long_2").hasClass("flag_1")) {
-        $(".tree_2_long").css("z-index","200");
-        $( ".rectangle_transparent_long_2" ).removeClass("flag_1");
-        $( ".rectangle_transparent_long_2" ).addClass("flag_2");
+    $(".rectangle_long_2").on("click", function(){
+      if ($(this).hasClass("flag_2")) {
+        $(".slide_renders_image").css("z-index","1");
+        $(".plan").css("z-index","0");
+        $( ".rectangle_long_2" ).removeClass("flag_1");
+        $( ".rectangle_long_2" ).addClass("flag_2");
       };
     });
-    $(".tree_2_long").on("click", function(){
-      if ($(".rectangle_transparent_long_2").hasClass("flag_2")) {
-        $(".tree_2_long").css("z-index","1");
-        $( ".rectangle_transparent_long_2" ).removeClass("flag_2");
-        $( ".rectangle_transparent_long_2" ).addClass("flag_1");
+    $(".rectangle_long_2").on("click", function(){
+      if ($(this).hasClass("flag_2")) {
+        $(".slide_renders_image").css("z-index","1");
+        $(".plan").css("z-index","0");
+        $( ".rectangle_long_2" ).removeClass("flag_2");
+        $( ".rectangle_long_2" ).addClass("flag_1");
       };
     });
-    $(".rectangle_transparent_long_2").hover(function(){
+    $(".rectangle_long_2").hover(function(){
       $(".tree_2_long").toggleClass("tree_2_long_green");
     });
-  $(".tree_2_long").hover(function(){
-    $(".tree_2_long").toggleClass("tree_2_long_green");
-  });
+    $(".tree_2_long").hover(function(){
+      $(".tree_2_long").toggleClass("tree_2_long_green");
+    });
+    $(".rectangle_long_4").hover(function(){
+      $(".tree_4_long").toggleClass("tree_4_long_green");
+    });
+    $(".tree_4_long").hover(function(){
+      $(".tree_4_long").toggleClass("tree_4_long_green");
+    });
 });
 	</script>
 </head>
@@ -54,12 +62,12 @@
         <div class="tree_4_long"></div>
       </div>
       <div class="rectangle_grid_long">
-        <div class="rectangle_transparent_long_2 flag_1"></div>
-        <div class="rectangle_transparent_long_4 flag_1"></div>
+        <div class="rectangle_long_2 flag_1"></div>
+        <div class="rectangle_long_4 flag_1"></div>
       </div>
       <div class="heading_excursion"></div>
-      <div class="plan_and_about">
-        <div class="plan_and_text">
+      <div class="plan_about">
+        <div class="plan_text">
           <div class="plan"></div>
           <p class="text_small">План клиники</p>
         </div>
@@ -71,8 +79,8 @@
           </ul>
         </div>
       </div>
-      <div class="slideshow_renders">
-        <div class="slideshow_renders_image"></div>
+      <div class="slide_renders">
+        <div class="slide_renders_image"></div>
         <p class="text_small">Регистратура</p>
       </div>
     </section>
@@ -80,9 +88,9 @@
     <section>
       <div class="heading_book"></div>
       <p class="p_width_2">В нём мы не&nbsp;только показываем, но&nbsp;и&nbsp;рассказываем, чем мы отличаемся от&nbsp;других клиник, а&nbsp;также дарим купоны на&nbsp;посещение наших специалистов, которые вы можете потратить в&nbsp;течение срока акций.</p>
-      <div class="slideshow_book_and_price">
-        <div class="slideshow_book">
-          <div class="slideshow_book_image"></div>
+      <div class="slide_book_price">
+        <div class="slide_book">
+          <div class="slide_book_image"></div>
           <p class="text_small">Регистратура</p>
         </div>
         <div class="price">
