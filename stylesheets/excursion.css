@@ -297,9 +297,6 @@
 .rectangle_grid_long div {
   cursor: url(../images/pointer.svg), auto;
 }
-.z {
-  z-index: 0;
-}
 .p_width_2 {
   width: 47vw;
   margin-left: 3.5vw;
@@ -410,10 +407,3 @@
 .price .order {
   margin-top: 3vh;
 }
-/* .order a {
-  padding-left: 2vh;
-  font-size: 26px;
-  line-height: 30px;
-  margin-top: 0;
-  cursor: url(../images/pointer.svg), auto;
-} */
