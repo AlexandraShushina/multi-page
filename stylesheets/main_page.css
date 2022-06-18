@@ -43,15 +43,15 @@ section:nth-of-type(5) {
   left: 2.5vw;
 }
 .container_trees {
-    width: 150vh;
-    height: 102vh;
-		left: 3.3vw;
-		box-sizing: border-box;
-		display: flex;
-		flex-wrap: nowrap;
-		flex-direction: row;
-		justify-content: start;
-    position: relative;
+  width: 150vh;
+  height: 102vh;
+	left: 3.3vw;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: start;
+  position: relative;
 }
 .tree_1 {
   background: url(../images/tree_1.svg);
