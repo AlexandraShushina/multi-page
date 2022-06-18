@@ -1,0 +1,32 @@
+.error section {
+  height: 100vh;
+  position: relative;
+  background-color: #0019A8
+};
+.error_grid {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 0 auto;
+  position: relative;
+  height: 100vh;
+  z-index: 100;
+}
+.error_1 {
+  background: url(../images/4.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  position: relative;
+  z-index: 100;
+  width: 30vh;
+  height: 100vh;
+}
+.to_main a {
+  padding-left: 2vh;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 0;
+  cursor: url(../images/pointer.svg), auto;
+}
