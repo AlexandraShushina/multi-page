@@ -47,8 +47,20 @@
   background: url(../images/plan.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: top 0 left -0.5vh;
+  background-position: top 0 left 0;
   position: relative;
+  width: 97vh;
+  height: 122vh;
+  z-index: 1;
+}
+.plan_bw:after {
+  content: "";
+  background: url(../images/plan_bw_1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: absolute;
+  margin-top: -122vh;
   width: 97vh;
   height: 122vh;
   z-index: 1;
