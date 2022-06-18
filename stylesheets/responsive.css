@@ -140,6 +140,13 @@
   .slideshow_book_and_price {
     margin-top: 4.5vh;
   }
+  .calendar {
+    margin-left: 9vh;
+  }
+  .calendar_tree {
+    background-position: top 0 left -16vh;
+    margin-left: -9vh;
+  }
   .date_2 {
     margin-left: 7vh;
   }
