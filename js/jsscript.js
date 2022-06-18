@@ -116,4 +116,8 @@ $(".container_trees .tree_4").hover(function(){
   $(".tree_4_long").hover(function(){
     $(".tree_4_long").toggleClass("tree_4_long_green");
   });
+// Анимация формы
+  $(".form .tria").on("click", function(){
+    
+  });
 });
