@@ -123,6 +123,7 @@
 }
 .plan_piece_1:hover ~ .plan_bw:after {
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_piece_2:hover ~ .plan_bw:after {
   background: url(../images/plan_bw_2.png);
@@ -135,6 +136,7 @@
   width: 96.8vh;
   height: 122vh;
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_piece_3:hover ~ .plan_bw:after {
   background: url(../images/plan_bw_3.png);
@@ -146,6 +148,7 @@
   width: 96.8vh;
   height: 122vh;
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_piece_4:hover ~ .plan_bw:after {
   background: url(../images/plan_bw_4.png);
@@ -157,6 +160,7 @@
   width: 96.8vh;
   height: 122vh;
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_piece_5:hover ~ .plan_bw:after {
   background: url(../images/plan_bw_5.png);
@@ -168,6 +172,7 @@
   width: 96.7vh;
   height: 122vh;
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_piece_6:hover ~ .plan_bw:after {
   background: url(../images/plan_bw_6.png);
@@ -180,6 +185,7 @@
   width: 96.8vh;
   height: 122vh;
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_piece_7:hover ~ .plan_bw:after {
   background: url(../images/plan_bw_7.png);
@@ -192,6 +198,7 @@
   width: 96.8vh;
   height: 122vh;
   opacity: 1;
+  transition: 0.1s;
 }
 .plan_text p {
   margin-top: -9vh;
