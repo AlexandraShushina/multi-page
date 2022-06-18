@@ -68,8 +68,9 @@
   background: url(../images/calendar_tree.svg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: top 0 left -25vh;
   position: relative;
-  width: 138vh;
+  width: 163vh;
   height: 50vh;
 }
 .calendar_dates {
