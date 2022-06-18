@@ -52,7 +52,7 @@
   width: 97vh;
   height: 122vh;
   z-index: 0;
-  margin-top: -88vh;
+  margin-top: -121vh;
 }
 .plan_bw:after {
   content: "";
@@ -65,7 +65,7 @@
   margin-left: 0.1vh;
   width: 96.8vh;
   height: 122vh;
-  z-index: 100;
+  z-index: 99;
   opacity: 0;
 }
 .plan_piece_1 {
@@ -75,6 +75,7 @@
   height: 22vh;
   display: block;
   opacity: 0;
+  cursor: url(../images/pointer.svg), auto;
 }
 .plan_piece_2 {
   position: relative;
@@ -83,6 +84,7 @@
   height: 22vh;
   display: block;
   opacity: 0;
+  cursor: url(../images/pointer.svg), auto;
 }
 .plan_piece_3 {
   position: relative;
@@ -91,14 +93,37 @@
   height: 22vh;
   display: block;
   opacity: 0;
+  cursor: url(../images/pointer.svg), auto;
 }
 .plan_piece_4 {
   position: relative;
   z-index: 400;
   width: 42vh;
-  height: 22vh;
+  height: 11vh;
   display: block;
   opacity: 0;
+  cursor: url(../images/pointer.svg), auto;
+}
+.plan_piece_5 {
+  position: relative;
+  z-index: 400;
+  width: 42vh;
+  height: 34vh;
+  display: block;
+  opacity: 0;
+  cursor: url(../images/pointer.svg), auto;
+}
+.plan_piece_6 {
+  position: relative;
+  z-index: 400;
+  width: 53.5vh;
+  height: 45vh;
+  display: block;
+  opacity: 1;
+  margin-top: -33.5vh;
+  margin-left: 42.6vh;
+  opacity: 0;
+  cursor: url(../images/pointer.svg), auto;
 }
 .plan_piece_1:hover ~ .plan_bw:after {
   opacity: 1;
@@ -133,6 +158,29 @@
   background-position: top 0 left 0;
   position: absolute;
   margin-top: -121.78vh;
+  width: 96.8vh;
+  height: 122vh;
+  opacity: 1;
+}
+.plan_piece_5:hover ~ .plan_bw:after {
+  background: url(../images/plan_bw_5.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: absolute;
+  margin-top: -121.78vh;
+  width: 96.7vh;
+  height: 122vh;
+  opacity: 1;
+}
+.plan_piece_6:hover ~ .plan_bw:after {
+  background: url(../images/plan_bw_6.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: absolute;
+  margin-top: -121.85vh;
+  margin-left: -0.1vh;
   width: 96.8vh;
   height: 122vh;
   opacity: 1;
