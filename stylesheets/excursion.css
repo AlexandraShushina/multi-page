@@ -51,7 +51,8 @@
   position: relative;
   width: 97vh;
   height: 122vh;
-  z-index: 1;
+  z-index: 0;
+  margin-top: -88vh;
 }
 .plan_bw:after {
   content: "";
@@ -60,10 +61,81 @@
   background-repeat: no-repeat;
   background-position: top 0 left 0;
   position: absolute;
-  margin-top: -122vh;
-  width: 97vh;
+  margin-top: -121.78vh;
+  margin-left: 0.1vh;
+  width: 96.8vh;
   height: 122vh;
-  z-index: 1;
+  z-index: 100;
+  opacity: 0;
+}
+.plan_piece_1 {
+  position: relative;
+  z-index: 400;
+  width: 42vh;
+  height: 22vh;
+  display: block;
+  opacity: 0;
+}
+.plan_piece_2 {
+  position: relative;
+  z-index: 400;
+  width: 42vh;
+  height: 22vh;
+  display: block;
+  opacity: 0;
+}
+.plan_piece_3 {
+  position: relative;
+  z-index: 400;
+  width: 42vh;
+  height: 22vh;
+  display: block;
+  opacity: 0;
+}
+.plan_piece_4 {
+  position: relative;
+  z-index: 400;
+  width: 42vh;
+  height: 22vh;
+  display: block;
+  opacity: 0;
+}
+.plan_piece_1:hover ~ .plan_bw:after {
+  opacity: 1;
+}
+.plan_piece_2:hover ~ .plan_bw:after {
+  background: url(../images/plan_bw_2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: absolute;
+  margin-top: -121.78vh;
+  margin-left: 0.1vh;
+  width: 96.8vh;
+  height: 122vh;
+  opacity: 1;
+}
+.plan_piece_3:hover ~ .plan_bw:after {
+  background: url(../images/plan_bw_3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: absolute;
+  margin-top: -121.78vh;
+  width: 96.8vh;
+  height: 122vh;
+  opacity: 1;
+}
+.plan_piece_4:hover ~ .plan_bw:after {
+  background: url(../images/plan_bw_4.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: absolute;
+  margin-top: -121.78vh;
+  width: 96.8vh;
+  height: 122vh;
+  opacity: 1;
 }
 .plan_text p {
   margin-top: -9vh;
