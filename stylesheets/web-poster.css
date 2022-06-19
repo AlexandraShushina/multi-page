@@ -1,8 +1,20 @@
+* {
+  cursor: url(../images/cursor.svg), auto;
+}
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Helvetica', sans-serif;
   margin: 0 auto;
   background-color: black;
   display: block;
   position: relative;
+}
+.arrow {
+  position: absolute;
+  display: block;
+  width: 6vh;
+  height: 6vh;
+  z-index: 400;
+  margin-top: 5vh;
+  left: 5.5vh;
 }
 .mask {
   position: absolute;
@@ -372,6 +384,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   margin-left: 597px;
   opacity: 1;
   animation: color 3s linear infinite;
+  cursor: url(../images/pointer.svg), auto;
 }
 .sweet_change {
   background-image: url(../images/images_for_web-poster/sweet_change.svg);
@@ -422,6 +435,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   z-index: 3;
   position: absolute;
   margin-left: 615px;
+  cursor: url(../images/pointer.svg), auto;
 }
 .triangle_1 {
   background-image: url(../images/images_for_web-poster/triangle_1.svg);
@@ -472,6 +486,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   margin-top: -1480px;
   position: absolute;
   margin-left: 379px;
+  cursor: url(../images/pointer.svg), auto;
 }
 .triangle_3 {
   background-image: url(../images/images_for_web-poster/triangle_3.svg);
@@ -517,6 +532,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   z-index: 3;
   position: absolute;
   margin-left: 117px;
+  cursor: url(../images/pointer.svg), auto;
 }
 .triangle_5 {
   background-image: url(../images/images_for_web-poster/triangle_5.svg);
@@ -559,6 +575,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   margin-top: -2460px;
   position: absolute;
   right: 90%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_2 {
   z-index: 6;
@@ -566,6 +583,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 75%;
   transform: rotate(-180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_3 {
   z-index: 6;
@@ -573,6 +591,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 55%;
   transform: rotate(17deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_4 {
   z-index: 6;
@@ -580,6 +599,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 40%;
   transform: rotate(-180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_5 {
   z-index: 6;
@@ -587,6 +607,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 22%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_6 {
   z-index: 6;
@@ -594,6 +615,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -5%;
   transform: rotate(180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_7 {
   z-index: 6;
@@ -601,6 +623,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -25%;
   transform: rotate(150deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_8 {
   z-index: 6;
@@ -608,6 +631,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 85%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_9 {
   z-index: 6;
@@ -615,6 +639,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 80%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_10 {
   z-index: 6;
@@ -622,6 +647,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 67%;
   transform: rotate(20deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_11 {
   z-index: 6;
@@ -629,6 +655,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 54%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_12 {
   z-index: 6;
@@ -636,6 +663,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 30%;
   transform: rotate(-120deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_13 {
   z-index: 6;
@@ -643,6 +671,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 10%;
   transform: rotate(85deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_14 {
   z-index: 6;
@@ -650,6 +679,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -8%;
   transform: rotate(80deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_15 {
   z-index: 6;
@@ -657,6 +687,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 85%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_16 {
   z-index: 6;
@@ -664,6 +695,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 70%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_17 {
   z-index: 6;
@@ -671,6 +703,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 55%;
   transform: rotate(-15deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_18 {
   z-index: 6;
@@ -678,6 +711,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 28%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_19 {
   z-index: 6;
@@ -685,6 +719,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 10%;
   transform: rotate(-70deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_20 {
   z-index: 6;
@@ -692,6 +727,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -5%;
   transform: rotate(45deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_21 {
   z-index: 6;
@@ -699,6 +735,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -20%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_22 {
   z-index: 6;
@@ -706,6 +743,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 80%;
   transform: rotate(180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_23 {
   z-index: 6;
@@ -713,6 +751,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 60%;
   transform: rotate(90deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_24 {
   z-index: 6;
@@ -720,6 +759,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 45%;
   transform: rotate(60deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_25 {
   z-index: 6;
@@ -727,12 +767,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 23%;
   transform: rotate(50deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_26 {
   z-index: 6;
   margin-top: -1890px;
   position: absolute;
   right: 10%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_27 {
   z-index: 6;
@@ -740,6 +782,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 90%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_28 {
   z-index: 6;
@@ -747,6 +790,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 70%;
   transform: rotate(-70deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_29 {
   z-index: 6;
@@ -754,6 +798,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 49%;
   transform: rotate(-150deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_30 {
   z-index: 6;
@@ -761,6 +806,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 29%;
   transform: rotate(20deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_31 {
   z-index: 6;
@@ -768,6 +814,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 7%;
   transform: rotate(40deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_32 {
   z-index: 6;
@@ -775,6 +822,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -8%;
   transform: rotate(30deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_33 {
   z-index: 6;
@@ -782,12 +830,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 91%;
   transform: rotate(30deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_34 {
   z-index: 6;
   margin-top: -1500px;
   position: absolute;
   right: 70%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_35 {
   z-index: 6;
@@ -795,18 +845,21 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 50%;
   transform: rotate(-15deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_36 {
   z-index: 6;
   margin-top: -1490px;
   position: absolute;
   right: 40%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_37 {
   z-index: 6;
   margin-top: -1530px;
   position: absolute;
   right: 25%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_38 {
   z-index: 6;
@@ -814,6 +867,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 88%;
   transform: rotate(200deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_39 {
   z-index: 6;
@@ -821,6 +875,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 65%;
   transform: rotate(10deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_40 {
   z-index: 6;
@@ -828,6 +883,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 50%;
   transform: rotate(30deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_41 {
   z-index: 6;
@@ -835,6 +891,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 28%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_42 {
   z-index: 6;
@@ -842,12 +899,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 12%;
   transform: rotate(-15deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_43 {
   z-index: 6;
   margin-top: -1450px;
   position: absolute;
   right: -12%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_44 {
   z-index: 6;
@@ -855,6 +914,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 85%;
   transform: rotate(-180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_45 {
   z-index: 6;
@@ -862,6 +922,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 65%;
   transform: rotate(10deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_46 {
   z-index: 6;
@@ -869,6 +930,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 40%;
   transform: rotate(-180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_47 {
   z-index: 6;
@@ -876,6 +938,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 10%;
   transform: rotate(-70deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_48 {
   z-index: 6;
@@ -883,6 +946,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 5%;
   transform: rotate(180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_49 {
   z-index: 6;
@@ -890,6 +954,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -15%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_50 {
   z-index: 6;
@@ -897,6 +962,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 83%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_51 {
   z-index: 6;
@@ -904,6 +970,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 60%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_52 {
   z-index: 6;
@@ -911,6 +978,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 47%;
   transform: rotate(20deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_53 {
   z-index: 6;
@@ -918,6 +986,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 21%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_54 {
   z-index: 6;
@@ -925,6 +994,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 23%;
   transform: rotate(-120deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_55 {
   z-index: 6;
@@ -932,6 +1002,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 11%;
   transform: rotate(85deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_56 {
   z-index: 6;
@@ -939,6 +1010,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -10%;
   transform: rotate(80deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_57 {
   z-index: 6;
@@ -946,6 +1018,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 90%;
   transform: rotate(220deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_58 {
   z-index: 6;
@@ -953,6 +1026,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 71%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_59 {
   z-index: 6;
@@ -960,6 +1034,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 55%;
   transform: rotate(-5deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_60 {
   z-index: 6;
@@ -967,6 +1042,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 45%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_61 {
   z-index: 6;
@@ -974,6 +1050,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 20%;
   transform: rotate(-70deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_62 {
   z-index: 6;
@@ -981,6 +1058,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 5%;
   transform: rotate(45deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_63 {
   z-index: 6;
@@ -988,12 +1066,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 88%;
   transform: rotate(10deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_64 {
   z-index: 6;
   margin-top: -560px;
   position: absolute;
   right: 68%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_65 {
   z-index: 6;
@@ -1001,6 +1081,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 45%;
   transform: rotate(90deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_66 {
   z-index: 6;
@@ -1008,6 +1089,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 25%;
   transform: rotate(60deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_67 {
   z-index: 6;
@@ -1015,12 +1097,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 13%;
   transform: rotate(50deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_68 {
   z-index: 6;
   margin-top: -590px;
   position: absolute;
   right: 5%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_69 {
   z-index: 6;
@@ -1028,6 +1112,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -18%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_70 {
   z-index: 6;
@@ -1035,6 +1120,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 92%;
   transform: rotate(-70deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_71 {
   z-index: 6;
@@ -1042,13 +1128,15 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 70%;
   transform: rotate(40deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_72 {
   z-index: 6;
   margin-top: -350px;
   position: absolute;
   right: 54%;
-  transform: rotate(120deg)
+  transform: rotate(120deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_73 {
   z-index: 6;
@@ -1056,18 +1144,21 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 38%;
   transform: rotate(10deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_74 {
   z-index: 6;
   margin-top: -350px;
   position: absolute;
   right: 12%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_75 {
   z-index: 6;
   margin-top: -355px;
   position: absolute;
   right: -5%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_76 {
   z-index: 6;
@@ -1075,6 +1166,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 85%;
   transform: rotate(180deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_77 {
   z-index: 6;
@@ -1082,12 +1174,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 60%;
   transform: rotate(190deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_78 {
   z-index: 6;
   margin-top: -130px;
   position: absolute;
   right: 30%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_79 {
   z-index: 6;
@@ -1095,6 +1189,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 10%;
   transform: rotate(30deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_80 {
   z-index: 6;
@@ -1102,6 +1197,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -18%;
   transform: rotate(10deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_81 {
   z-index: 6;
@@ -1109,12 +1205,14 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 80%;
   transform: rotate(80deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_82 {
   z-index: 6;
   margin-top: -20px;
   position: absolute;
   right: 50%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_83 {
   z-index: 6;
@@ -1122,6 +1220,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 45%;
   transform: rotate(80deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_84 {
   z-index: 6;
@@ -1129,6 +1228,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 35%;
   transform: rotate(80deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_85 {
   z-index: 6;
@@ -1136,18 +1236,21 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 12%;
   transform: rotate(80deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_86 {
   z-index: 6;
   margin-top: 15px;
   position: absolute;
   right: 80%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_87 {
   z-index: 6;
   margin-top: 80px;
   position: absolute;
   right: 54%;
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_88 {
   z-index: 6;
@@ -1155,6 +1258,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 30%;
   transform: rotate(30deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_89 {
   z-index: 6;
@@ -1162,6 +1266,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 10%;
   transform: rotate(10deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_90 {
   z-index: 6;
@@ -1169,6 +1274,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: -12%;
   transform: rotate(15deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 #piece_91 {
   z-index: 6;
@@ -1176,6 +1282,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   position: absolute;
   right: 36%;
   transform: rotate(15deg);
+  cursor: url(../images/pointer.svg), auto;
 }
 .basement {
   display: grid;
