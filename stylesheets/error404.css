@@ -1,7 +1,7 @@
 .error section {
-  height: 100vh;
+  height: 105vh;
   position: relative;
-  background-color: #0019A8
+  background-color: #0019A8;
 }
 .to_main,
 .error_grid {
@@ -10,6 +10,7 @@
   flex-direction: row;
   justify-content: center;
   margin-left: -5vw;
+  /* overflow: hidden; */
 }
 .rectangle_error_grid {
   display: flex;
@@ -17,11 +18,12 @@
   flex-direction: row;
   justify-content: center;
   margin-left: 30vw;
+  height: 105vh;
 }
 .error_grid {
   position: relative;
   height: 100vh;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .error_1,
 .rectangle_error_1,
@@ -38,11 +40,12 @@
   background: url(../images/4.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom -2vh left 0;
+  background-position: bottom 0 left 0;
   position: relative;
   z-index: 3;
   width: 30vh;
   height: 100vh;
+  margin-top: 2vh;
   animation: error_1_move infinite linear 3s;
 }
 @keyframes error_1_move {
@@ -56,11 +59,12 @@
   background: url(../images/4_green.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom -2vh left 0;
+  background-position: bottom 0 left 0;
   position: relative;
   z-index: 3;
   width: 30vh;
   height: 100vh;
+  margin-top: 2vh;
   animation: error_1_move infinite linear 3s;
 }
 .error_2 {
@@ -73,6 +77,7 @@
   width: 30vh;
   height: 100vh;
   margin-left: 2vw;
+  margin-top: 2vh;
   animation: error_2_move infinite linear 5s;
 }
 @keyframes error_2_move {
@@ -92,6 +97,7 @@
   width: 30vh;
   height: 100vh;
   margin-left: 2vw;
+  margin-top: 2vh;
   animation: error_2_move infinite linear 5s;
 }
 .error_3 {
@@ -104,6 +110,7 @@
   width: 30vh;
   height: 100vh;
   margin-left: 1vw;
+  margin-top: 2vh;
   animation: error_3_move infinite linear 4s;
 }
 @keyframes error_3_move {
@@ -123,6 +130,7 @@
   width: 30vh;
   height: 100vh;
   margin-left: 1vw;
+  margin-top: 2vh;
   animation: error_3_move infinite linear 4s;
 }
 .rectangle_error_grid {
@@ -139,6 +147,7 @@
   height: 100vh;
   position: relative;
   z-index: 205;
+  margin-top: 2vh;
   animation: error_1_move infinite linear 3s;
 }
 .rectangle_error_2 {
@@ -148,6 +157,7 @@
   margin-left: 2vw;
   position: relative;
   z-index: 205;
+  margin-top: 2vh;
   animation: error_2_move infinite linear 5s;
 }
 .rectangle_error_3 {
@@ -157,6 +167,7 @@
   margin-left: 1vw;
   position: relative;
   z-index: 205;
+  margin-top: 2vh;
   animation: error_3_move infinite linear 4s;
 }
 .error p {
@@ -171,7 +182,7 @@
   margin-top: 3vh;
 }
 .to_main .tria {
-  margin-top: 0.6vh;
+  margin-top: 1vh;
 }
 .to_main a {
   padding-left: 2vh;
