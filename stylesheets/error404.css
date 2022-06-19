@@ -2,13 +2,16 @@
   height: 100vh;
   position: relative;
   background-color: #0019A8
-};
+}
+.to_main,
 .error_grid {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: start;
-  margin-left: 0 auto;
+  justify-content: center;
+  margin-left: -5vw;
+}
+.error_grid {
   position: relative;
   height: 100vh;
   z-index: 100;
@@ -22,6 +25,64 @@
   z-index: 100;
   width: 30vh;
   height: 100vh;
+  animation: error_1_move infinite linear 3s;
+}
+@keyframes error_1_move {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(-4deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(4deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
+}
+.error_2 {
+  background: url(../images/0.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  position: relative;
+  z-index: 100;
+  width: 30vh;
+  height: 100vh;
+  margin-left: 2vw;
+  animation: error_2_move infinite linear 5s;
+}
+@keyframes error_2_move {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(-2deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(2deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
+}
+.error_3 {
+  background: url(../images/4.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  position: relative;
+  z-index: 100;
+  width: 30vh;
+  height: 100vh;
+  margin-left: 1vw;
+  animation: error_3_move infinite linear 4s;
+}
+@keyframes error_3_move {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(3deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(-3deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
+}
+.error p {
+  text-align: center;
+  width: 42vw;
+  margin: 0 auto;
+  margin-top: -25vh;
+}
+.to_main {
+  margin-top: 3vh;
+}
+.to_main .tria {
+  margin-top: 0.6vh;
 }
 .to_main a {
   padding-left: 2vh;
@@ -29,4 +90,5 @@
   line-height: 30px;
   margin-top: 0;
   cursor: url(../images/pointer.svg), auto;
+  z-index: 101;
 }
