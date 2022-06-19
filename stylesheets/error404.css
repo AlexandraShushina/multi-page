@@ -1,5 +1,5 @@
 .error section {
-  height: 105vh;
+  height: 107vh;
   position: relative;
   background-color: #0019A8;
 }
@@ -10,7 +10,7 @@
   flex-direction: row;
   justify-content: center;
   margin-left: -5vw;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .rectangle_error_grid {
   display: flex;
@@ -18,12 +18,13 @@
   flex-direction: row;
   justify-content: center;
   margin-left: 30vw;
-  height: 105vh;
+  height: 100vh;
 }
 .error_grid {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  top: 7vh;
 }
 .error_1,
 .rectangle_error_1,
@@ -174,7 +175,8 @@
   text-align: center;
   width: 42vw;
   margin: 0 auto;
-  margin-top: -25vh;
+  /* padding-top: 5vh; */
+  margin-top: -23vh;
   position: relative;
   z-index: 2;
 }
