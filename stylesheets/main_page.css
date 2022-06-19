@@ -200,7 +200,7 @@ section:nth-of-type(5) {
   flex-direction: row;
   justify-content: start;
   position: relative;;
- z-index: 100;
+  z-index: 100;
 }
 .rectangle_transparent_1 {
   width: 25vh;
