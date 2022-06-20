@@ -178,4 +178,299 @@ $(".container_trees .tree_4").hover(function(){
   // $(".form .tria").on("click", function(){
   //
   // });
+// Веб-постер
+$( function() {
+  $( "#piece_1" ).draggable();
+} );
+$( function() {
+  $( "#piece_2" ).draggable();
+} );
+$( function() {
+  $( "#piece_3" ).draggable();
+} );
+$( function() {
+  $( "#piece_4" ).draggable();
+} );
+$( function() {
+  $( "#piece_5" ).draggable();
+} );
+$( function() {
+  $( "#piece_6" ).draggable();
+} );
+$( function() {
+$( "#piece_7" ).draggable();
+} );
+$( function() {
+  $( "#piece_8" ).draggable();
+} );
+$( function() {
+  $( "#piece_9" ).draggable();
+} );
+$( function() {
+  $( "#piece_10" ).draggable();
+} );
+$( function() {
+  $( "#piece_11" ).draggable();
+} );
+$( function() {
+  $( "#piece_12" ).draggable();
+} );
+$( function() {
+  $( "#piece_13" ).draggable();
+} );
+$( function() {
+  $( "#piece_14" ).draggable();
+} );
+$( function() {
+  $( "#piece_15" ).draggable();
+} );
+$( function() {
+  $( "#piece_16" ).draggable();
+} );
+$( function() {
+  $( "#piece_17" ).draggable();
+} );
+$( function() {
+  $( "#piece_18" ).draggable();
+} );
+$( function() {
+  $( "#piece_19" ).draggable();
+} );
+$( function() {
+  $( "#piece_20" ).draggable();
+} );
+$( function() {
+  $( "#piece_21" ).draggable();
+} );
+$( function() {
+  $( "#piece_22" ).draggable();
+} );
+$( function() {
+  $( "#piece_23" ).draggable();
+} );
+$( function() {
+  $( "#piece_24" ).draggable();
+} );
+$( function() {
+  $( "#piece_25" ).draggable();
+} );
+$( function() {
+  $( "#piece_26" ).draggable();
+} );
+$( function() {
+  $( "#piece_27" ).draggable();
+} );
+$( function() {
+  $( "#piece_28" ).draggable();
+} );
+$( function() {
+  $( "#piece_29" ).draggable();
+} );
+$( function() {
+  $( "#piece_30" ).draggable();
+} );
+$( function() {
+  $( "#piece_31" ).draggable();
+} );
+$( function() {
+  $( "#piece_32" ).draggable();
+} );
+$( function() {
+  $( "#piece_33" ).draggable();
+} );
+$( function() {
+  $( "#piece_34" ).draggable();
+} );
+$( function() {
+  $( "#piece_35" ).draggable();
+} );
+$( function() {
+  $( "#piece_36" ).draggable();
+} );
+$( function() {
+  $( "#piece_37" ).draggable();
+} );
+$( function() {
+  $( "#piece_38" ).draggable();
+} );
+$( function() {
+  $( "#piece_39" ).draggable();
+} );
+$( function() {
+  $( "#piece_40" ).draggable();
+} );
+$( function() {
+  $( "#piece_41" ).draggable();
+} );
+$( function() {
+  $( "#piece_42" ).draggable();
+} );
+$( function() {
+  $( "#piece_43" ).draggable();
+} );
+$( function() {
+  $( "#piece_44" ).draggable();
+} );
+$( function() {
+  $( "#piece_45" ).draggable();
+} );
+$( function() {
+  $( "#piece_46" ).draggable();
+} );
+$( function() {
+  $( "#piece_47" ).draggable();
+} );
+$( function() {
+  $( "#piece_48" ).draggable();
+} );
+$( function() {
+$( "#piece_49" ).draggable();
+} );
+$( function() {
+  $( "#piece_50" ).draggable();
+} );
+$( function() {
+  $( "#piece_51" ).draggable();
+} );
+$( function() {
+  $( "#piece_52" ).draggable();
+} );
+$( function() {
+  $( "#piece_53" ).draggable();
+} );
+$( function() {
+  $( "#piece_54" ).draggable();
+} );
+$( function() {
+  $( "#piece_55" ).draggable();
+} );
+$( function() {
+  $( "#piece_56" ).draggable();
+} );
+$( function() {
+  $( "#piece_57" ).draggable();
+} );
+$( function() {
+  $( "#piece_58" ).draggable();
+} );
+$( function() {
+  $( "#piece_59" ).draggable();
+} );
+$( function() {
+  $( "#piece_60" ).draggable();
+} );
+$( function() {
+  $( "#piece_61" ).draggable();
+} );
+$( function() {
+  $( "#piece_62" ).draggable();
+} );
+$( function() {
+  $( "#piece_63" ).draggable();
+} );
+$( function() {
+  $( "#piece_64" ).draggable();
+} );
+$( function() {
+  $( "#piece_65" ).draggable();
+} );
+$( function() {
+  $( "#piece_66" ).draggable();
+} );
+$( function() {
+  $( "#piece_67" ).draggable();
+} );
+$( function() {
+  $( "#piece_68" ).draggable();
+} );
+$( function() {
+  $( "#piece_69" ).draggable();
+} );
+$( function() {
+  $( "#piece_70" ).draggable();
+} );
+$( function() {
+  $( "#piece_71" ).draggable();
+} );
+$( function() {
+  $( "#piece_72" ).draggable();
+} );
+$( function() {
+  $( "#piece_73" ).draggable();
+} );
+$( function() {
+  $( "#piece_74" ).draggable();
+} );
+$( function() {
+  $( "#piece_75" ).draggable();
+} );
+$( function() {
+  $( "#piece_76" ).draggable();
+} );
+$( function() {
+  $( "#piece_77" ).draggable();
+} );
+$( function() {
+  $( "#piece_78" ).draggable();
+} );
+$( function() {
+  $( "#piece_79" ).draggable();
+} );
+$( function() {
+  $( "#piece_80" ).draggable();
+} );
+$( function() {
+  $( "#piece_81" ).draggable();
+} );
+$( function() {
+  $( "#piece_82" ).draggable();
+} );
+$( function() {
+  $( "#piece_83" ).draggable();
+} );
+$( function() {
+  $( "#piece_84" ).draggable();
+} );
+$( function() {
+  $( "#piece_85" ).draggable();
+} );
+$( function() {
+  $( "#piece_86" ).draggable();
+} );
+$( function() {
+  $( "#piece_87" ).draggable();
+} );
+$( function() {
+  $( "#piece_88" ).draggable();
+} );
+$( function() {
+  $( "#piece_89" ).draggable();
+} );
+$( function() {
+  $( "#piece_90" ).draggable();
+} );
+$( function() {
+  $( "#piece_91" ).draggable();
+} );
+$(".sweet_change_2").click(function(){
+  if ($(".sweet_change_2").hasClass("opacity")){
+    $(".sweet_change_2").removeClass("opacity");
+    $(".promo").removeClass("opacity");
+  };
+});
+$(".squirrel").hover(function(){
+  if ($(".say_1").hasClass("opacity")){
+    $(".say_1").removeClass("opacity");
+  };
+});
+$(".owl").hover(function(){
+  if ($(".say_2").hasClass("opacity")){
+    $(".say_2").removeClass("opacity");
+  };
+});
+$(".fox").hover(function(){
+  if ($(".say_3").hasClass("opacity")){
+    $(".say_3").removeClass("opacity");
+  };
+});
 });
