@@ -508,21 +508,40 @@ section:nth-of-type(5) {
   width: 65vh;
   height: 52vh;
   margin-top: -68.5vh;
-  margin-left: -8vh;
+  margin-left: -7vh;
   transform: rotate(44deg);
+  animation: doctor_1 infinite linear 5s;
+}
+@keyframes doctor_1 {
+  0%{transform: rotate(44deg); transform-origin: center 210px;}
+  25%{transform: rotate(46deg); transform-origin: center 210px;}
+  50%{transform: rotate(44deg); transform-origin: center 210px;}
+  75%{transform: rotate(42deg); transform-origin: center 210px;}
+  100%{transform: rotate(44deg); transform-origin: center 210px;}
+}
+@keyframes doctor_tree_1 {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(-2deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(2deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
+}
+.doctor_block_1 div:nth-of-type(1) {
+  animation: doctor_tree_1 infinite linear 3.5s;
 }
 .doctor_block_1 p {
-  margin-top: 1vh;
+  margin-top: -1vh;
   margin-left: 17vh; /* расположение подписей к картинкам */
 }
 .rectangle {
   width: 20vh;
-  height: 30vh;
-  margin-top: -28vh;
+  height: 37vh;
+  margin-top: -33vh;
   margin-left: -6vh;
   background-color: #2542E5;
   z-index: 2;
   position: relative;
+  animation: doctor_tree_1 infinite linear 3.5s;
 }
 .gap_5 {
   width: 3vw;
@@ -538,15 +557,32 @@ section:nth-of-type(5) {
   margin-top: -85vh;
   margin-left: -28.5vh;
   transform: rotate(-16deg);
+  animation: doctor_2 infinite linear 4s;
+}
+@keyframes doctor_2 {
+  0%{transform: rotate(-16deg); transform-origin: center 210px;}
+  25%{transform: rotate(-18deg); transform-origin: center 210px;}
+  50%{transform: rotate(-16deg); transform-origin: center 210px;}
+  75%{transform: rotate(-14deg); transform-origin: center 210px;}
+  100%{transform: rotate(-16deg); transform-origin: center 210px;}
 }
 .doctor_block_2 div:nth-of-type(1) {
   margin-top: 1vh; /* выравнивание дерева */
+  animation: doctor_tree_2 infinite linear 4s;
+}
+@keyframes doctor_tree_2 {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(-1deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(1deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
 }
 .doctor_block_2 div:nth-of-type(3) {
-  width: 14.5vh;
+  width: 16vh;
   height: 40vh;
   margin-top: -40vh;
   margin-left: 12vh; /* скрытие части картинки с доктором */
+  animation: doctor_tree_2 infinite linear 4s;
 }
 .p_position_main_page_2 {
   margin-top: 1vh;
@@ -564,6 +600,24 @@ section:nth-of-type(5) {
   margin-left: -28vh;
   transform: rotate(-28deg);
   z-index: 2;
+  animation: doctor_3 infinite linear 5s;
+}
+@keyframes doctor_3 {
+  0%{transform: rotate(-28deg); transform-origin: center 210px;}
+  25%{transform: rotate(-31deg); transform-origin: center 210px;}
+  50%{transform: rotate(-28deg); transform-origin: center 210px;}
+  75%{transform: rotate(-25deg); transform-origin: center 210px;}
+  100%{transform: rotate(-28deg); transform-origin: center 210px;}
+}
+.doctor_block_3 div:nth-of-type(1) {
+  animation: doctor_tree_3 infinite linear 5s;
+}
+@keyframes doctor_tree_3 {
+  0%{transform: rotate(0deg); transform-origin: center bottom;}
+  25%{transform: rotate(-2deg); transform-origin: center bottom;}
+  50%{transform: rotate(0deg); transform-origin: center bottom;}
+  75%{transform: rotate(2deg); transform-origin: center bottom;}
+  100%{transform: rotate(0deg); transform-origin: center bottom;}
 }
 .doctor_block_3 {
   margin-left: -3vw;
