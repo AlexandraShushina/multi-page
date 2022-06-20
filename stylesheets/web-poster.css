@@ -10,11 +10,12 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .arrow {
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
+  width: 75px;
+  height: 75px;
   z-index: 400;
-  margin-top: 5vh;
-  left: 5.5vh;
+  margin-top: 95px;
+  right: 56px;
+  cursor: url(../images/pointer.svg), auto;
 }
 .mask {
   position: absolute;
@@ -394,6 +395,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   margin-top: -1010px;
   position: absolute;
   margin-left: 597px;
+  cursor: url(../images/pointer.svg), auto;
 }
 .sweet_change_2 {
   background-image: url(../images/images_for_web-poster/sweet_change_2.svg);
@@ -403,6 +405,7 @@ section:nth-of-type(2) div:nth-of-type(8) {
   margin-top: -1010px;
   position: absolute;
   margin-left: 597px;
+  cursor: url(../images/pointer.svg), auto;
 }
 .promo {
   z-index: 7;
