@@ -53,6 +53,18 @@
   .names_of_doctors {
     margin-left: 6.1vw;
   }
+  .doctor_1 {
+    margin-left: -12vh;
+  }
+  .doctor_2 {
+    margin-left: -27vh;
+  }
+  .doctor_block_1 p {
+    margin-top: -2vh;
+  }
+  .doctor_block_3 p {
+    margin-top: 21.5vh;
+  }
   .p_start {
     margin-left: 3.5vw;
     margin-top: -9vh;
