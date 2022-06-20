@@ -192,4 +192,11 @@
   .cleaning_day:nth-of-type(7) {
     margin-left: -8.5vh;
   }
+  .events {
+    height: 316vh;
+    width: 100vw;
+  }
+  .events section {
+    top: 0;
+  }
 }
