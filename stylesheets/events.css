@@ -1,8 +1,11 @@
 .events {
   height: 316vh;
+  width: 102vw;
 }
 .events section {
   height: 100vh;
+  top: 2vh;
+  width: 102vw;
 }
 .events section:nth-of-type(1) {
   background-color: #2542E5;
@@ -231,8 +234,14 @@
   width: 15vw;
 }
 .event_and_about {
-  padding-top: 14vh;
+  padding-top: 18vh;
   margin-left: 3.5vw;
+}
+.poster_2,
+.poster_3,
+.poster_5,
+.poster_6 {
+  margin-left: 2vw;
 }
 .poster_1 {
   background: url(../images/poster_1.jpg);
@@ -250,7 +259,7 @@
   position: relative;
   width: 35vh;
   height: 53vh;
-  /* margin-left: 3.5vw; */
+  margin-left: 2vw;
 }
 .poster_3 {
   background: url(../images/poster_3.jpg);
@@ -259,7 +268,6 @@
   position: relative;
   width: 25vh;
   height: 38vh;
-  /* margin-left: 3.5vw; */
 }
 .poster_4 {
   background: url(../images/poster_4.jpg);
