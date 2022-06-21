@@ -40,7 +40,7 @@
   .p_width_2,
   .heading_events,
   .heading_announcements,
-  .event_and_about {
+  .event_description {
     margin-left: 6vw;
   }
   .heading_start {
@@ -197,6 +197,9 @@
     width: 100vw;
   }
   .events section {
+    top: 0;
+  }
+  .events .footer {
     top: 0;
   }
 }
