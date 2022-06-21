@@ -315,6 +315,18 @@
 .p_margin-top_6 {
   margin-top: calc(53vh - 272px);
 }
+.events_tree {
+  background: url(../images/events_tree.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 23vh;
+  height: 100vh;
+  z-index: 3;
+  margin-left: 42vw;
+  margin-top: -92vh;
+}
 .events .footer {
   top: 1.5vh;
 }
