@@ -306,8 +306,11 @@
 .description label {
   margin-top: 3vh;
 }
-.description p:nth-child(6) {
+.p_margin-top_5 {
   margin-top: calc(53vh - 242px);
+}
+.p_margin-top_6 {
+  margin-top: calc(53vh - 272px);
 }
 .events .footer {
   top: 1.5vh;
