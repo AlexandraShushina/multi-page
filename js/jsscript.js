@@ -1,5 +1,5 @@
-// Анимация стартовой страницы
 $(document).ready(function(){
+  // Анимация стартовой страницы
   $(".rectangle_transparent_1").on("click", function(){
     if ($(".rectangle_transparent_1").hasClass("flag_1")) {
       $(".container_trees .tree_1").css("z-index","200");
@@ -183,7 +183,7 @@ $(".container_trees .tree_4").hover(function(){
   $("a.scrollto").click(function () {
     elementClick = $(this).attr("href")
     destination = $(elementClick).offset().top;
-    $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+    $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   });
 
