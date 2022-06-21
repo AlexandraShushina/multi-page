@@ -527,7 +527,7 @@ section:nth-of-type(5) {
   100%{transform: rotate(0deg); transform-origin: center bottom;}
 }
 .doctor_block_1 div:nth-of-type(1) {
-  animation: doctor_tree_1 infinite linear 3.5s;
+  animation: doctor_tree_1 infinite linear 5s;
 }
 .doctor_block_1 p {
   margin-top: -1vh;
