@@ -186,7 +186,7 @@ $(".container_trees .tree_4").hover(function(){
     $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   });
-
+  
 // Веб-постер
   $( function() {
     $( "#piece_1" ).draggable();
