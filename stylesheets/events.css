@@ -21,7 +21,7 @@
   position: relative;
   width: 49.5vh;
   height: 7vh;
-  top: 7.5vh;
+  top: 5.5vh;
   margin-left: 3.5vw;
 }
 .heading_announcements {
@@ -54,8 +54,8 @@
 .round_table,
 .cleaning_day,
 .container_trees_3,
-.event_and_about,
-.date_and_time {
+.event_description,
+.date_time {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -65,7 +65,7 @@
 .calendar {
   height: 90vh;
   position: relative;
-  padding-top: 18vh;
+  padding-top: 14vh;
 }
 .calendar_tree {
   background: url(../images/calendar_tree.svg);
@@ -231,9 +231,9 @@
 }
 .p_width_3 {
   margin-left: 0;
-  width: 15vw;
+  width: 16vw;
 }
-.event_and_about {
+.event_description {
   padding-top: 18vh;
   margin-left: 3.5vw;
 }
@@ -296,4 +296,19 @@
   width: 21vh;
   height: 32vh;
   margin-left: 2vw;
+}
+.date_time p:nth-of-type(2) {
+  margin-left: 4vw;
+}
+.p_margin-top_4 {
+  margin-top: 5vh;
+}
+.description label {
+  margin-top: 3vh;
+}
+.description p:nth-child(6) {
+  margin-top: calc(53vh - 242px);
+}
+.events .footer {
+  top: 1.5vh;
 }
