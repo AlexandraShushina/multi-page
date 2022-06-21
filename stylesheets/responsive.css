@@ -202,4 +202,7 @@
   .events .footer {
     top: 0;
   }
+  .heading_events {
+    top: 7.5vh;
+  }
 }
