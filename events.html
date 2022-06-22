@@ -110,7 +110,7 @@
           <p class="text_small text_transparent p_width_3 p_margin-top_5">предупреди нас о&nbsp;своём приходе</p>
           <input type="checkbox" class="custom_checkbox"><label for="checkbox_1">я приду!</label>
         </div>
-        <div class="poster_1_change">
+        <!-- <div class="poster_1_change">
           <div class="poster_1"></div>
           <div class="poster_1_bg_2"></div>
           <div class="poster_1_bg_3"></div>
@@ -124,8 +124,60 @@
           <div class="poster_3"></div>
           <div class="poster_3_bg_1"></div>
           <div class="poster_3_bg_2"></div>
+        </div> -->
+    <div class="poster_1 next" onclick="moveSlides(1)"><i></i>
+        <div class="slide">
+            <div class="slideNumber">1</div>
+            <img src="images/poster_1.jpg">
         </div>
-      </div>
+        <div class="slide">
+            <div class="slideNumber">2</div>
+            <img src="images/poster_2.jpg">
+        </div>
+        <div class="slide">
+            <div class="slideNumber">3</div>
+            <img src="images/poster_3.jpg">
+        </div>
+    </div>
+    <div class="poster_2 next" onclick="moveSlides(1)"><i></i>
+        <div class="slide">
+            <div class="slideNumber">2</div>
+            <img src="images/poster_2.jpg">
+        </div>
+        <div class="slide">
+            <div class="slideNumber">3</div>
+            <img src="images/poster_3.jpg">
+        </div>
+        <div class="slide">
+            <div class="slideNumber">1</div>
+            <img src="images/poster_1.jpg">
+        </div>
+    </div>
+    <script>
+      var slideIndex = 1;
+      displaySlide(slideIndex);
+      function moveSlides(n) {
+        displaySlide(slideIndex += n);
+      }
+      function activeSlide(n) {
+        displaySlide(slideIndex = n);
+      }
+      function displaySlide(n) {
+        var i;
+        var totalslides =
+          document.getElementsByClassName("slide");
+            if (n > totalslides.length) {
+              slideIndex = 1;
+            }
+            if (n < 1) {
+              slideIndex = totalslides.length;
+            }
+            for (i = 0; i < totalslides.length; i++) {
+              totalslides[i].style.display = "none";
+            }
+              totalslides[slideIndex - 1].style.display = "block";
+            }
+      </script>
     </section>
     <!-- Анонс волонтёрства -->
     <section id="volunteering">
@@ -162,6 +214,7 @@
         <p>Отказ от ответственности: любая хирургическая</br>или инвазивная процедура несет в себе риски. Прежде</br>чем продолжить, вам следует проконсультироваться</br>с соответствующим квалифицированным хирургом</p>
       </div>
     </footer>
+    <div>
   </div>
 </body>
 </html>
