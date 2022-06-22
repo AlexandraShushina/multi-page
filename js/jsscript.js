@@ -186,11 +186,22 @@ $(".container_trees .tree_4").hover(function(){
     $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   });
-  $(".poster_2_change").on("click", function(){
-    $(".poster_1_bg_2").toggleClass("opacity_1");
-    $(".poster_2").toggleClass("opacity_0");
+  $(".poster_2").on("click", function(){
+    $(".poster_1_bg_2").css("z-index","500");
+    $(".poster_2").css("z-index","1");
   });
-
+  $(".poster_2_bg_1").on("click", function(){
+    $(".poster_1_bg_2").css("z-index","1");
+    $(".poster_2").css("z-index","500");
+  });
+  $(".poster_3").on("click", function(){
+    $(".poster_1_bg_3").css("z-index","500");
+    $(".poster_3").css("z-index","1");
+  });
+  $(".poster_3_bg_1").on("click", function(){
+    $(".poster_1_bg_3").css("z-index","1");
+    $(".poster_3").css("z-index","500");
+  });
 // Веб-постер
   $( function() {
     $( "#piece_1" ).draggable();
