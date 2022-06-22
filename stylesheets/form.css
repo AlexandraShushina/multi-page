@@ -24,6 +24,9 @@
   margin-left: 3.5vw;
   position: relative;
 }
+.name_registration {
+  width: 14vw;
+}
 form {
   width: 35vw;
   height: 85vh;
@@ -208,6 +211,10 @@ form input:nth-of-type(9) {
   cursor: pointer;
 }
 .slideNumber {
+  display: none;
+  position: absolute;
+}
+.nameNumber {
   display: none;
   position: absolute;
 }
