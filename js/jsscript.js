@@ -186,7 +186,11 @@ $(".container_trees .tree_4").hover(function(){
     $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   });
-  
+  $(".poster_2_change").on("click", function(){
+    $(".poster_1_bg_2").toggleClass("opacity_1");
+    $(".poster_2").toggleClass("opacity_0");
+  });
+
 // Веб-постер
   $( function() {
     $( "#piece_1" ).draggable();
