@@ -541,7 +541,7 @@ section:nth-of-type(5) {
   background-color: #2542E5;
   z-index: 2;
   position: relative;
-  animation: doctor_tree_1 infinite linear 3.5s;
+  animation: doctor_tree_1 infinite linear 5s;
 }
 .gap_5 {
   width: 3vw;
