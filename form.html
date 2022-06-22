@@ -28,11 +28,49 @@
       <div class="form_grid">
         <div class="doctor_block_2">
           <div class="tree_1_blue"></div>
-          <div class="doctor_sequence"></div>
+          <div class="doctor_sequence">
+              <div class="slide pos_2">
+                  <div class="slideNumber">1</div>
+                  <img src="images/doctor_2.png">
+              </div>
+              <div class="slide pos_3">
+                  <div class="slideNumber">2</div>
+                  <img src="images/doctor_3.png">
+              </div>
+              <div class="slide pos_1">
+                  <div class="slideNumber">3</div>
+                  <img src="images/doctor_1.png">
+              </div>
+          </div>
+          <script>
+            var slideIndex = 1;
+            displaySlide(slideIndex);
+            function moveSlides(n) {
+              displaySlide(slideIndex += n);
+            }
+            function activeSlide(n) {
+              displaySlide(slideIndex = n);
+            }
+            function displaySlide(n) {
+              var i;
+              var totalslides =
+                document.getElementsByClassName("slide");
+                  if (n > totalslides.length) {
+                    slideIndex = 1;
+                  }
+                  if (n < 1) {
+                    slideIndex = totalslides.length;
+                  }
+                  for (i = 0; i < totalslides.length; i++) {
+                    totalslides[i].style.display = "none";
+                  }
+                    totalslides[slideIndex - 1].style.display = "block";
+                  }
+            </script>
           <div class="rectangle rectangle_color"></div>
           <p class="p_position_form">Поливин Андрей,</br>хирург</p>
           <input type="checkbox" class="custom_checkbox"><label for="checkbox_1">запись</label>
-          <div class="tria tria_slider"></div>
+          <div class="tria tria_slider next" onclick="moveSlides(1)"><i></i></div>
         </div>
         <form action="">
           <label for="surname">Фамилия</label><input type="text">
