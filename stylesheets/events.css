@@ -246,6 +246,18 @@
 .poster_6 {
   margin-left: 2vw;
 }
+.opacity_1 {
+  opacity: 1;
+}
+.opacity_0 {
+  opacity: 0;
+}
+.z_500 {
+  z-index: 500;
+}
+.z_1 {
+  z-index: 1;
+}
 .poster_1 {
   background: url(../images/poster_1.jpg);
   background-size: 100%;
@@ -254,6 +266,7 @@
   width: 44vh;
   height: 67vh;
   margin-left: 3.5vw;
+  z-index: 500;
 }
 .poster_1_bg_2 {
   background: url(../images/poster_2.jpg);
@@ -264,7 +277,7 @@
   height: 67vh;
   margin-left: 3.5vw;
   margin-top: -67vh;
-  opacity: 0;
+  z-index: 499;
 }
 .poster_1_bg_3 {
   background: url(../images/poster_3.jpg);
@@ -274,14 +287,8 @@
   width: 44vh;
   height: 67vh;
   margin-left: 3.5vw;
-  margin-top: -134vh;
-  opacity: 0;
-}
-.opacity_1 {
-  opacity: 1;
-}
-.opacity_0 {
-  opacity: 0;
+  margin-top: -67vh;
+  z-index: 498;
 }
 .poster_2 {
   background: url(../images/poster_2.jpg);
@@ -302,8 +309,7 @@
   height: 48vh;
   margin-left: 2vw;
   margin-top: -48vh;
-  opacity: 1;
-  z-index: 1;
+  z-index: 499;
 }
 .poster_3 {
   background: url(../images/poster_3.jpg);
@@ -313,6 +319,18 @@
   width: 21vh;
   height: 32vh;
   margin-left: 2vw;
+  z-index: 500;
+}
+.poster_3_bg_1 {
+  background: url(../images/poster_1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 21vh;
+  height: 32vh;
+  margin-top: -32vh;
+  margin-left: 2vw;
+  z-index: 499;
 }
 .poster_4 {
   background: url(../images/poster_4.jpg);
