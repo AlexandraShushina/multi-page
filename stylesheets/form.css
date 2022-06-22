@@ -63,7 +63,7 @@ form label:nth-of-type(8) {
 form label:nth-of-type(9) {
   margin-left: calc(154px + 6vw);  /* положение нижней радиокнопки */
 }
-.doctor_block_2 label {
+.name_registration label {
   margin-top: 3vh;  /* положение радиокнопки записи */
 }
 input[type=text],
@@ -159,10 +159,10 @@ form input:nth-of-type(9) {
   width: calc(27vw - 100.1px);
 }
 .form_grid .doctor_block_2 {
-  width: 60vh;
+  width: 40vh;
 }
 .p_position_form {
-  margin-top: -5.5vh; /* положение имени врача */
+  margin-top: 80.5vh; /* положение имени врача */
 }
 .tree_1_blue {
   background: url(../images/tree_1_blue.svg);
@@ -173,13 +173,13 @@ form input:nth-of-type(9) {
   width: 23vh;
   height: 100vh;
   z-index: 3;
-  margin-left: 33vh;
+  margin-left: 10vh;
 }
 .doctor_sequence {
   width: 35vh;
   height: 55vh;
   margin-top: -70vh;
-  margin-left: 21vh;
+  margin-left: -2vh;
 }
 .doctor_sequence img {
   margin-top: 3vh;
@@ -213,7 +213,7 @@ form input:nth-of-type(9) {
 }
 .rectangle_color {
   background-color: #0019A8;
-  left: 35vh;
+  left: 12vh;
   top: -3vh;
 }
 .tria_slider {
@@ -222,6 +222,6 @@ form input:nth-of-type(9) {
   cursor: url(../images/pointer.svg), auto;
 }
 .form .tria_slider {
-  margin-left: 55.5vh;
-  margin-top: -33vh;
+  margin-left: 33vh;
+  margin-top: -25vh;
 }
