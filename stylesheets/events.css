@@ -381,6 +381,18 @@
   height: 32vh;
   margin-left: 2vw;
 }
+.poster_1 img,
+.poster_2 img,
+.poster_3 img {
+  width: 100%;
+}
+.next {
+  cursor: pointer;
+}
+.slideNumber {
+  display: none;
+  position: absolute;
+}
 .date_time p:nth-of-type(2) {
   margin-left: 4vw;
 }
