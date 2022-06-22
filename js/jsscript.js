@@ -186,40 +186,56 @@ $(".container_trees .tree_4").hover(function(){
     $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   });
-  $(".poster_2").on("click", function(){
-    $(".poster_1_bg_2").css("z-index","500");
-    $(".poster_2").css("z-index","0");
-    $(".poster_1").addClass("change_1");
-  });
-  $(".poster_2_bg_1").on("click", function(){
-    $(".poster_1_bg_2").css("z-index","1");
-    $(".poster_2").css("z-index","500");
-    $(".poster_1").removeClass("change_1");
-  });
-  $(".poster_3").on("click", function(){
-    if ($(".poster_1").hasClass("change_1")) {
-      $(".poster_1_bg_3").css("z-index","500");
-      $(".poster_3_bg_2").css("z-index","500");
-      $(".poster_1").removeClass("change_1");
-    };
-  });
-  $(".poster_3").on("click", function(){
-    $(".poster_1_bg_3").css("z-index","500");
-    $(".poster_3").css("z-index","1");
-    $(".poster_1").addClass("change_2");
-  });
-  $(".poster_3_bg_1").on("click", function(){
-    $(".poster_1_bg_3").css("z-index","1");
-    $(".poster_3").css("z-index","500");
-    $(".poster_1").removeClass("change_2");
-  });
-  $(".poster_2").on("click", function(){
-    if ($(".poster_1").hasClass("change_2")) {
-      $(".poster_1_bg_3").css("z-index","499");
-      $(".poster_2_bg_3").css("z-index","500");
-      $(".poster_1").removeClass("change_2");
-    };
-  });
+  // $(".poster_2").on("click", function(){
+  //   if ($(".poster_1").hasClass("change_3")) {
+  //     $(this).css("z-index","0");
+  //     $(".poster_1_bg_3").css("z-index","0");
+  //   };
+  // });
+  // $(".poster_2").on("click", function(){
+  //   $(".poster_1_bg_2").css("z-index","500");
+  //   $(".poster_2").css("z-index","0");
+  //   $(".poster_1").addClass("change_1");
+  // });
+  // $(".poster_2_bg_1").on("click", function(){
+  //   $(".poster_1_bg_2").css("z-index","1");
+  //   $(".poster_2").css("z-index","500");
+  //   $(".poster_1").removeClass("change_1");
+  // });
+  // $(".poster_3").on("click", function(){
+  //   if ($(".poster_1").hasClass("change_1")) {
+  //     $(".poster_1_bg_3").css("z-index","500");
+  //     $(".poster_3_bg_2").css("z-index","500");
+  //     $(".poster_1").removeClass("change_1");
+  //   };
+  // });
+  // $(".poster_3").on("click", function(){
+  //   $(".poster_1_bg_3").css("z-index","500");
+  //   $(".poster_3").css("z-index","1");
+  //   $(".poster_1").addClass("change_2");
+  // });
+  // $(".poster_3_bg_1").on("click", function(){
+  //   $(".poster_1_bg_3").css("z-index","1");
+  //   $(".poster_3").css("z-index","500");
+  //   $(".poster_1").removeClass("change_2");
+  // });
+  // $(".poster_2").on("click", function(){
+  //   if ($(".poster_1").hasClass("change_2")) {
+  //     $(".poster_1_bg_3").css("z-index","499");
+  //     $(".poster_2_bg_3").css("z-index","500");
+  //     $(".poster_1").removeClass("change_2");
+  //   };
+  // });
+  // $(".poster_2_bg_3").on("click", function(){
+  //   $(this).css("z-index","0");
+  //   $(".poster_1_bg_3").css("z-index","500");
+  //   $(".poster_2").css("z-index","500");
+  //   $(".poster_1").addClass("change_3");
+  // });
+  // $(".poster_2").on("click", function(){
+  //   $(this)
+  // }
+  
 // Веб-постер
   $( function() {
     $( "#piece_1" ).draggable();
