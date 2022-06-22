@@ -176,28 +176,45 @@ form input:nth-of-type(9) {
   margin-left: 33vh;
 }
 .doctor_sequence {
-  width: 30vh;
+  width: 35vh;
   height: 55vh;
-  background: url(../images/doctor_sequence.png);
-  background-size: 370%;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: top 0 left 2vh;
   margin-top: -70vh;
   margin-left: 21vh;
-  animation: doctor_sequence infinite linear 4s;
 }
-@keyframes doctor_sequence {
-  0%{transform: rotate(0deg); transform-origin: center 210px;}
-  25%{transform: rotate(-2deg); transform-origin: center 210px;}
-  50%{transform: rotate(0deg); transform-origin: center 210px;}
-  75%{transform: rotate(2deg); transform-origin: center 210px;}
-  100%{transform: rotate(0deg); transform-origin: center 210px;}
+.doctor_sequence img {
+  margin-top: 3vh;
+}
+.pos_2 img {
+  width: 102%;
+  animation: doctor_2 infinite linear 4s;
+}
+.pos_3 img {
+  width: 90%;
+  animation: doctor_3 infinite linear 4s;
+}
+.pos_1 img {
+  width: 190%;
+  margin-left: -8vh;
+  animation: doctor_1_new infinite linear 4s;
+}
+@keyframes doctor_1_new {
+  0%{transform: rotate(-16deg); transform-origin: center 210px;}
+  25%{transform: rotate(-18deg); transform-origin: center 210px;}
+  50%{transform: rotate(-16deg); transform-origin: center 210px;}
+  75%{transform: rotate(-14deg); transform-origin: center 210px;}
+  100%{transform: rotate(-16deg); transform-origin: center 210px;}
+}
+.next {
+  cursor: pointer;
+}
+.slideNumber {
+  display: none;
+  position: absolute;
 }
 .rectangle_color {
   background-color: #0019A8;
   left: 35vh;
-  top: -9vh;
+  top: -3vh;
 }
 .tria_slider {
   position: relative;
