@@ -25,7 +25,7 @@
   position: relative;
 }
 .name_registration {
-  width: 14vw;
+  width: 17vw;
 }
 form {
   width: 35vw;
@@ -162,7 +162,7 @@ form input:nth-of-type(9) {
   width: calc(27vw - 100.1px);
 }
 .form_grid .doctor_block_2 {
-  width: 40vh;
+  width: 35vh;
 }
 .p_position_form {
   margin-top: 80.5vh; /* положение имени врача */
@@ -176,13 +176,13 @@ form input:nth-of-type(9) {
   width: 23vh;
   height: 100vh;
   z-index: 3;
-  margin-left: 10vh;
+  margin-left: 7vh;
 }
 .doctor_sequence {
   width: 35vh;
   height: 55vh;
   margin-top: -70vh;
-  margin-left: -2vh;
+  margin-left: -5vh;
 }
 .doctor_sequence img {
   margin-top: 3vh;
@@ -220,7 +220,7 @@ form input:nth-of-type(9) {
 }
 .rectangle_color {
   background-color: #0019A8;
-  left: 12vh;
+  left: 9vh;
   top: -3vh;
 }
 .tria_slider {
@@ -229,6 +229,6 @@ form input:nth-of-type(9) {
   cursor: url(../images/pointer.svg), auto;
 }
 .form .tria_slider {
-  margin-left: 33vh;
+  margin-left: 30vh;
   margin-top: -25vh;
 }
