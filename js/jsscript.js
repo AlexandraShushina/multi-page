@@ -203,17 +203,22 @@ $(".container_trees .tree_4").hover(function(){
       $(".poster_1").removeClass("change_1");
     };
   });
-  $(".poster_2_bg_3").on("click", function(){
-    $(".poster_1_bg_3").css("z-index","500");
-    $(".poster_2").css("z-index","500");
-  });
   $(".poster_3").on("click", function(){
     $(".poster_1_bg_3").css("z-index","500");
     $(".poster_3").css("z-index","1");
+    $(".poster_1").addClass("change_2");
   });
   $(".poster_3_bg_1").on("click", function(){
     $(".poster_1_bg_3").css("z-index","1");
     $(".poster_3").css("z-index","500");
+    $(".poster_1").removeClass("change_2");
+  });
+  $(".poster_2").on("click", function(){
+    if ($(".poster_1").hasClass("change_2")) {
+      $(".poster_1_bg_3").css("z-index","499");
+      $(".poster_2_bg_3").css("z-index","500");
+      $(".poster_1").removeClass("change_2");
+    };
   });
 // Веб-постер
   $( function() {
