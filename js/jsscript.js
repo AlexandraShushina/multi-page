@@ -174,11 +174,6 @@ $(".container_trees .tree_4").hover(function(){
       $(".error_3").toggleClass("error_3_green");
   });
 
-  // Анимация формы
-  // $(".form .tria").on("click", function(){
-  //
-  // });
-
   // Анимация событий
   $("a.scrollto").click(function () {
     elementClick = $(this).attr("href")
