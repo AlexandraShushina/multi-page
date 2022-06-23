@@ -216,6 +216,13 @@ $(".container_trees .tree_4").hover(function(){
 	  $('#poster_5').append(left);
 	   return false;
   });
+  $('.poster_rectangle_5').click(function(){
+    var left = $('#description_4 > *');
+    var right = $('#description_5 > *');
+    $('#description_4').append(right);
+    $('#description_5').append(left);
+     return false;
+  });
   $('.poster_rectangle_6').click(function(){
     var left = $('#poster_4 > *');
     var right = $('#poster_6 > *');
@@ -223,7 +230,13 @@ $(".container_trees .tree_4").hover(function(){
     $('#poster_6').append(left);
     return false;
   });
-
+  $('.poster_rectangle_6').click(function(){
+    var left = $('#description_4 > *');
+    var right = $('#description_6 > *');
+    $('#description_4').append(right);
+    $('#description_6').append(left);
+     return false;
+  });
 // Веб-постер
   $( function() {
     $( "#piece_1" ).draggable();
