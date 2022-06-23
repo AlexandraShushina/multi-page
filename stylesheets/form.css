@@ -34,7 +34,7 @@ form {
   position: relative;
   background-color: #2542E5;
   margin-top: 7.5vh;
-  margin-left: 4vw;
+  margin-left: 5vw;
   z-index: 3;
 }
 form p {
@@ -229,7 +229,7 @@ form input:nth-of-type(9) {
   cursor: url(../images/pointer.svg), auto;
 }
 .form .tria_slider {
-  margin-left: -5vh;
+  margin-left: -6vh;
   margin-top: 62vh;
 }
 #button_form {
