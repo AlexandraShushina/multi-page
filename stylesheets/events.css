@@ -241,11 +241,13 @@
   padding-top: 18vh;
   margin-left: 3.5vw;
 }
-#description_2 {
+#description_2,
+#description_5 {
   opacity: 0;
   margin-top: -67vh;
 }
-#description_3 {
+#description_3,
+#description_6 {
   opacity: 0;
   margin-top: -134vh;
 }
