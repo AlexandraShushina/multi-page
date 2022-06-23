@@ -181,28 +181,28 @@ $(".container_trees .tree_4").hover(function(){
     $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   });
-  $('#poster_1, #poster_2').click(function(){
+  $('.poster_rectangle_2').click(function(){
 	  var left = $('#poster_1 > *');
 	  var right = $('#poster_2 > *');
 	  $('#poster_1').append(right);
 	  $('#poster_2').append(left);
 	   return false;
   });
-  $('#poster_3, #poster_1').click(function(){
+  $('.poster_rectangle_3').click(function(){
     var left = $('#poster_1 > *');
     var right = $('#poster_3 > *');
     $('#poster_1').append(right);
     $('#poster_3').append(left);
     return false;
   });
-  $('#poster_4, #poster_5').click(function(){
+  $('.poster_rectangle_5').click(function(){
 	  var left = $('#poster_4 > *');
 	  var right = $('#poster_5 > *');
 	  $('#poster_4').append(right);
 	  $('#poster_5').append(left);
 	   return false;
   });
-  $('#poster_6, #poster_4').click(function(){
+  $('.poster_rectangle_6').click(function(){
     var left = $('#poster_4 > *');
     var right = $('#poster_6 > *');
     $('#poster_4').append(right);
