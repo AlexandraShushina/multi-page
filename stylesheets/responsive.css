@@ -152,6 +152,9 @@
   .slideshow_book_and_price {
     margin-top: 4.5vh;
   }
+  .excursion {
+    height: 373vh;
+  }
   .calendar {
     margin-left: 9vh;
   }
@@ -193,7 +196,7 @@
     margin-left: -8.5vh;
   }
   .events {
-    height: 316vh;
+    height: 319.5vh;
     width: 100vw;
   }
   .events section {
