@@ -15,6 +15,9 @@
 .events section:nth-of-type(3) {
   background-color: #0019A8;
 }
+.events section:nth-of-type(3) {
+  overflow: hidden;
+}
 .events a {
   z-index: 400;
 }
@@ -310,4 +313,18 @@
   z-index: 3;
   margin-left: 42vw;
   margin-top: -92vh;
+  animation: tree_1_move infinite linear 3s;
+}
+.events_tree_green {
+  background: url(../images/events_tree_green.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 23vh;
+  height: 102vh;
+  z-index: 3;
+  margin-left: 42vw;
+  margin-top: -92vh;
+  animation: tree_1_move infinite linear 3s;
 }
