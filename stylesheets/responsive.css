@@ -180,19 +180,22 @@
   .date_7 {
     margin-left: 1.5vh;
   }
-  .cleaning_day:nth-of-type(3) {
-    margin-left: 23.5vh;
+  .round_table:nth-of-type(1) {
+    margin-left: -0.5vh;
   }
-  .round_table:nth-of-type(4) {
-    margin-left: -6vh;
+  .round_table:nth-of-type(3) {
+    margin-left: 22.5vh;
   }
-  .round_table:nth-of-type(5) {
-    margin-left: -4.5vh;
+  .cleaning_day:nth-of-type(4) {
+    margin-left: -3.5vh;
+  }
+  .cleaning_day:nth-of-type(5) {
+    margin-left: -9.5vh;
   }
   .cleaning_day:nth-of-type(6) {
-    margin-left: 2vh;
+    margin-left: -3vh;
   }
-  .cleaning_day:nth-of-type(7) {
+  .round_table:nth-of-type(7) {
     margin-left: -8.5vh;
   }
   .events {
