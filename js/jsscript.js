@@ -81,40 +81,29 @@ $(document).ready(function(){
     $(".container_trees .tree_4").toggleClass("tree_4_green");
   });
 
+// Анимация формы
+function clear() {
+document.getElementsById('form')[0].reset();
+}
+
 // Анимация страницы экскурсии
-  $(".rectangle_long_2").on("click", function(){
-    if ($(this).hasClass("flag_1")) {
-      $(".slide_renders_image").css("z-index","101");
-      $(".plan_about").css("z-index","101");
-      $(".rectangle_long_2").removeClass("flag_1");
-    } else {
-      $(".slide_renders_image").css("z-index","0");
-      $(".plan_about").css("z-index","0");
-      $( ".rectangle_long_2" ).addClass("flag_1");
-    };
-  });
   $(".rectangle_long_2").hover(function(){
     $(".tree_2_long").toggleClass("tree_2_long_green");
   });
-  $(".tree_2_long").hover(function(){
-    $(".tree_2_long").toggleClass("tree_2_long_green");
+  $(".rectangle_long_2").on("click", function(){
+    $(".tree_2_long").toggleClass("tree_2_long_z");
   });
-  $(".rectangle_long_4").on("click", function(){
-    if ($(this).hasClass("flag_1")) {
-      $(".slide_renders_image").css("z-index","101");
-      $(".plan_about").css("z-index","101");
-      $(".rectangle_long_4").removeClass("flag_1");
-    } else {
-      $(".slide_renders_image").css("z-index","0");
-      $(".plan_about").css("z-index","0");
-      $( ".rectangle_long_4" ).addClass("flag_1");
-    };
+  $(".rectangle_long_2").hover(function(){
+    $(".tree_2_long_z").toggleClass(".tree_2_long_z_green");
   });
   $(".rectangle_long_4").hover(function(){
     $(".tree_4_long").toggleClass("tree_4_long_green");
   });
-  $(".tree_4_long").hover(function(){
-    $(".tree_4_long").toggleClass("tree_4_long_green");
+  $(".rectangle_long_4").on("click", function(){
+    $(".tree_4_long").toggleClass("tree_4_long_z");
+  });
+  $(".rectangle_long_4").hover(function(){
+    $(".tree_4_long_z").toggleClass(".tree_4_long_z_green");
   });
 
   // Error404
@@ -239,8 +228,14 @@ $(document).ready(function(){
     $('#description_6').append(left);
      return false;
   });
-  $(".events_tree").hover(function(){
-      $(".events_tree").toggleClass("events_tree_green");
+  $(".events_tree_rectangle").hover(function(){
+    $(".events_tree").toggleClass("events_tree_green");
+  });
+  $(".events_tree_rectangle").on("click", function(){
+    $(".events_tree").toggleClass("events_tree_z");
+  });
+  $(".events_tree_rectangle").hover(function(){
+    $(".events_tree_z").toggleClass("events_tree_green_z");
   });
 // Веб-постер
   $( function() {
