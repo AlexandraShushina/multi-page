@@ -263,7 +263,7 @@
 #poster_6 {
   width: 21vh;
   height: 32vh;
-  margin-left: 3.5vw;
+  margin-left: 2vw;
   position: relative;
 }
 .poster_1,
@@ -275,6 +275,12 @@
   width: 100%;
   height: auto;
   position: relative;
+}
+.poster_2,
+.poster_3,
+.poster_5,
+.poster_6 {
+  cursor: url(../images/pointer.svg), auto;
 }
 .next {
   cursor: pointer;
