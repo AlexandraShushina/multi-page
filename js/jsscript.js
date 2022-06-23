@@ -188,12 +188,26 @@ $(".container_trees .tree_4").hover(function(){
 	  $('#poster_2').append(left);
 	   return false;
   });
+  $('.poster_rectangle_2').click(function(){
+    var left = $('#description_1 > *');
+    var right = $('#description_2 > *');
+    $('#description_1').append(right);
+    $('#description_2').append(left);
+     return false;
+  });
   $('.poster_rectangle_3').click(function(){
     var left = $('#poster_1 > *');
     var right = $('#poster_3 > *');
     $('#poster_1').append(right);
     $('#poster_3').append(left);
     return false;
+  });
+  $('.poster_rectangle_3').click(function(){
+    var left = $('#description_1 > *');
+    var right = $('#description_3 > *');
+    $('#description_1').append(right);
+    $('#description_3').append(left);
+     return false;
   });
   $('.poster_rectangle_5').click(function(){
 	  var left = $('#poster_4 > *');
