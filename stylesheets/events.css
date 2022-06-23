@@ -241,6 +241,10 @@
   padding-top: 18vh;
   margin-left: 3.5vw;
 }
+#description_2 {
+  opacity: 0;
+  margin-top: -67vh;
+}
 #poster_1,
 #poster_4 {
   width: 44vh;
