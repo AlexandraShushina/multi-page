@@ -187,69 +187,34 @@ $(".container_trees .tree_4").hover(function(){
     return false;
   });
   $('#poster_1, #poster_2').click(function(){
-	var left = $('#poster_1 > *');
-	var right = $('#poster_2 > *');
-	$('#poster_1').append(right);
-	$('#poster_2').append(left);
+	  var left = $('#poster_1 > *');
+	  var right = $('#poster_2 > *');
+	  $('#poster_1').append(right);
+	  $('#poster_2').append(left);
+	   return false;
+  });
+  $('#poster_3, #poster_1').click(function(){
+    var left = $('#poster_1 > *');
+    var right = $('#poster_3 > *');
+    $('#poster_1').append(right);
+    $('#poster_3').append(left);
+    return false;
+  });
+  $('#poster_4, #poster_5').click(function(){
+	  var left = $('#poster_4 > *');
+	  var right = $('#poster_5 > *');
+	  $('#poster_4').append(right);
+	  $('#poster_5').append(left);
+	   return false;
+  });
+  $('#poster_6, #poster_4').click(function(){
+    var left = $('#poster_4 > *');
+    var right = $('#poster_6 > *');
+    $('#poster_4').append(right);
+    $('#poster_6').append(left);
+    return false;
+  });
 
-	return false;
-});
-$('#poster_3, #poster_1').click(function(){
-var left = $('#poster_1 > *');
-var right = $('#poster_3 > *');
-$('#poster_1').append(right);
-$('#poster_3').append(left);
-
-return false;
-});
-//   $('#button').click(function(){
-// 	$('.poster_1, .poster_2').each(function() {
-// 		if ($(this).next()) {
-// 			el = $(this).next();
-// 		} else {
-// 			el = $(this).prev();
-// 		}
-//
-// 	 	var copy_from = $(this).clone(true);
-// 		$(el).replaceWith(copy_from);
-//
-// 		var copy_to = $(el).clone(true);
-// 		$(this).replaceWith(copy_to);
-// 	});
-//
-// 	return false;
-// });
-// $('#button_2').click(function(){
-// $('.poster_1, .poster_2').each(function() {
-//   if ($(this).next()) {
-//     el = $(this).next();
-//   } else {
-//     el = $(this).prev();
-//   }
-//
-//   var copy_from = $(this).clone(true);
-//   $(el).replaceWith(copy_from);
-//
-//   var copy_to = $(el).clone(true);
-//   $(this).replaceWith(copy_to);
-// });
-//
-// return false;
-// });
-  // $(".poster_2").on("click", function(){
-  //   $(".poster_1").toggleClass("poster_1 poster_1_bg_2");
-  //   $(this).toggleClass("poster_2 poster_2_bg_1");
-  // });
-  // $(".poster_2_bg_1").on("click", function(){
-  //   $(".poster_1_bg_2").toggleClass("poster_1_bg_2 poster_1");
-  //   $(".poster_1_bg_3").toggleClass("poster_1_bg_3 poster_1");
-  //   $(this).toggleClass("poster_2_bg_1 poster_2");
-  // });
-  // $(".poster_3").on("click", function(){
-  //   $(".poster_1").toggleClass("poster_1 poster_1_bg_3");
-  //   $(".poster_1_bg_2").toggleClass("poster_1_bg_2 poster_1_bg_3");
-  //   $(this).toggleClass("poster_3 poster_3_bg_1");
-  // });
 // Веб-постер
   $( function() {
     $( "#piece_1" ).draggable();
