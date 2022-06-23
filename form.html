@@ -113,9 +113,9 @@
                         }
             </script>
           <div class="rectangle rectangle_color"></div>
-          <div class="tria tria_slider next" onclick="moveSlides(1); moveNames(1)"><i></i><c></c></div>
         </div>
-        <form action="">
+        <div class="tria tria_slider next" onclick="moveSlides(1); moveNames(1)"><i></i><c></c></div>
+        <form id="form" action="">
           <label for="surname">Фамилия</label><input type="text">
           </br>
           <label for="name">Имя</label><input type="text">
@@ -135,6 +135,7 @@
           <label for="fir_type">Вид ели</label><input type="text">
           <p class="text_small text_transparent">(если неизвестен,</br>впишите неизвестно)</p>
         </form>
+        <input id="button_form" type="submit" onclick="document.getElementById('form').submit(); return false;">Отправить</input>
       </div>
     </section>
     <!-- Подвал -->
