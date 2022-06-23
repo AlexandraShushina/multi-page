@@ -226,6 +226,28 @@
   position: relative;
   animation: tree_2_long_move infinite linear 5.5s;
 }
+.tree_2_long_z {
+  background: url(../images/tree_2_long.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 28.5vh;
+  height: 229vh;
+  z-index: 0;
+  position: relative;
+  animation: tree_2_long_move infinite linear 5.5s;
+}
+.tree_2_long_z_green {
+  background: url(../images/tree_2_long_green.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 28.5vh;
+  height: 229vh;
+  z-index: 0;
+  position: relative;
+  animation: tree_2_long_move infinite linear 5.5s;
+}
 @keyframes tree_2_long_move {
   0%{transform: rotate(0deg); transform-origin: center bottom;}
   25%{transform: rotate(-1.5deg); transform-origin: center bottom;}
@@ -256,6 +278,42 @@
   z-index: 100;
   animation: tree_4_long_move infinite linear 7s;
 }
+.tree_4_long_green {
+  background: url(../images/tree_4_long_green.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 18vh;
+  height: 229vh;
+  margin-left: 5vw;
+  position: relative;
+  z-index: 100;
+  animation: tree_4_long_move infinite linear 7s;
+}
+.tree_4_long_z {
+  background: url(../images/tree_4_long.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 18vh;
+  height: 229vh;
+  margin-left: 5vw;
+  position: relative;
+  z-index: 0;
+  animation: tree_4_long_move infinite linear 7s;
+}
+.tree_4_long_z_green {
+  background: url(../images/tree_4_long_green.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  width: 18vh;
+  height: 229vh;
+  margin-left: 5vw;
+  position: relative;
+  z-index: 0;
+  animation: tree_4_long_move infinite linear 7s;
+}
 @keyframes tree_4_long_move {
   0%{transform: rotate(0deg); transform-origin: center bottom;}
   25%{transform: rotate(3deg); transform-origin: center bottom;}
@@ -276,7 +334,6 @@
   animation: tree_4_long_move infinite linear 7s;
 }
 .rectangle_grid_long {
-  z-index: 100;
   position: absolute;
   height: 228vh;
   left: 50vw;
@@ -284,14 +341,14 @@
 .rectangle_long_2 {
   width: 28.5vh;
   height: 229vh;
-  z-index: 100;
+  z-index: 600;
   position: relative;
 }
 .rectangle_long_4 {
   width: 18vh;
   height: 229vh;
   margin-left: 5vw;
-  z-index: 100;
+  z-index: 600;
   position: relative;
 }
 .rectangle_grid_long div {
