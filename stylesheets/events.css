@@ -286,6 +286,7 @@
   height: auto;
   position: relative;
   cursor: url(../images/pointer.svg), auto;
+  z-index: 3;
 }
 .date_time p:nth-of-type(2) {
   margin-left: 4vw;
@@ -310,7 +311,7 @@
   background-position: bottom 0 right 0;
   width: 23vh;
   height: 102vh;
-  z-index: 3;
+  z-index: 400;
   margin-left: 42vw;
   margin-top: -92vh;
   animation: tree_1_move infinite linear 3s;
@@ -323,8 +324,43 @@
   background-position: bottom 0 right 0;
   width: 23vh;
   height: 102vh;
-  z-index: 3;
+  z-index: 400;
   margin-left: 42vw;
   margin-top: -92vh;
   animation: tree_1_move infinite linear 3s;
+}
+.events_tree_rectangle {
+  z-index: 401;
+  width: 23vh;
+  height: 102vh;
+  margin-left: 42vw;
+  position: relative;
+  margin-top: -102vh;
+  animation: tree_1_move infinite linear 3s;
+}
+.events_tree_z {
+  background: url(../images/events_tree.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 23vh;
+  height: 102vh;
+  margin-left: 42vw;
+  margin-top: -92vh;
+  animation: tree_1_move infinite linear 3s;
+  z-index: 0;
+}
+.events_tree_z_green {
+  background: url(../images/events_tree_green.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: bottom 0 right 0;
+  width: 23vh;
+  height: 102vh;
+  margin-left: 42vw;
+  margin-top: -92vh;
+  animation: tree_1_move infinite linear 3s;
+  z-index: 0;
 }
