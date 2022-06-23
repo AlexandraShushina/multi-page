@@ -1,10 +1,10 @@
 .events {
   height: 323vh;
-  width: 102vw;
+  width: 103vw;
 }
 .events section {
   height: 102.5vh;
-  width: 102vw;
+  width: 103vw;
 }
 .events section:nth-of-type(1) {
   background-color: #2542E5;
