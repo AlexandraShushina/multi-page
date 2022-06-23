@@ -241,19 +241,22 @@
   padding-top: 18vh;
   margin-left: 3.5vw;
 }
-#poster_1 {
+#poster_1,
+#poster_4 {
   width: 44vh;
   height: 67vh;
   margin-left: 3.5vw;
   position: relative;
 }
-#poster_2 {
+#poster_2,
+#poster_5 {
   width: 32vh;
   height: 48vh;
   margin-left: 2vw;
   position: relative;
 }
-#poster_3 {
+#poster_3,
+#poster_6 {
   width: 21vh;
   height: 32vh;
   margin-left: 3.5vw;
@@ -261,33 +264,13 @@
 }
 .poster_1,
 .poster_2,
-.poster_3 {
+.poster_3,
+.poster_4,
+.poster_5,
+.poster_6 {
   width: 100%;
   height: auto;
   position: relative;
-}
-.poster_5 {
-  background: url(../images/poster_5.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-  width: 32vh;
-  height: 48vh;
-  margin-left: 2vw;
-}
-.poster_6 {
-  background: url(../images/poster_6.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-  width: 21vh;
-  height: 32vh;
-  margin-left: 2vw;
-}
-.poster_1 img,
-.poster_2 img,
-.poster_3 img {
-  width: 100%;
 }
 .next {
   cursor: pointer;
