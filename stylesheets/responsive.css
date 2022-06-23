@@ -136,8 +136,8 @@
     height: 230vh;
     left: 53vw;
   }
-  .slideshow_renders {
-    margin-top: 13vh;
+  .slide_renders {
+    margin-top: 12vh;
   }
   .about {
     position: relative;
@@ -149,8 +149,16 @@
   .p_width_2 {
     padding-top: 16vh;
   }
-  .slideshow_book_and_price {
-    margin-top: 4.5vh;
+  .slide_book_price {
+    margin-top: 5vh;
+  }
+  .slide_renders_image,
+  .slide_book_image {
+    width: 90vh;
+    height: 61vh;
+  }
+  .price {
+    margin-top: calc(59vh - 60px);
   }
   .excursion {
     height: 373vh;
