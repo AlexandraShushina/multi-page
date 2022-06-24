@@ -138,40 +138,9 @@
   }
   .Ann_block {
     position: relative;
-    margin-left: -29vh;
-    margin-top: -168vh;
+    margin-left: 7vh;
+    margin-top: -196vh;
     opacity: 0;
-  }
-  .Ann_text {
-    animation: Ann_text infinite linear 5.5s;
-  }
-  @keyframes Ann_text {
-    0%{margin-left: 0vh;}
-    25%{margin-left: -1vh;}
-    50%{margin-left: 0vh;}
-    75%{margin-left: 1vh;}
-    100%{margin-left: -0vh;}
-  }
-  .Ann_block p:nth-of-type(1) {
-    position: relative;
-    margin-top: 8vh;
-  }
-  .Ann_block p:nth-of-type(2) {
-    position: relative;
-    margin-top: 2vh;
-  }
-  .Ann {
-    background: url(../images/Ann.png);
-    background-size: 165%;
-    background-repeat: no-repeat;
-    background-position: top 0 left 0;
-    position: relative;
-    margin-left: -3.5vh;
-    width: 30vh;
-    height: 30vh;
-    opacity: 1;
-    transition: 0.1s;
-    animation: Ann infinite linear 5.5s;
   }
   @keyframes Ann {
     0%{transform: rotate(0deg); transform-origin: center 229vh;}
@@ -185,16 +154,16 @@
     transition: 0.1;
   }
   @keyframes Ann_block_hover {
-    0%{margin-left: -29vh; margin-top: -168vh; opacity: 0;}
-    100%{margin-left: -32vh; margin-top: -170vh; opacity: 1;}
+    0%{margin-left: 7vh; margin-top: -194vh; opacity: 0;}
+    100%{margin-left: 9vh; margin-top: -196vh; opacity: 1;}
   }
   .Ann_block_mouseout {
     animation: Ann_block_mouseout forwards linear 0.3s;
     transition: 0.1;
   }
   @keyframes Ann_block_mouseout {
-    0%{margin-left: -32vh; margin-top: -170vh; opacity: 1;}
-    100%{margin-left: -29vh; margin-top: -168vh; opacity: 0;}
+    0%{margin-left: 9vh; margin-top: -196vh; opacity: 1;}
+    100%{margin-left: 7vh; margin-top: -194vh; opacity: 0;}
   }
   .slide_renders {
     margin-top: 12vh;
