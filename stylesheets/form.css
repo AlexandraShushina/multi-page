@@ -41,22 +41,6 @@ form p {
   margin-top: 7px;
   margin-left: 3vw;
 }
-/* input[type=date]::-webkit-datetime-edit-text {
-    -webkit-appearance: none;
-    display: none;
-}
-input[type=date]::-webkit-datetime-edit-month-field{
-    -webkit-appearance: none;
-    display: none;
-}
-input[type=date]::-webkit-datetime-edit-day-field {
-    -webkit-appearance: none;
-    display: none;
-}
-input[type=date]::-webkit-datetime-edit-year-field {
-    -webkit-appearance: none;
-    display: none;
-} */
 form label {
   margin-left: 3vw;
 }
@@ -249,6 +233,7 @@ form input:nth-of-type(9) {
   font-family: inherit;
   color: white;
   font-size: 20px;
+  cursor: url(../images/pointer.svg), auto;
 }
 #button_form:hover {
   display: inline-block;
