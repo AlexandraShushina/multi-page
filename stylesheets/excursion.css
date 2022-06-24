@@ -34,7 +34,12 @@
 .container_trees_2,
 .rectangle_grid_long,
 .slide_book_price,
-.Ann_block {
+.Ann_block,
+.Ann_block_hover,
+.Ann_block_mouseout,
+.Artyom_block,
+.Artyom_block_hover,
+.Artyom_block_mouseout {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -201,32 +206,36 @@
   opacity: 1;
   transition: 0.1s;
 }
+.tree_with_people {
+  position: relative;
+}
 .Ann_block {
   position: relative;
-  margin-left: 5vh;
+  margin-left: 4vh;
   margin-top: -194vh;
   opacity: 0;
 }
 .Ann_text {
   animation: Ann_text infinite linear 5.5s;
-  margin-left: 2vh;
+  margin-left: 1.5vh;
   position: relative;
 }
 @keyframes Ann_text {
-  0%{margin-left: 2vh;}
-  25%{margin-left: 1vh;}
-  50%{margin-left: 2vh;}
-  75%{margin-left: 3vh;}
-  100%{margin-left: 2vh;}
+  0%{margin-left: 1.5vh;}
+  25%{margin-left: -0.5vh;}
+  50%{margin-left: 1.5vh;}
+  75%{margin-left: 3.5vh;}
+  100%{margin-left: 1.5vh;}
 }
 .Ann_text p:nth-of-type(1) {
   position: relative;
   margin-top: 4vh;
+  z-index: 1000;
 }
 .Ann_text p:nth-of-type(1):before {
   content: "— ";
   position: absolute;
-  margin-left: -3vh;
+  margin-left: -2.5vh;
 }
 .Ann_text p:nth-of-type(2) {
   position: relative;
@@ -236,13 +245,14 @@
   background: url(../images/Ann.png);
   background-size: 135%;
   background-repeat: no-repeat;
-  background-position: top 0 left -10vh;
+  background-position: top 0 left -9vh;
   position: relative;
   width: 25vh;
-  height: 21vh;
+  height: 25vh;
   opacity: 1;
   transition: 0.1s;
   animation: Ann infinite linear 5.5s;
+  z-index: 200;
 }
 @keyframes Ann {
   0%{transform: rotate(0deg); transform-origin: center 229vh;}
@@ -256,7 +266,7 @@
   transition: 0.1;
 }
 @keyframes Ann_block_hover {
-  0%{margin-left: 6vh; margin-top: -194vh; opacity: 1;}
+  0%{margin-left: 6vh; margin-top: -194vh; opacity: 0;}
   100%{margin-left: 8vh; margin-top: -196vh; opacity: 1;}
 }
 .Ann_block_mouseout {
@@ -265,7 +275,76 @@
 }
 @keyframes Ann_block_mouseout {
   0%{margin-left: 8vh; margin-top: -196vh; opacity: 1;}
-  100%{margin-left: 6vh; margin-top: -194vh; opacity: 1;}
+  100%{margin-left: 6vh; margin-top: -194vh; opacity: 0;}
+}
+.Artyom_block {
+  position: relative;
+  margin-left: -21vh;
+  margin-top: -6vh;
+  opacity: 0;
+}
+.Artyom_text {
+  animation: Artyom_text infinite linear 5.5s;
+  margin-left: -1vh;
+  position: relative;
+}
+@keyframes Artyom_text {
+  0%{margin-left: -1vh;}
+  25%{margin-left: -3vh;}
+  50%{margin-left: -1vh;}
+  75%{margin-left: 1vh;}
+  100%{margin-left: -1vh;}
+}
+.Artyom_text p:nth-of-type(1) {
+  position: relative;
+  margin-top: 4vh;
+  z-index: 1000;
+}
+.Artyom_text p:nth-of-type(1):before {
+  content: "— ";
+  position: absolute;
+  margin-left: -2.5vh;
+}
+.Artyom_text p:nth-of-type(2) {
+  position: relative;
+  margin-top: 2vh;
+}
+.Artyom {
+  background: url(../images/Artyom.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: relative;
+  width: 35vh;
+  height: 40vh;
+  opacity: 1;
+  margin-left: -9vh;
+  transition: 0.1s;
+  animation: Artyom infinite linear 5.5s;
+  z-index: 200;
+}
+@keyframes Artyom {
+  0%{transform: rotate(0deg); transform-origin: center 40vh;}
+  25%{transform: rotate(-0.5deg); transform-origin: center 40vh;}
+  50%{transform: rotate(0deg); transform-origin: center 40vh;}
+  75%{transform: rotate(0.5deg); transform-origin: center 40vh;}
+  100%{transform: rotate(0deg); transform-origin: center 40vh;}
+}
+.Artyom_block_hover {
+  animation: Artyom_block_hover forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Artyom_block_hover {
+  0%{margin-left: -19vh; margin-top: -6vh; opacity: 0;}
+  100%{margin-left: -21vh; margin-top: -8vh; opacity: 1;}
+}
+.Artyom_block_mouseout {
+  animation: Artyom_block_mouseout forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Artyom_block_mouseout {
+  0%{margin-left: -21vh; margin-top: -8vh; opacity: 1;}
+  100%{margin-left: -19vh; margin-top: -6vh; opacity: 0;}
 }
 .plan_text p {
   margin-top: -9vh;
@@ -277,7 +356,7 @@
 .container_trees_2 {
   position: absolute;
   height: 228vh;
-  left: 52vw;
+  left: 47vw;
 }
 .container_trees_2 div {
   cursor: url(../images/pointer.svg), auto;
@@ -340,10 +419,10 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: -4vw;
+  margin-left: 2vw;
   position: relative;
   z-index: 100;
-  animation: tree_4_long_move infinite linear 7s;
+  animation: tree_4_long_move infinite linear 5s;
 }
 .tree_4_long_green {
   background: url(../images/tree_4_long_green.svg);
@@ -352,10 +431,10 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: -4vw;
+  margin-left: 2vw;
   position: relative;
   z-index: 100;
-  animation: tree_4_long_move infinite linear 7s;
+  animation: tree_4_long_move infinite linear 5s;
 }
 .tree_4_long_z {
   background: url(../images/tree_4_long.svg);
@@ -364,10 +443,10 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: -4vw;
+  margin-left: 2vw;
   position: relative;
   z-index: 0;
-  animation: tree_4_long_move infinite linear 7s;
+  animation: tree_4_long_move infinite linear 5s;
 }
 .tree_4_long_z_green {
   background: url(../images/tree_4_long_green.svg);
@@ -376,16 +455,16 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: -4vw;
+  margin-left: 2vw;
   position: relative;
   z-index: 0;
-  animation: tree_4_long_move infinite linear 7s;
+  animation: tree_4_long_move infinite linear 5s;
 }
 @keyframes tree_4_long_move {
   0%{transform: rotate(0deg); transform-origin: center bottom;}
-  25%{transform: rotate(1.5deg); transform-origin: center bottom;}
+  25%{transform: rotate(0.5deg); transform-origin: center bottom;}
   50%{transform: rotate(0deg); transform-origin: center bottom;}
-  75%{transform: rotate(-1.5deg); transform-origin: center bottom;}
+  75%{transform: rotate(-0.5deg); transform-origin: center bottom;}
   100%{transform: rotate(0deg); transform-origin: center bottom;}
 }
 .tree_4_long_green {
@@ -395,10 +474,10 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: -4vw;
+  margin-left: 2vw;
   position: relative;
   z-index: 100;
-  animation: tree_4_long_move infinite linear 7s;
+  animation: tree_4_long_move infinite linear 5s;
 }
 .rectangle_grid_long {
   position: absolute;
@@ -414,7 +493,7 @@
 .rectangle_long_4 {
   width: 18vh;
   height: 229vh;
-  margin-left: 5vw;
+  margin-left: 2vw;
   z-index: 600;
   position: relative;
 }
