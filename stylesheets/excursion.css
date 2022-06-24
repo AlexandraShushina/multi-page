@@ -33,7 +33,8 @@
 .plan_about,
 .container_trees_2,
 .rectangle_grid_long,
-.slide_book_price {
+.slide_book_price,
+.Ann_block {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -200,6 +201,66 @@
   opacity: 1;
   transition: 0.1s;
 }
+.Ann_block {
+  position: relative;
+  margin-left: -10vh;
+  margin-top: -170vh;
+  opacity: 0;
+}
+.Ann_text {
+  animation: Ann_text infinite linear 5.5s;
+}
+@keyframes Ann_text {
+  0%{margin-left: 0vh;}
+  25%{margin-left: -1vh;}
+  50%{margin-left: 0vh;}
+  75%{margin-left: 1vh;}
+  100%{margin-left: -0vh;}
+}
+.Ann_block p:nth-of-type(1) {
+  position: relative;
+  margin-top: 8vh;
+}
+.Ann_block p:nth-of-type(2) {
+  position: relative;
+  margin-top: 2vh;
+}
+.Ann {
+  background: url(../images/Ann.png);
+  background-size: 165%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  position: relative;
+  margin-left: -3.5vh;
+  width: 30vh;
+  height: 30vh;
+  opacity: 1;
+  transition: 0.1s;
+  animation: Ann infinite linear 5.5s;
+}
+@keyframes Ann {
+  0%{transform: rotate(0deg); transform-origin: center 229vh;}
+  25%{transform: rotate(-0.5deg); transform-origin: center 229vh;}
+  50%{transform: rotate(0deg); transform-origin: center 229vh;}
+  75%{transform: rotate(0.5deg); transform-origin: center 229vh;}
+  100%{transform: rotate(0deg); transform-origin: center 229vh;}
+}
+.Ann_block_hover {
+  animation: Ann_block_hover forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Ann_block_hover {
+  0%{margin-left: -23vh; margin-top: -178vh; opacity: 0;}
+  100%{margin-left: -25vh; margin-top: -180vh; opacity: 1;}
+}
+.Ann_block_mouseout {
+  animation: Ann_block_mouseout forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Ann_block_mouseout {
+  0%{margin-left: -25vh; margin-top: -180vh; opacity: 1;}
+  100%{margin-left: -23vh; margin-top: -178vh; opacity: 0;}
+}
 .plan_text p {
   margin-top: -9vh;
 }
@@ -210,7 +271,7 @@
 .container_trees_2 {
   position: absolute;
   height: 228vh;
-  left: 50vw;
+  left: 52vw;
 }
 .container_trees_2 div {
   cursor: url(../images/pointer.svg), auto;
@@ -250,9 +311,9 @@
 }
 @keyframes tree_2_long_move {
   0%{transform: rotate(0deg); transform-origin: center bottom;}
-  25%{transform: rotate(-1.5deg); transform-origin: center bottom;}
+  25%{transform: rotate(-0.5deg); transform-origin: center bottom;}
   50%{transform: rotate(0deg); transform-origin: center bottom;}
-  75%{transform: rotate(1.5deg); transform-origin: center bottom;}
+  75%{transform: rotate(0.5deg); transform-origin: center bottom;}
   100%{transform: rotate(0deg); transform-origin: center bottom;}
 }
 .tree_2_long_green {
