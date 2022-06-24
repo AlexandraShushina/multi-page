@@ -42,7 +42,7 @@
 .Artyom_block_mouseout,
 .Anatoliy_block,
 .Anatoliy_block_hover,
-.Anatoliy_block_mouseout, {
+.Anatoliy_block_mouseout {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -282,7 +282,7 @@
 }
 .Artyom_block {
   position: relative;
-  margin-left: -21vh;
+  margin-left: -23vh;
   margin-top: -6vh;
   opacity: 0;
 }
@@ -338,21 +338,21 @@
   transition: 0.1;
 }
 @keyframes Artyom_block_hover {
-  0%{margin-left: -19vh; margin-top: -6vh; opacity: 0;}
-  100%{margin-left: -21vh; margin-top: -8vh; opacity: 1;}
+  0%{margin-left: -21vh; margin-top: -6vh; opacity: 0;}
+  100%{margin-left: -23vh; margin-top: -8vh; opacity: 1;}
 }
 .Artyom_block_mouseout {
   animation: Artyom_block_mouseout forwards linear 0.3s;
   transition: 0.1;
 }
 @keyframes Artyom_block_mouseout {
-  0%{margin-left: -21vh; margin-top: -8vh; opacity: 1;}
-  100%{margin-left: -19vh; margin-top: -6vh; opacity: 0;}
+  0%{margin-left: -23vh; margin-top: -8vh; opacity: 1;}
+  100%{margin-left: -21vh; margin-top: -6vh; opacity: 0;}
 }
 .Anatoliy_block {
   position: relative;
-  margin-left: 4vh;
-  margin-top: -20vh;
+  margin-left: 10vh;
+  margin-top: -26vh;
   opacity: 0;
 }
 .Anatoliy_text {
@@ -388,7 +388,7 @@
   background-position: top 0 left -9vh;
   position: relative;
   width: 25vh;
-  height: 25vh;
+  height: 35vh;
   opacity: 1;
   transition: 0.1s;
   animation: Anatoliy infinite linear 5.5s;
@@ -406,16 +406,16 @@
   transition: 0.1;
 }
 @keyframes Anatoliy_block_hover {
-  0%{margin-left: 6vh; margin-top: -18vh; opacity: 0;}
-  100%{margin-left: 8vh; margin-top: -20vh; opacity: 1;}
+  0%{margin-left: 10vh; margin-top: -26vh; opacity: 0;}
+  100%{margin-left: 12vh; margin-top: -28vh; opacity: 1;}
 }
 .Anatoliy_block_mouseout {
   animation: Anatoliy_block_mouseout forwards linear 0.3s;
   transition: 0.1;
 }
 @keyframes Anatoliy_block_mouseout {
-  0%{margin-left: 8vh; margin-top: -20vh; opacity: 1;}
-  100%{margin-left: 6vh; margin-top: -18vh; opacity: 0;}
+  0%{margin-left: 12vh; margin-top: -28vh; opacity: 1;}
+  100%{margin-left: 10vh; margin-top: -26vh; opacity: 0;}
 }
 .plan_text p {
   margin-top: -9vh;
