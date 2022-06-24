@@ -48,7 +48,13 @@
 .Peter_block_mouseout,
 .Julia_block,
 .Julia_block_hover,
-.Julia_block_mouseout {
+.Julia_block_mouseout,
+.Pavel_block,
+.Pavel_block_hover,
+.Pavel_block_mouseout,
+.Nina_block,
+.Nina_block_hover,
+.Nina_block_mouseout {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -69,7 +75,13 @@
 .Peter_block_mouseout,
 .Julia_block,
 .Julia_block_hover,
-.Julia_block_mouseout {
+.Julia_block_mouseout,
+.Pavel_block,
+.Pavel_block_hover,
+.Pavel_block_mouseout,
+.Nina_block,
+.Nina_block_hover,
+.Nina_block_mouseout {
   z-index: 99;
 }
 .plan_about {
@@ -513,7 +525,7 @@
 .Julia_block {
   position: relative;
   margin-left: 17vh;
-  margin-top: -24vh;
+  margin-top: -22vh;
   opacity: 0;
 }
 .Julia_text {
@@ -567,16 +579,153 @@
   transition: 0.1;
 }
 @keyframes Julia_block_hover {
-  0%{margin-left: 17vh; margin-top: -24vh; opacity: 0;}
-  100%{margin-left: 19vh; margin-top: -26vh; opacity: 1;}
+  0%{margin-left: 17vh; margin-top: -22vh; opacity: 0;}
+  100%{margin-left: 19vh; margin-top: -24vh; opacity: 1;}
 }
 .Julia_block_mouseout {
   animation: Julia_block_mouseout forwards linear 0.3s;
   transition: 0.1;
 }
 @keyframes Julia_block_mouseout {
-  0%{margin-left: 19vh; margin-top: -26vh; opacity: 1;}
-  100%{margin-left: 17vh; margin-top: -24vh; opacity: 0;}
+  0%{margin-left: 19vh; margin-top: -24vh; opacity: 1;}
+  100%{margin-left: 17vh; margin-top: -22vh; opacity: 0;}
+}
+.Pavel_block {
+  position: relative;
+  margin-left: -25vh;
+  margin-top: -13vh;
+  opacity: 0;
+}
+.Pavel_text {
+  animation: Pavel_text infinite linear 5.5s;
+  margin-left: -1vh;
+  position: relative;
+}
+@keyframes Pavel_text {
+  0%{margin-left: -1vh;}
+  25%{margin-left: -3vh;}
+  50%{margin-left: -1vh;}
+  75%{margin-left: 1vh;}
+  100%{margin-left: -1vh;}
+}
+.Pavel_text p:nth-of-type(1) {
+  position: relative;
+  margin-top: 3vh;
+  z-index: 1000;
+}
+.Pavel_text p:nth-of-type(1):before {
+  content: "— ";
+  position: absolute;
+  margin-left: -2.5vh;
+}
+.Pavel_text p:nth-of-type(2) {
+  position: relative;
+  margin-top: 2vh;
+}
+.Pavel {
+  background: url(../images/Pavel.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 7vh;
+  position: relative;
+  width: 35vh;
+  height: 45vh;
+  opacity: 1;
+  margin-left: -7vh;
+  transition: 0.1s;
+  animation: Pavel infinite linear 5.5s;
+  z-index: 200;
+}
+@keyframes Pavel {
+  0%{transform: rotate(0deg); transform-origin: center 40vh;}
+  25%{transform: rotate(-0.5deg); transform-origin: center 40vh;}
+  50%{transform: rotate(0deg); transform-origin: center 40vh;}
+  75%{transform: rotate(0.5deg); transform-origin: center 40vh;}
+  100%{transform: rotate(0deg); transform-origin: center 40vh;}
+}
+.Pavel_block_hover {
+  animation: Pavel_block_hover forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Pavel_block_hover {
+  0%{margin-left: -25vh; margin-top: -13vh; opacity: 0;}
+  100%{margin-left: -27vh; margin-top: -15vh; opacity: 1;}
+}
+.Pavel_block_mouseout {
+  animation: Pavel_block_mouseout forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Pavel_block_mouseout {
+  0%{margin-left: -27vh; margin-top: -15vh; opacity: 1;}
+  100%{margin-left: -25vh; margin-top: -13vh; opacity: 0;}
+}
+.Nina_block {
+  position: relative;
+  margin-left: 8vh;
+  margin-top: -24vh;
+  opacity: 0;
+}
+.Nina_text {
+  animation: Nina_text infinite linear 5.5s;
+  margin-left: -7vh;
+  position: relative;
+}
+@keyframes Nina_text {
+  0%{margin-left: -7vh;}
+  25%{margin-left: -9vh;}
+  50%{margin-left: -7vh;}
+  75%{margin-left: -5vh;}
+  100%{margin-left: -7vh;}
+}
+.Nina_text p:nth-of-type(1) {
+  position: relative;
+  margin-top: 4vh;
+  z-index: 1000;
+}
+.Nina_text p:nth-of-type(1):before {
+  content: "— ";
+  position: absolute;
+  margin-left: -2.5vh;
+}
+.Nina_text p:nth-of-type(2) {
+  position: relative;
+  margin-top: 2vh;
+}
+.Nina {
+  background: url(../images/Nina.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 0 left -9vh;
+  position: relative;
+  width: 35vh;
+  height: 35vh;
+  opacity: 1;
+  transition: 0.1s;
+  animation: Nina infinite linear 5.5s;
+  z-index: 200;
+}
+@keyframes Nina {
+  0%{transform: rotate(0deg); transform-origin: center 229vh;}
+  25%{transform: rotate(-0.5deg); transform-origin: center 229vh;}
+  50%{transform: rotate(0deg); transform-origin: center 229vh;}
+  75%{transform: rotate(0.5deg); transform-origin: center 229vh;}
+  100%{transform: rotate(0deg); transform-origin: center 229vh;}
+}
+.Nina_block_hover {
+  animation: Nina_block_hover forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Nina_block_hover {
+  0%{margin-left: 8vh; margin-top: -24vh; opacity: 0;}
+  100%{margin-left: 10vh; margin-top: -26vh; opacity: 1;}
+}
+.Nina_block_mouseout {
+  animation: Nina_block_mouseout forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Nina_block_mouseout {
+  0%{margin-left: 10vh; margin-top: -26vh; opacity: 1;}
+  100%{margin-left: 8vh; margin-top: -24vh; opacity: 0;}
 }
 .plan_text p {
   margin-top: -9vh;
@@ -641,7 +790,7 @@
   width: 28.5vh;
   height: 229vh;
   z-index: 100;
-  position: relative;
+  position: absolute;
   animation: tree_2_long_move infinite linear 5.5s;
 }
 .tree_4_long {
@@ -651,9 +800,9 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: 2vw;
-  position: relative;
-  z-index: 100;
+  margin-left: 25vw;
+  position: absolute;
+  z-index: 98;
   animation: tree_4_long_move infinite linear 5s;
 }
 .tree_4_long_green {
@@ -663,8 +812,8 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: 2vw;
-  position: relative;
+  margin-left: 25vw;
+  position: absolute;
   z-index: 100;
   animation: tree_4_long_move infinite linear 5s;
 }
@@ -675,8 +824,8 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: 2vw;
-  position: relative;
+  margin-left: 25vw;
+  position: absolute;
   z-index: 0;
   animation: tree_4_long_move infinite linear 5s;
 }
@@ -687,8 +836,8 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: 2vw;
-  position: relative;
+  margin-left: 25vw;
+  position: absolute;
   z-index: 0;
   animation: tree_4_long_move infinite linear 5s;
 }
@@ -706,8 +855,8 @@
   background-position: bottom 0 right 0;
   width: 18vh;
   height: 229vh;
-  margin-left: 2vw;
-  position: relative;
+  margin-left: 25vw;
+  position: absolute;
   z-index: 100;
   animation: tree_4_long_move infinite linear 5s;
 }
