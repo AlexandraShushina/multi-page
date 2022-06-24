@@ -126,6 +126,13 @@ document.getElementsById('form')[0].reset();
   $(".plan_piece_3").mouseout(function() {
     $(".Anatoliy_block_hover").toggleClass("Anatoliy_block_hover Anatoliy_block_mouseout");
   });
+  $(".plan_piece_4").hover(function() {
+    $(".Peter_block").toggleClass("Peter_block Peter_block_hover");
+    $(".Peter_block_mouseout").toggleClass("Peter_block_mouseout Peter_block_hover");
+  });
+  $(".plan_piece_4").mouseout(function() {
+    $(".Peter_block_hover").toggleClass("Peter_block_hover Peter_block_mouseout");
+  });
   // Error404
   $(".rectangle_error_1").on("click", function(){
     if ($(this).hasClass("flag_1")) {
