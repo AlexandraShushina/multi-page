@@ -133,6 +133,13 @@ document.getElementsById('form')[0].reset();
   $(".plan_piece_4").mouseout(function() {
     $(".Peter_block_hover").toggleClass("Peter_block_hover Peter_block_mouseout");
   });
+  $(".plan_piece_5").hover(function() {
+    $(".Julia_block").toggleClass("Julia_block Julia_block_hover");
+    $(".Julia_block_mouseout").toggleClass("Julia_block_mouseout Julia_block_hover");
+  });
+  $(".plan_piece_5").mouseout(function() {
+    $(".Julia_block_hover").toggleClass("Julia_block_hover Julia_block_mouseout");
+  });
   // Error404
   $(".rectangle_error_1").on("click", function(){
     if ($(this).hasClass("flag_1")) {
