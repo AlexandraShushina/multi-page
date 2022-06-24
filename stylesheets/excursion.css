@@ -39,7 +39,10 @@
 .Ann_block_mouseout,
 .Artyom_block,
 .Artyom_block_hover,
-.Artyom_block_mouseout {
+.Artyom_block_mouseout,
+.Anatoliy_block,
+.Anatoliy_block_hover,
+.Anatoliy_block_mouseout, {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -345,6 +348,74 @@
 @keyframes Artyom_block_mouseout {
   0%{margin-left: -21vh; margin-top: -8vh; opacity: 1;}
   100%{margin-left: -19vh; margin-top: -6vh; opacity: 0;}
+}
+.Anatoliy_block {
+  position: relative;
+  margin-left: 4vh;
+  margin-top: -20vh;
+  opacity: 0;
+}
+.Anatoliy_text {
+  animation: Anatoliy_text infinite linear 5.5s;
+  margin-left: 1.5vh;
+  position: relative;
+}
+@keyframes Anatoliy_text {
+  0%{margin-left: 1.5vh;}
+  25%{margin-left: -0.5vh;}
+  50%{margin-left: 1.5vh;}
+  75%{margin-left: 3.5vh;}
+  100%{margin-left: 1.5vh;}
+}
+.Anatoliy_text p:nth-of-type(1) {
+  position: relative;
+  margin-top: 4vh;
+  z-index: 1000;
+}
+.Anatoliy_text p:nth-of-type(1):before {
+  content: "— ";
+  position: absolute;
+  margin-left: -2.5vh;
+}
+.Anatoliy_text p:nth-of-type(2) {
+  position: relative;
+  margin-top: 2vh;
+}
+.Anatoliy {
+  background: url(../images/Anatoliy.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: top 0 left -9vh;
+  position: relative;
+  width: 25vh;
+  height: 25vh;
+  opacity: 1;
+  transition: 0.1s;
+  animation: Anatoliy infinite linear 5.5s;
+  z-index: 200;
+}
+@keyframes Anatoliy {
+  0%{transform: rotate(0deg); transform-origin: center 229vh;}
+  25%{transform: rotate(-0.5deg); transform-origin: center 229vh;}
+  50%{transform: rotate(0deg); transform-origin: center 229vh;}
+  75%{transform: rotate(0.5deg); transform-origin: center 229vh;}
+  100%{transform: rotate(0deg); transform-origin: center 229vh;}
+}
+.Anatoliy_block_hover {
+  animation: Anatoliy_block_hover forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Anatoliy_block_hover {
+  0%{margin-left: 6vh; margin-top: -18vh; opacity: 0;}
+  100%{margin-left: 8vh; margin-top: -20vh; opacity: 1;}
+}
+.Anatoliy_block_mouseout {
+  animation: Anatoliy_block_mouseout forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Anatoliy_block_mouseout {
+  0%{margin-left: 8vh; margin-top: -20vh; opacity: 1;}
+  100%{margin-left: 6vh; margin-top: -18vh; opacity: 0;}
 }
 .plan_text p {
   margin-top: -9vh;
