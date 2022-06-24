@@ -42,12 +42,29 @@
 .Artyom_block_mouseout,
 .Anatoliy_block,
 .Anatoliy_block_hover,
-.Anatoliy_block_mouseout {
+.Anatoliy_block_mouseout,
+.Peter_block,
+.Peter_block_hover,
+.Peter_block_mouseout {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: start;
   position: relative;
+}
+.Ann_block,
+.Ann_block_hover,
+.Ann_block_mouseout,
+.Artyom_block,
+.Artyom_block_hover,
+.Artyom_block_mouseout,
+.Anatoliy_block,
+.Anatoliy_block_hover,
+.Anatoliy_block_mouseout,
+.Peter_block,
+.Peter_block_hover,
+.Peter_block_mouseout {
+  z-index: 99;
 }
 .plan_about {
   margin-left: 3.5vw;
@@ -285,6 +302,7 @@
   margin-left: -23vh;
   margin-top: -6vh;
   opacity: 0;
+  z-index: 200;
 }
 .Artyom_text {
   animation: Artyom_text infinite linear 5.5s;
@@ -416,6 +434,75 @@
 @keyframes Anatoliy_block_mouseout {
   0%{margin-left: 12vh; margin-top: -28vh; opacity: 1;}
   100%{margin-left: 10vh; margin-top: -26vh; opacity: 0;}
+}
+.Peter_block {
+  position: relative;
+  margin-left: -23vh;
+  margin-top: -18vh;
+  opacity: 0;
+}
+.Peter_text {
+  animation: Peter_text infinite linear 5.5s;
+  margin-left: -1vh;
+  position: relative;
+}
+@keyframes Peter_text {
+  0%{margin-left: -1vh;}
+  25%{margin-left: -3vh;}
+  50%{margin-left: -1vh;}
+  75%{margin-left: 1vh;}
+  100%{margin-left: -1vh;}
+}
+.Peter_text p:nth-of-type(1) {
+  position: relative;
+  margin-top: 4vh;
+  z-index: 1000;
+}
+.Peter_text p:nth-of-type(1):before {
+  content: "— ";
+  position: absolute;
+  margin-left: -2.5vh;
+}
+.Peter_text p:nth-of-type(2) {
+  position: relative;
+  margin-top: 2vh;
+}
+.Peter {
+  background: url(../images/Peter.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 7vh;
+  position: relative;
+  width: 35vh;
+  height: 45vh;
+  opacity: 1;
+  margin-left: -9vh;
+  transition: 0.1s;
+  animation: Peter infinite linear 5.5s;
+  z-index: 200;
+}
+@keyframes Peter {
+  0%{transform: rotate(0deg); transform-origin: center 40vh;}
+  25%{transform: rotate(-0.5deg); transform-origin: center 40vh;}
+  50%{transform: rotate(0deg); transform-origin: center 40vh;}
+  75%{transform: rotate(0.5deg); transform-origin: center 40vh;}
+  100%{transform: rotate(0deg); transform-origin: center 40vh;}
+}
+.Peter_block_hover {
+  animation: Peter_block_hover forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Peter_block_hover {
+  0%{margin-left: -23vh; margin-top: -18vh; opacity: 0;}
+  100%{margin-left: -25vh; margin-top: -20vh; opacity: 1;}
+}
+.Peter_block_mouseout {
+  animation: Peter_block_mouseout forwards linear 0.3s;
+  transition: 0.1;
+}
+@keyframes Peter_block_mouseout {
+  0%{margin-left: -25vh; margin-top: -20vh; opacity: 1;}
+  100%{margin-left: -23vh; margin-top: -18vh; opacity: 0;}
 }
 .plan_text p {
   margin-top: -9vh;
