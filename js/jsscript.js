@@ -140,6 +140,20 @@ document.getElementsById('form')[0].reset();
   $(".plan_piece_5").mouseout(function() {
     $(".Julia_block_hover").toggleClass("Julia_block_hover Julia_block_mouseout");
   });
+  $(".plan_piece_7").hover(function() {
+    $(".Pavel_block").toggleClass("Pavel_block Pavel_block_hover");
+    $(".Pavel_block_mouseout").toggleClass("Pavel_block_mouseout Pavel_block_hover");
+  });
+  $(".plan_piece_7").mouseout(function() {
+    $(".Pavel_block_hover").toggleClass("Pavel_block_hover Pavel_block_mouseout");
+  });
+  $(".plan_piece_6").hover(function() {
+    $(".Nina_block").toggleClass("Nina_block Nina_block_hover");
+    $(".Nina_block_mouseout").toggleClass("Nina_block_mouseout Nina_block_hover");
+  });
+  $(".plan_piece_6").mouseout(function() {
+    $(".Nina_block_hover").toggleClass("Nina_block_hover Nina_block_mouseout");
+  });
   // Error404
   $(".rectangle_error_1").on("click", function(){
     if ($(this).hasClass("flag_1")) {
