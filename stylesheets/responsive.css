@@ -165,6 +165,50 @@
     0%{margin-left: 9vh; margin-top: -196vh; opacity: 1;}
     100%{margin-left: 7vh; margin-top: -194vh; opacity: 0;}
   }
+  @keyframes Artyom_text {
+    0%{margin-left: -8vh;}
+    25%{margin-left: -10vh;}
+    50%{margin-left: -8vh;}
+    75%{margin-left: -6vh;}
+    100%{margin-left: -8vh;}
+  }
+  .Artyom_text p:nth-of-type(1) {
+    position: relative;
+    margin-top: 4vh;
+    z-index: 1000;
+  }
+  .Artyom_text p:nth-of-type(1):before {
+    content: "— ";
+    position: absolute;
+    margin-left: -2.5vh;
+  }
+  .Artyom_text p:nth-of-type(2) {
+    position: relative;
+    margin-top: 2vh;
+  }
+  @keyframes Artyom {
+    0%{transform: rotate(0deg); transform-origin: center 40vh;}
+    25%{transform: rotate(-0.5deg); transform-origin: center 40vh;}
+    50%{transform: rotate(0deg); transform-origin: center 40vh;}
+    75%{transform: rotate(0.5deg); transform-origin: center 40vh;}
+    100%{transform: rotate(0deg); transform-origin: center 40vh;}
+  }
+  .Artyom_block_hover {
+    animation: Artyom_block_hover forwards linear 0.3s;
+    transition: 0.1;
+  }
+  @keyframes Artyom_block_hover {
+    0%{margin-left: -19vh; margin-top: -3vh; opacity: 0;}
+    100%{margin-left: -21vh; margin-top: -5vh; opacity: 1;}
+  }
+  .Artyom_block_mouseout {
+    animation: Artyom_block_mouseout forwards linear 0.3s;
+    transition: 0.1;
+  }
+  @keyframes Artyom_block_mouseout {
+    0%{margin-left: -21vh; margin-top: -5vh; opacity: 1;}
+    100%{margin-left: -19vh; margin-top: -3vh; opacity: 0;}
+  }
   .slide_renders {
     margin-top: 12vh;
   }
