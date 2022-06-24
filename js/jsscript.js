@@ -105,7 +105,12 @@ document.getElementsById('form')[0].reset();
   $(".rectangle_long_4").hover(function(){
     $(".tree_4_long_z").toggleClass(".tree_4_long_z_green");
   });
-
+  $(".plan_piece_1").hover(function() {
+    $(".Ann_block").toggleClass("Ann_block_hover")
+  });
+  $(".plan_piece_1").mouseout(function() {
+    $(".Ann_block").toggleClass("Ann_block_mouseout")
+  });
   // Error404
   $(".rectangle_error_1").on("click", function(){
     if ($(this).hasClass("flag_1")) {
