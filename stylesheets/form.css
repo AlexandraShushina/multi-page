@@ -248,16 +248,7 @@ form input:nth-of-type(9) {
   border-radius: 0;
   outline: 1px solid #33AF00;
   outline-offset: -1px;
-  margin-left: 3vw;
-  margin-top: 87vh;
-  width: 190px;
-  height: 50px;
-  padding: 1px 2px;
   background-color: #33AF00;
-  position: relative;
-  font-family: inherit;
-  color: white;
-  font-size: 20px;
   z-index: 5;
 }
 #button_form:active {
@@ -269,15 +260,6 @@ form input:nth-of-type(9) {
   border-radius: 0;
   outline: 1px solid white;
   outline-offset: -1px;
-  margin-left: 3vw;
-  margin-top: 87vh;
-  width: 190px;
-  height: 50px;
-  padding: 1px 2px;
   background-color: #0019A8;
-  position: relative;
-  font-family: inherit;
-  color: white;
-  font-size: 20px;
   z-index: 0;
 }
