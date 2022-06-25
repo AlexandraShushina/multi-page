@@ -154,64 +154,73 @@ document.getElementsById('form')[0].reset();
   $(".plan_piece_6").mouseout(function() {
     $(".Nina_block_hover").toggleClass("Nina_block_hover Nina_block_mouseout");
   });
-  
+
   // Error404
+  // $(".rectangle_error_1").on("click", function(){
+  //   if ($(this).hasClass("flag_1")) {
+  //     $(".error_1").css("z-index","1");
+  //     $(".error_grid").css("z-index","1");
+  //     $(".rectangle_error_1").removeClass("flag_1");
+  //     $(".error_1").removeClass("flag_1");
+  //   } else {
+  //     $(".error_grid").css("z-index","200");
+  //     $(".error_1").css("z-index","200");
+  //     $( ".rectangle_error_1" ).addClass("flag_1");
+  //     $( ".error_1" ).addClass("flag_1");
+  //   };
+  // });
+  // $(".rectangle_error_1").hover(function(){
+  //     $(".error_1").toggleClass("error_1_green");
+  // });
+  // $(".error_1").hover(function(){
+  //     $(".error_1").toggleClass("error_1_green");
+  // });
+  // $(".rectangle_error_2").on("click", function(){
+  //   if ($(this).hasClass("flag_1")) {
+  //     $(".error_2").css("z-index","1");
+  //     $(".error_grid").css("z-index","1");
+  //     $(".rectangle_error_2").removeClass("flag_1");
+  //     $(".error_2").removeClass("flag_1");
+  //   } else {
+  //     $(".error_grid").css("z-index","200");
+  //     $(".error_2").css("z-index","200");
+  //     $( ".rectangle_error_2" ).addClass("flag_1");
+  //     $( ".error_2" ).addClass("flag_1");
+  //   };
+  // });
+  // $(".rectangle_error_2").hover(function(){
+  //     $(".error_2").toggleClass("error_2_green");
+  // });
+  // $(".error_2").hover(function(){
+  //     $(".error_2").toggleClass("error_2_green");
+  // });
+  // $(".rectangle_error_3").on("click", function(){
+  //   if ($(this).hasClass("flag_1")) {
+  //     $(".error_3").css("z-index","1");
+  //     $(".error_grid").css("z-index","1");
+  //     $(".rectangle_error_3").removeClass("flag_1");
+  //     $(".error_3").removeClass("flag_1");
+  //   } else {
+  //     $(".error_grid").css("z-index","200");
+  //     $(".error_3").css("z-index","200");
+  //     $( ".rectangle_error_3" ).addClass("flag_1");
+  //     $( ".error_3" ).addClass("flag_1");
+  //   };
+  // });
+  // $(".rectangle_error_3").hover(function(){
+  //     $(".error_3").toggleClass("error_3_green");
+  // });
+  // $(".error_3").hover(function(){
+  //     $(".error_3").toggleClass("error_3_green");
+  // });
+  $(".rectangle_error_1").hover(function(){
+    $(".error_1").toggleClass("error_1_green");
+  });
   $(".rectangle_error_1").on("click", function(){
-    if ($(this).hasClass("flag_1")) {
-      $(".error_1").css("z-index","1");
-      $(".error_grid").css("z-index","1");
-      $(".rectangle_error_1").removeClass("flag_1");
-      $(".error_1").removeClass("flag_1");
-    } else {
-      $(".error_grid").css("z-index","200");
-      $(".error_1").css("z-index","200");
-      $( ".rectangle_error_1" ).addClass("flag_1");
-      $( ".error_1" ).addClass("flag_1");
-    };
+    $(".error_1").toggleClass("error_1_z");
   });
   $(".rectangle_error_1").hover(function(){
-      $(".error_1").toggleClass("error_1_green");
-  });
-  $(".error_1").hover(function(){
-      $(".error_1").toggleClass("error_1_green");
-  });
-  $(".rectangle_error_2").on("click", function(){
-    if ($(this).hasClass("flag_1")) {
-      $(".error_2").css("z-index","1");
-      $(".error_grid").css("z-index","1");
-      $(".rectangle_error_2").removeClass("flag_1");
-      $(".error_2").removeClass("flag_1");
-    } else {
-      $(".error_grid").css("z-index","200");
-      $(".error_2").css("z-index","200");
-      $( ".rectangle_error_2" ).addClass("flag_1");
-      $( ".error_2" ).addClass("flag_1");
-    };
-  });
-  $(".rectangle_error_2").hover(function(){
-      $(".error_2").toggleClass("error_2_green");
-  });
-  $(".error_2").hover(function(){
-      $(".error_2").toggleClass("error_2_green");
-  });
-  $(".rectangle_error_3").on("click", function(){
-    if ($(this).hasClass("flag_1")) {
-      $(".error_3").css("z-index","1");
-      $(".error_grid").css("z-index","1");
-      $(".rectangle_error_3").removeClass("flag_1");
-      $(".error_3").removeClass("flag_1");
-    } else {
-      $(".error_grid").css("z-index","200");
-      $(".error_3").css("z-index","200");
-      $( ".rectangle_error_3" ).addClass("flag_1");
-      $( ".error_3" ).addClass("flag_1");
-    };
-  });
-  $(".rectangle_error_3").hover(function(){
-      $(".error_3").toggleClass("error_3_green");
-  });
-  $(".error_3").hover(function(){
-      $(".error_3").toggleClass("error_3_green");
+    $(".error_1_z").toggleClass("error_1_z_green");
   });
 
   // Анимация событий
