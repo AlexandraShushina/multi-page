@@ -231,9 +231,6 @@
     position: relative;
     margin-left: -20vw;
   }
-  .slideshow_renders {
-    margin-top: 13vh;
-  }
   .p_width_2 {
     padding-top: 16vh;
   }
@@ -244,6 +241,44 @@
   .slide_book_image {
     width: 90vh;
     height: 61vh;
+  }
+  @keyframes slideshow_renders {
+    0% {background-position: top 0 left 0;}
+    8.5% {background-position: top 0 left 0;}
+    12.5% {background-position: top 0 left -94.5vh;}
+    21% {background-position: top 0 left -94.5vh;}
+    25% {background-position: top 0 left -189vh;}
+    33.5% {background-position: top 0 left -189vh;}
+    37.5% {background-position: top 0 left -282vh;}
+    46% {background-position: top 0 left -282vh;}
+    50% {background-position: top 0 left -375vh;}
+    58.5% {background-position: top 0 left -375vh;}
+    62.5% {background-position: top 0 left -467.5vh;}
+    71% {background-position: top 0 left -467.5vh;}
+    75% {background-position: top 0 left -560vh;}
+    83.5% {background-position: top 0 left -560vh;}
+    87.5% {background-position: top 0 left -652.5vh;}
+    96% {background-position: top 0 left -652.5vh;}
+    100% {background-position: top 0 left -745vh;}
+  }
+  @keyframes slideshow_book {
+    0% {background-position: top 0 left 0;}
+    8.5% {background-position: top 0 left 0;}
+    12.5% {background-position: top 0 left -94.5vh;}
+    21% {background-position: top 0 left -94.5vh;}
+    25% {background-position: top 0 left -187vh;}
+    33.5% {background-position: top 0 left -187vh;}
+    37.5% {background-position: top 0 left -279vh;}
+    46% {background-position: top 0 left -279vh;}
+    50% {background-position: top 0 left -373vh;}
+    58.5% {background-position: top 0 left -373vh;}
+    62.5% {background-position: top 0 left -465vh;}
+    71% {background-position: top 0 left -465vh;}
+    75% {background-position: top 0 left -558.5vh;}
+    83.5% {background-position: top 0 left -558.5vh;}
+    87.5% {background-position: top 0 left -651.5vh;}
+    96% {background-position: top 0 left -651.5vh;}
+    100% {background-position: top 0 left -745vh;}
   }
   .price {
     margin-top: calc(59vh - 60px);
