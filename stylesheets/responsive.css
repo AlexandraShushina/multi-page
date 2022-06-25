@@ -125,10 +125,10 @@
     margin-top: 13vh;
   }
   .order_margin-top_2 {
-    margin-top: 5.5vh;
+    margin-top: 6vh;
   }
   .order_margin-top_3 {
-    margin-top: 4vh;
+    margin-top: 4.5vh;
   }
   .container_trees_2 {
     z-index: 3;
@@ -305,5 +305,9 @@
   }
   #button_form {
     bottom: 1.7vh;
+  }
+  #button_shop {
+    bottom: 3.3vh;
+    margin-left: 9vw;
   }
 }
