@@ -461,7 +461,8 @@ section:nth-of-type(5) {
   width: 30.5vh;
   height: 10vh;
 }
-.get_bonus {
+.get_bonus,
+.order {
   margin-top: 9vh;
   align-items: center;
   cursor: url(../images/pointer.svg), auto;
@@ -476,7 +477,8 @@ section:nth-of-type(5) {
   height: 3vh;
   cursor: url(../images/pointer.svg), auto;
 }
-.get_bonus a {
+.get_bonus a,
+.order a {
   padding-left: 2vh;
   font-size: 26px;
   line-height: 30px;
