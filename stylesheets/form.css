@@ -27,7 +27,7 @@
 .name_registration {
   width: 17vw;
 }
-form {
+#form {
   width: 35vw;
   height: 85vh;
   display: block;
@@ -37,17 +37,17 @@ form {
   margin-left: 5vw;
   z-index: 3;
 }
-form p {
+#form p {
   margin-top: 7px;
   margin-left: 3vw;
 }
-form label {
+#form label {
   margin-left: 3vw;
 }
-form label:nth-of-type(8) {
+#form label:nth-of-type(8) {
   margin-top: 7vh; /* отступ для лейбла радиокнопок */
 }
-form label:nth-of-type(9) {
+#form label:nth-of-type(9) {
   margin-left: calc(154px + 6vw);  /* положение нижней радиокнопки */
 }
 .name_registration label {
@@ -258,7 +258,6 @@ form input:nth-of-type(9) {
           appearance: none;
   border: 0;
   border-radius: 0;
-  outline: 1px solid white;
   outline-offset: -1px;
   background-color: #0019A8;
   z-index: 0;
