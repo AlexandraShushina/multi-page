@@ -66,19 +66,12 @@
 .price_and_order_6 {
   margin-left: calc(32vh - 216.2px);
 }
-.order {
-  align-items: center;
-  cursor: url(../images/pointer.svg), auto;
+.custom_checkbox_3 {
+  margin-left: -2vh;
+  margin-top: 0.2vh;
 }
 .shop .order {
   padding-left: 1.2vh;
-}
-.order a {
-  padding-left: 2vh;
-  font-size: 26px;
-  line-height: 30px;
-  margin-top: 0;
-  cursor: url(../images/pointer.svg), auto;
 }
 .order_margin-top_1 {
   margin-top: 11vh;
