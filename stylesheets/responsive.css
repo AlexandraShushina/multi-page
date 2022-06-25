@@ -185,7 +185,7 @@
   .Peter_block {
     position: relative;
     margin-left: -27vh;
-    margin-top: -20vh;
+    margin-top: -22vh;
     opacity: 0;
   }
   @keyframes Peter {
@@ -196,12 +196,12 @@
     100%{transform: rotate(0deg); transform-origin: center 40vh;}
   }
   @keyframes Peter_block_hover {
-    0%{margin-left: -27vh; margin-top: -20vh; opacity: 0;}
-    100%{margin-left: -29vh; margin-top: -22vh; opacity: 1;}
+    0%{margin-left: -27vh; margin-top: -22vh; opacity: 0;}
+    100%{margin-left: -29vh; margin-top: -24vh; opacity: 1;}
   }
   @keyframes Peter_block_mouseout {
-    0%{margin-left: -29vh; margin-top: -22vh; opacity: 1;}
-    100%{margin-left: -27vh; margin-top: -20vh; opacity: 0;}
+    0%{margin-left: -29vh; margin-top: -24vh; opacity: 1;}
+    100%{margin-left: -27vh; margin-top: -22vh; opacity: 0;}
   }
   .Pavel_block {
     position: relative;
