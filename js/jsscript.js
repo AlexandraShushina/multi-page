@@ -154,6 +154,7 @@ document.getElementsById('form')[0].reset();
   $(".plan_piece_6").mouseout(function() {
     $(".Nina_block_hover").toggleClass("Nina_block_hover Nina_block_mouseout");
   });
+  
   // Error404
   $(".rectangle_error_1").on("click", function(){
     if ($(this).hasClass("flag_1")) {
