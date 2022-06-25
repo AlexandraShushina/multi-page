@@ -73,7 +73,8 @@ input[type=date] {
 }
 .custom_checkbox,
 .custom_checkbox_1,
-.custom_checkbox_2 {
+.custom_checkbox_2,
+.custom_checkbox_3 {
   position: absolute;
   z-index: 100;
   opacity: 0;
@@ -94,14 +95,16 @@ input[type=date] {
 }
 .custom_checkbox+label:nth-of-type(1),
 .custom_checkbox_1+label:nth-of-type(8),
-.custom_checkbox_2+label:nth-of-type(9) {
+.custom_checkbox_2+label:nth-of-type(9),
+.custom_checkbox_3+label {
   display: inline-flex;
   align-items: center;
   user-select: none;
 }
 .custom_checkbox+label:nth-of-type(1)::before,
 .custom_checkbox_1+label:nth-of-type(8)::before,
-.custom_checkbox_2+label:nth-of-type(9)::before {
+.custom_checkbox_2+label:nth-of-type(9)::before,
+.custom_checkbox_3+label::before {
   content: '';
   display: inline-block;
   width: 15px;
@@ -116,7 +119,8 @@ input[type=date] {
 }
 .custom_checkbox:checked+label:nth-of-type(1)::before,
 .custom_checkbox_1:checked+label:nth-of-type(8)::before,
-.custom_checkbox_2:checked+label:nth-of-type(9)::before {
+.custom_checkbox_2:checked+label:nth-of-type(9)::before,
+.custom_checkbox_3:checked+label::before {
   width: 15px;
   height: 15px;
   background-image: url(../images/tria_3.svg);
