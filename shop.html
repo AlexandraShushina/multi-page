@@ -129,7 +129,12 @@
             </div>
           </div>
         </div>
-        <input id="button_shop" type="button" value="Оформление&#13;&#10;заказа">
+        <form id="form_order" action="">
+          <label class="text_small" for="name">Имя</label><input type="text">
+          </br>
+          <label class="text_small" for="number">Телефон</label><input type="number">
+          <input id="button_shop" type="submit" value="Оформить" onclick="document.getElementById('form').submit(); return false;">
+        </form>
       </div>
     </section>
     <!-- Подвал -->
