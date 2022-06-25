@@ -19,6 +19,7 @@
   justify-content: center;
   margin-left: 30vw;
   height: 100vh;
+  z-index: 600;
 }
 .error_grid {
   position: relative;
@@ -43,7 +44,19 @@
   background-repeat: no-repeat;
   background-position: bottom 0 left 0;
   position: relative;
-  z-index: 3;
+  z-index: 100;
+  width: 30vh;
+  height: 100vh;
+  margin-top: 2vh;
+  animation: error_1_move infinite linear 3s;
+}
+.error_1_z {
+  background: url(../images/4.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  position: relative;
+  z-index: 0;
   width: 30vh;
   height: 100vh;
   margin-top: 2vh;
@@ -62,7 +75,19 @@
   background-repeat: no-repeat;
   background-position: bottom 0 left 0;
   position: relative;
-  z-index: 3;
+  z-index: 100;
+  width: 30vh;
+  height: 100vh;
+  margin-top: 2vh;
+  animation: error_1_move infinite linear 3s;
+}
+.error_1_z_green {
+  background: url(../images/4_green.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  position: relative;
+  z-index: 0;
   width: 30vh;
   height: 100vh;
   margin-top: 2vh;
