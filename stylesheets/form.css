@@ -71,6 +71,14 @@ input[type=date] {
   padding-top: 5vh;
   cursor: url(../images/pointer.svg), auto;
 }
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 .custom_checkbox,
 .custom_checkbox_1,
 .custom_checkbox_2,
