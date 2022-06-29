@@ -1,17 +1,3 @@
-@media all and (min-device-width: 1920px) {
-  .tree_1 {
-    width: 25vh;
-  }
-  .tree_2 {
-    width: 28.5vh;
-  }
-  .tree_3 {
-    width: 48vh;
-  }
-  .tree_4 {
-    width: 18vh;
-  }
-}
 @media all and (max-device-height: 899px) {
   .menubar {
     right: 3.5vw;
@@ -49,6 +35,10 @@
   .container_trees,
   .rectangle_grid {
   	left: 6.1vw;
+  }
+  .get_bonus,
+  .order {
+    margin-top: 12vh;
   }
   .names_of_doctors {
     margin-left: 6.1vw;
@@ -354,5 +344,208 @@
   }
   .shop input:nth-of-type(2) {
     margin-top: -2vh;
+  }
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main {
+    width: 768px;
+    overflow: hidden;
+  }
+  /* Стили для строчных элементов */
+  p,
+  li,
+  label {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  li:nth-of-type(2) {
+    margin-top: 2vh; /* расположение 2 пункта нумерованного списка */
+  }
+  ul {
+    margin-top: 5vh;
+  }
+  a {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 3.5vh;
+  }
+  .text_small {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .text_small_2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .menubar {
+    width: 8vw;
+    top: 2.5vh;
+  }
+  .weather,
+  .types_of_pain,
+  .heading_for_services,
+  .types_of_services,
+  .get_bonus,
+  .footer,
+  .heading_pain,
+  .heading_doctors,
+  .heading_map,
+  .heading_form,
+  .form_grid,
+  .heading_shop,
+  .product,
+  .heading_excursion,
+  .heading_book,
+  .plan_about,
+  .slide_renders,
+  .slide_book_price,
+  .p_width_2,
+  .heading_events,
+  .heading_announcements,
+  .event_description {
+    margin-left: 4vw;
+  }
+  .heading_start {
+    background: url(../images/heading_1.1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 60vh;
+    height: 60vh;
+    top: 2.5vh;
+    left: 4vw;
+  }
+  .p_start {
+    margin-top: -10vh;
+    margin-left: 4vw;
+    width: 65vw;
+    position: relative;
+  }
+  .container_trees,
+  .rectangle_grid {
+    width: 100vw;
+    height: 102vh;
+  	left: 4vw;
+  }
+  .main_page .tree_3,
+  .main_page .tree_3_green,
+  .rectangle_transparent_3 {
+    width: 0;
+    display: none;
+  }
+  .tree_1 {
+    background: url(../images/tree_1.1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: bottom 0 right 0;
+    width: 21vh;
+    height: 102vh;
+    z-index: 3;
+  }
+  .tree_1,
+  .tree_2,
+  .tree_3,
+  .tree_4,
+  .pain_1,
+  .pain_2,
+  .pain_3,
+  .services {
+    background-size: 94%;
+  }
+  .container_trees div:nth-of-type(2),
+  .rectangle_transparent_2 {
+    margin-left: -2vw;
+  }
+  .container_trees div:nth-of-type(4),
+  .rectangle_transparent_4 {
+    margin-left: -1vw;
+  }
+  .rectangle_transparent_2 {
+    width: 20vh;
+  }
+  .rectangle_grid {
+    margin-top: -64vh;
+  }
+  .weather {
+    align-items: center;
+    padding-top: 2vh;
+    height: 10vh;
+  }
+  .deg,
+  .heading_pain {
+    background-size: 85%;
+  }
+  .weather p:nth-of-type(2),
+  .deg {
+    margin-left: 2vw;
+  }
+  .heading_pain {
+    top: -10vh;
+  }
+  .types_of_pain {
+    margin-top: 2.2vh;
+    height: 80vh;
+    margin-bottom: 0;
+  }
+  .pain_1 {
+    margin-left: -2vw;
+    height: 86vh;
+  }
+  .pain_2 {
+    margin-left: -5vw;
+    height: 86vh;
+  }
+  .pain_3 {
+    margin-left: -2vw;
+    height: 86vh;
+  }
+  .gap_1,
+  .gap_2 {
+    display: none;
+  }
+  .types_of_pain {
+    margin-top: 2.2vh;
+    height: 86vh;
+    margin-bottom: 0;
+  }
+  .pain_block_1 p {
+    margin-top: -30vh; /* расположение подписей к картинкам */
+  }
+  .pain_block_2 p {
+    margin-top: -30vh; /* расположение подписей к картинкам */
+  }
+  .pain_block_3 p {
+    margin-left: -15vh; /* расположение подписей к картинкам */
+  }
+  .heading_for_services {
+    margin-top: 5vh;
+    flex-wrap: wrap;
+  }
+  .heading_for_services p {
+    margin-left: -2vw;
+  }
+  .heading_for_services_2 {
+    margin-top: 9vh;
+  }
+  .services_hospitals {
+    height: 41vh;
+  }
+  .hospital_block_2 {
+    margin-left: 3.5vh;
+  }
+  .hospital_block_3 {
+    margin-top: 5vh;
+  }
+  .hospitals,
+  .cabinets {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4vh;
+  }
+  .hospital_2 {
+    width: 17vh;
+  }
+  .hospital_3 {
+    width: 22vh;
   }
 }
