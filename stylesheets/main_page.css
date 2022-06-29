@@ -339,18 +339,16 @@ section:nth-of-type(5) {
 /* Услуги */
 .heading_for_services {
   margin-top: 7.5vh;
-  height: 10vh;
+  display: flex;
 }
 .heading_for_services_1,
 .heading_for_services_2 {
   display: flex;
   align-items: baseline;
-}
-.heading_for_services_2 {
-  margin-left: 14vw;
+  height: 10vh;
 }
 .gap_4 {
-  width: 16vw;
+  width: 14vw;
 }
 .services {
   background: url(../images/services.svg);
@@ -361,16 +359,15 @@ section:nth-of-type(5) {
   height: 6.5vh;
   z-index: 3;
 }
-.types_of_services {
-  margin-top: 13vh;
-}
-.types_of_services p {
+.services_hospitals p,
+.services_cabinets p {
   text-align: center;
 }
 .hospitals,
 .cabinets {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 13vh;
 }
 .hospitals {
   width: 50vh;
@@ -380,6 +377,7 @@ section:nth-of-type(5) {
 .cabinets {
   width: 43vh;
   height: 50vh;
+  padding-left: 3vw;
 }
 .hospitals p,
 .cabinets p {
