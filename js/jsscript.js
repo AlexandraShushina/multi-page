@@ -213,15 +213,6 @@ document.getElementsById('form')[0].reset();
   $(".error_3").hover(function(){
       $(".error_3").toggleClass("error_3_green");
   });
-  $(".rectangle_error_1").hover(function(){
-    $(".error_1").toggleClass("error_1_green");
-  });
-  $(".rectangle_error_1").on("click", function(){
-    $(".error_1").toggleClass("error_1_z");
-  });
-  $(".rectangle_error_1").hover(function(){
-    $(".error_1_z").toggleClass("error_1_z_green");
-  });
 
   // Анимация событий
   $("a.scrollto").click(function () {
