@@ -346,12 +346,10 @@
     margin-top: -2vh;
   }
 }
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 768px) and (max-device-width: 1023px) {
   .main_page {
+    min-width: 768px;
     height: 516vh;
-  }
-  .main {
-    width: 768px;
     overflow: hidden;
   }
   /* Стили для строчных элементов */
@@ -676,6 +674,7 @@
   }
   .text_about_map {
     margin-left: -6vw;
+    height: 65%;
   }
   .text_about_map p {
     margin-top: 18vh; /* расположение текста о карте */
@@ -712,5 +711,90 @@
   }
   .footer p:nth-of-type(2) {
     padding-top: calc((11vh - 98px)/2);
+  }
+}
+@media all and (min-device-width: 1024px) and (max-device-width: 1439px) {
+  .main_page {
+    min-width: 1024px;
+    height: 523vh;
+    overflow: hidden;
+  }
+  .menubar {
+    width: 9vw;
+    top: 2.5vh;
+  }
+  .heading_start {
+    background: url(../images/heading_1.1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 107vh;
+    height: 70vh;
+    top: 2.5vh;
+    left: 4vw;
+  }
+  .weather,
+  .types_of_pain,
+  .heading_for_services,
+  .types_of_services,
+  .get_bonus,
+  .footer,
+  .heading_pain,
+  .heading_doctors,
+  .heading_map,
+  .heading_form,
+  .form_grid,
+  .heading_shop,
+  .product,
+  .heading_excursion,
+  .heading_book,
+  .plan_about,
+  .slide_renders,
+  .slide_book_price,
+  .p_width_2,
+  .heading_events,
+  .heading_announcements,
+  .event_description {
+    margin-left: 3.3vw;
+  }
+  .gap_4 {
+    width: 0;
+  }
+  .hospitals {
+    padding-left: 0.5vw;
+  }
+  .cabinets {
+    padding-left: 5vw;
+  }
+  .hospital_block_2 {
+    margin-left: 2vw;
+  }
+  .names_of_doctors {
+    margin-left: 2.5vw;
+  }
+  .doctor_block_2 {
+    margin-left: 4vw;
+  }
+  .doctor_block_3 {
+    margin-left: -4vw;
+  }
+  .doctor_block_3 p {
+    margin-top: 22.5vh;
+    margin-left: -4.5vh; /* расположение подписей к картинкам */
+  }
+  .text_about_map {
+    margin-left: 0;
+  }
+  .map {
+    background: url(../images/map.svg);
+    background-size: 155%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: top -4vh left -33vh;
+    width: 58vh;
+    height: 109vh;
+    top: -9vh;
+  }
+  .p_width_1 {
+    width: 40vw;
   }
 }
