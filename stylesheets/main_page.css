@@ -237,10 +237,6 @@ section:nth-of-type(5) {
 .rectangle_grid div:nth-of-type(4) {
   margin-left: 7vw;
 }
-/* @keyframes layer_1 {
-  0% {z-index: 3;}
-  100% {z-index: 5;}
-} */
 .layer {
   z-index: 99;
 }
