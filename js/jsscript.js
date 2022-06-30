@@ -49,7 +49,7 @@ $(document).ready(function(){
   });
   $(".container_trees .tree_3").on("click", function(){
     if ($(".rectangle_transparent_3").hasClass("flag_2")) {
-      $(".tree_3").css("z-index","1");
+      $(".container_trees .tree_3").css("z-index","1");
       $( ".rectangle_transparent_3" ).removeClass("flag_2");
       $( ".rectangle_transparent_3" ).addClass("flag_1");
     };
