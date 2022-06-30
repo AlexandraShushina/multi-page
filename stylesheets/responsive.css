@@ -756,6 +756,27 @@
   .event_description {
     margin-left: 3.3vw;
   }
+  .container_trees div:nth-of-type(2),
+  .rectangle_grid div:nth-of-type(2) {
+    margin-left: 1.7vw;
+  }
+  .container_trees div:nth-of-type(3),
+  .rectangle_grid div:nth-of-type(3) {
+    margin-left: 2vw;
+  }
+  .container_trees div:nth-of-type(4),
+  .rectangle_grid div:nth-of-type(4) {
+    margin-left: -3vw;
+  }
+  .pain_block_2 {
+    margin-left: -4vw;
+  }
+  .pain_block_3 {
+    margin-left: -3vw;
+  }
+  .pain_block_3 p {
+    margin-left: -20vw;
+  }
   .gap_4 {
     width: 0;
   }
@@ -796,5 +817,33 @@
   }
   .p_width_1 {
     width: 40vw;
+  }
+  .text_about_map li:nth-of-type(1) span img {
+    width: 3vh; /* выравнивание значка метро в строке */
+  }
+  li span {
+   position: relative;
+   left: 1.5vh;
+   top: -1px;
+  }
+  .footer p:last-of-type {
+    display: none;
+  }
+  .footer {
+    margin-top: calc((11vh - 45px)/2);
+    width: 95.5vw;
+    height: 72px;
+    margin-left: 2vw;
+    justify-content: space-around;
+  }
+  .footer img:nth-of-type(1) {
+    margin-left: 23vw; /* расположение логотипа HSE */
+  }
+  .footer img:nth-of-type(2),
+  .footer p:nth-of-type(2) {
+    margin-left: 2vw; /* расположение логотипа клиники и адресного блока */
+  }
+  .footer p:nth-of-type(3) {
+    margin-left: 2vw; /* расположение текста в последней колонке */
   }
 }
