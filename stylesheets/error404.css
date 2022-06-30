@@ -135,7 +135,7 @@
   z-index: 3;
   width: 30vh;
   height: 100vh;
-  margin-left: 2vw;
+  margin-left: 1vw;
   margin-top: 2vh;
   animation: error_3_move infinite linear 4s;
 }
@@ -155,7 +155,7 @@
   z-index: 3;
   width: 30vh;
   height: 100vh;
-  margin-left: 2vw;
+  margin-left: 1vw;
   margin-top: 2vh;
   animation: error_3_move infinite linear 4s;
 }
@@ -208,14 +208,11 @@
 .to_main {
   margin-top: 3vh;
 }
-.to_main .tria {
-  margin-top: 1vh;
-}
 .to_main a {
   padding-left: 2vh;
   font-size: 26px;
   line-height: 30px;
   margin-top: 0;
   cursor: url(../images/pointer.svg), auto;
-  z-index: 101;
+  z-index: 400;
 }
