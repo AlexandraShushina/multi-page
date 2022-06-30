@@ -461,7 +461,8 @@
   .pain_2,
   .pain_3,
   .services,
-  .heading_doctors {
+  .heading_doctors,
+  .heading_map {
     background-size: 92%;
   }
   .container_trees div:nth-of-type(2),
@@ -659,5 +660,41 @@
   }
   .doctor_block_3 p {
     margin-left: -0.5vw;
+    margin-top: 22vh;
+  }
+  .heading_map {
+    background: url(../images/heading_4.1.svg);
+    background-repeat: no-repeat;
+    background-position: center left 0;
+    position: relative;
+    width: 75vh;
+    height: 16vh;
+    top: 5vh;
+  }
+  .text_about_map {
+    margin-left: -4vw;
+  }
+  .text_about_map p {
+    margin-top: 18vh; /* расположение текста о карте */
+  }
+  .map {
+    background: url(../images/map_2.svg);
+    background-repeat: no-repeat;
+    background-size: 191%;
+    top: -13vh;
+    height: 105vh;
+    width: 40vh;
+    background-position: top -1vh left -34vh;
+  }
+  .p_width_1 {
+    width: 40vw;
+  }
+  .text_about_map li:nth-of-type(1) span img {
+    width: 3vh; /* выравнивание значка метро в строке */
+  }
+  li span {
+   position: relative;
+   left: 1.5vh;
+   top: -1px;
   }
 }
