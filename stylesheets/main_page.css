@@ -468,7 +468,6 @@ section:nth-of-type(5) {
   background-position: center;
   width: 3vh;
   height: 3vh;
-  cursor: url(../images/pointer.svg), auto;
 }
 .get_bonus a,
 .order a {
