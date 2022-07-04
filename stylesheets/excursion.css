@@ -847,7 +847,7 @@
 .rectangle_grid_long {
   position: absolute;
   height: 228vh;
-  left: 50vw;
+  left: 48vw;
 }
 .rectangle_long_2 {
   width: 28.5vh;
@@ -856,9 +856,9 @@
   position: relative;
 }
 .rectangle_long_4 {
-  width: 18vh;
+  width: 22vh;
   height: 229vh;
-  margin-left: 2vw;
+  margin-left: 5vw;
   z-index: 600;
   position: relative;
 }
