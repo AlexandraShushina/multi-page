@@ -82,16 +82,17 @@ $(document).ready(function(){
   });
 
 // Анимация формы
-function clear() {
-document.getElementsById('form')[0].reset();
-}
+  function clear() {
+    document.getElementsById('form')[0].reset();
+  }
 
 // Анимация страницы экскурсии
   $(".rectangle_long_2").hover(function(){
     $(".tree_2_long").toggleClass("tree_2_long_green");
   });
   $(".rectangle_long_2").on("click", function(){
-    $(".tree_2_long").toggleClass("tree_2_long_z");
+    $(".tree_with_people").toggleClass("tree_with_people_z");
+    $(".Ann, .Ann_text, .Artyom, .Artyom_text, .Anatoliy, .Anatoliy_text, .Peter, .Peter_text, .Julia, .Julia_text, .Pavel, .Pavel_text, .Nina, .Nina_text").toggleClass("display");
   });
   $(".rectangle_long_2").hover(function(){
     $(".tree_2_long_z").toggleClass(".tree_2_long_z_green");
