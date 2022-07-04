@@ -14,6 +14,7 @@ footer p:nth-of-type(1) {
 }
 footer img:nth-of-type(1) {
   margin-left: 10vw; /* расположение логотипа HSE */
+  margin-top: 0.5vh;
 }
 footer img:nth-of-type(2),
 footer p:nth-of-type(2) {
