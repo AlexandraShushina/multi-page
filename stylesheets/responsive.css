@@ -360,6 +360,9 @@
   .footer {
     margin-top: calc((11vh - 43px)/2);
   }
+  .events .footer {
+    margin-top: calc((11vh - 36px)/2);
+  }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1023px) {
   .main_page {
