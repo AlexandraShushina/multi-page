@@ -126,8 +126,17 @@
     height: 230vh;
     left: 53vw;
   }
-  .tree_4_long {
+  .tree_4_long,
+  .tree_4_long_green,
+  .tree_4_long_z,
+  .tree_4_long_z_green {
     margin-left: 27vw;
+  }
+  .rectangle_grid_long {
+    left: 52vw;
+  }
+  .rectangle_long_4 {
+    margin-left: 15vw;
   }
   .Ann_block {
     position: relative;
