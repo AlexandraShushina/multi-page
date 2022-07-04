@@ -247,6 +247,9 @@
 .tree_with_people {
   position: relative;
 }
+.display {
+  display: none;
+}
 .Ann_block {
   position: relative;
   margin-left: 4vh;
@@ -763,6 +766,9 @@
   z-index: 0;
   position: relative;
   animation: tree_2_long_move infinite linear 5.5s;
+}
+.tree_with_people_z {
+  z-index: 0;
 }
 .tree_2_long_z_green {
   background: url(../images/tree_2_long_green.svg);
