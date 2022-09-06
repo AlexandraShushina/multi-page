@@ -97,15 +97,6 @@ $(document).ready(function(){
   $(".rectangle_long_2").hover(function(){
     $(".tree_2_long_z").toggleClass(".tree_2_long_z_green");
   });
-  $(".rectangle_long_4").hover(function(){
-    $(".tree_4_long").toggleClass("tree_4_long_green");
-  });
-  $(".rectangle_long_4").on("click", function(){
-    $(".tree_4_long").toggleClass("tree_4_long_z");
-  });
-  $(".rectangle_long_4").hover(function(){
-    $(".tree_4_long_z").toggleClass(".tree_4_long_z_green");
-  });
   $(".plan_piece_1").hover(function() {
     $(".Ann_block").toggleClass("Ann_block Ann_block_hover");
     $(".Ann_block_mouseout").toggleClass("Ann_block_mouseout Ann_block_hover");
