@@ -789,42 +789,6 @@
   z-index: 98;
   animation: tree_4_long_move infinite linear 5s;
 }
-.tree_4_long_green {
-  background: url(../images/tree_4_long_green.svg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  width: 18vh;
-  height: 229vh;
-  margin-left: 25vw;
-  position: absolute;
-  z-index: 100;
-  animation: tree_4_long_move infinite linear 5s;
-}
-.tree_4_long_z {
-  background: url(../images/tree_4_long.svg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  width: 18vh;
-  height: 229vh;
-  margin-left: 25vw;
-  position: absolute;
-  z-index: 0;
-  animation: tree_4_long_move infinite linear 5s;
-}
-.tree_4_long_z_green {
-  background: url(../images/tree_4_long_green.svg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  width: 18vh;
-  height: 229vh;
-  margin-left: 25vw;
-  position: absolute;
-  z-index: 0;
-  animation: tree_4_long_move infinite linear 5s;
-}
 @keyframes tree_4_long_move {
   0%{transform: rotate(0deg); transform-origin: center bottom;}
   25%{transform: rotate(0.5deg); transform-origin: center bottom;}
